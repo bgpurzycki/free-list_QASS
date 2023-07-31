@@ -1,1 +1,1 @@
-# freelist_SAGE
+# Ethnographic Free-list Data
