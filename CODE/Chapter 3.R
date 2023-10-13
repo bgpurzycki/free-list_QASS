@@ -2,13 +2,12 @@
 ### Ethnographic Free-List Data
 ### Chapter 3: Structure Analysis
 ### Benjamin Grant Purzycki
-### Last Updated: August 7, 2023
+### Last Updated: October 13, 2023
 ##############################################
 
 ### Preliminaries
 rm(list = ls()) # clear your workspace
 setwd()
-setwd("C:/Users/au624473/Dropbox/2. In Progress/Articles and Books/Books/Methods with Free-List Data/3. Workflow/Data")
 
 library(AnthroTools)
 library(igraph)
@@ -414,3 +413,11 @@ text(animalscale, labels = names(Animals))
 ani <- as.dist(Animals)
 plot(hclust(ani), main = NA, sub = NULL, 
      xlab = NULL, ylab = NA, axes = F)
+
+########################################################################
+
+# If using the data, please read, refer, and cite the following:
+
+# Levine, J., Muthukrishna, M., Chan, K. M., & Satterfield, T. (2015). Theories of the deep: combining salience and network analyses to produce mental model visualizations of a coastal British Columbia food web. Ecology and Society, 20(4).
+# Pretelli, I., Mulder, M. B., & McElreath, R. (2022). Rates of ecological knowledge learning in Pemba, Tanzania: Implications for childhood evolution. Evolutionary Human Sciences, 4, e34. 
+# Xu, M., Zhu, J., & Benítez‐Burraco, A. (2023). A comparison of basic color terms in Mandarin and Spanish. Color Research & Application.
