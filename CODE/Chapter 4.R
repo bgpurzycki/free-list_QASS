@@ -2,12 +2,11 @@
 ### Ethnographic Free-List Data
 ### Chapter 4: Sharedness and Overlap
 ### Benjamin Grant Purzycki
-### Last Updated: September 29, 2023
+### Last Updated: October 13, 2023
 ##############################################
 
 ### Preliminaries
 setwd()
-setwd("C:/Users/au624473/Dropbox/2. In Progress/Articles and Books/Books/Methods with Free-List Data/3. Workflow/Data")
 
 ### Packages used in this chapter
 library(AnthroTools)
@@ -489,3 +488,11 @@ fstmatrix(tslab, matrixtype = "upper")
 fstdist <- as.dist(fstmatrix(tslab, matrixtype = "lower"))
 round(fstdist, 2) ### Table 4.3
 plot(hclust(fstdist))
+
+########################################################################
+
+# If using the data, please read, refer, and cite the following:
+
+# Bendixen, T., Apicella, C., Atkinson, Q., Cohen, E., Henrich, J., McNamara, R. A., ... & Purzycki, B. G. (2023). Appealing to the minds of gods: Religious beliefs and appeals correspond to features of local social ecologies. Religion, Brain & Behavior, 1-23.
+# Purzycki, B. G., & Kulundary, V. (2018). Buddhism, identity, and class: fairness and favoritism in the Tyva Republic. Religion, Brain & Behavior, 8(2), 205-226.
+# Turpin, H. (2022). Unholy Catholic Ireland: Religious hypocrisy, secular morality, and Irish irreligion. Stanford University Press.
