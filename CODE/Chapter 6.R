@@ -582,3 +582,14 @@ plot(punavgseq, p_hon_avg, type = "l", ylim = c(0, 1),
      xlab = "prevalence of 'honesty'", col = "black", cex.lab = 1)
 shade(p_hon_PI, punavgseq, col = col.alpha("black", 0.2))
 abline(h = 0.5, lty = 2, lwd = 0.5)
+
+                 
+########################################################################
+
+# If using the data, please read, refer, and cite the following:
+
+# Bendixen, T., & Purzycki, B. G. (2023). Cognitive and cultural models in psychological science: A tutorial on modeling free-list data as a dependent variable in Bayesian regression. Psychological Methods.
+# Koster, J., Bruno, O., & Burns, J. L. (2016). Wisdom of the elders? Ethnobiological knowledge across the lifespan. Current Anthropology, 57(1), 113-121.
+# Purzycki, B. G., Pisor, A. C., Apicella, C., Atkinson, Q., Cohen, E., Henrich, J., ... & Xygalatas, D. (2018). The cognitive and cultural foundations of moral behavior. Evolution and Human Behavior, 39(5), 490-501.
+# Purzycki, B. G., Stagnaro, M. N., & Sasaki, J. (2020). Breaches of trust change the content and structure of religious appeals. Journal for the Study of Religion, Nature and Culture, 14(1), 71-94.
+# Turpin, H. (2022). Unholy Catholic Ireland: Religious hypocrisy, secular morality, and Irish irreligion. Stanford University Press.
