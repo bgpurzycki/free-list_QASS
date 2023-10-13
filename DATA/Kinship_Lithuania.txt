@@ -1,0 +1,480 @@
+PARTID	order	RAW	CODE	TRANS
+#15mtaip3 	8	cioce 	cioce	aunt
+#12vtaip2 	7	cioce 	cioce	aunt
+#2mtaip1	6	Teta	teta	aunt
+#3mtaip2	8	Teta	teta	aunt
+#4mtaip2	9	teta	teta	aunt
+#8mtaip3	10	teta	teta	aunt
+#1vtaip1	10	teta	teta	aunt
+#10mtaip2 	1	teta	teta	aunt
+#8vtaip2 	19	teta	teta	aunt
+#7mtaip1 	9	teta 	teta	aunt
+#9mtaip1 	10	teta 	teta	aunt
+#3vtaip1 	13	teta 	teta	aunt
+#5vtaip3 	13	teta 	teta	aunt
+#6vtaip1 	8	teta 	teta	aunt
+#7vtaip1 	19	teta 	teta	aunt
+#11mtaip2 	8	teta 	teta	aunt
+#13mtaip2 	1	teta 	teta	aunt
+#9vtaip1 	11	teta 	teta	aunt
+#10vtaip2 	12	teta 	teta	aunt
+#13vtaip1 	7	teta 	teta	aunt
+#15vtaip3 	13	teta 	teta	aunt
+#2vtaip2	6	teta	teta	aunt
+#1mtaip3	2	Tete	tete	aunt
+#15mtaip3 	2	tete 	tete	aunt
+#8vtaip2 	20	tetenas	tetenas	aunt's husband
+#3vtaip1 	14	tetenas 	tetenas	aunt's husband
+#1vtaip1	17	brolenas	brolenas	brother's son
+#1mtaip3	3	Brolis	brolis	brother
+#3mtaip2	11	Brolis	brolis	brother
+#4mtaip2	6	brolis	brolis	brother
+#8mtaip3	25	brolis	brolis	brother
+#1vtaip1	12	brolis	brolis	brother
+#6mtaip3 	4	brolis 	brolis	brother
+#9mtaip1 	6	brolis 	brolis	brother
+#3vtaip1 	6	brolis 	brolis	brother
+#4vtaip1 	5	brolis 	brolis	brother
+#5vtaip3 	6	brolis 	brolis	brother
+#10mtaip2 	16	brolis 	brolis	brother
+#7vtaip1 	3	brolis 	brolis	brother
+#12mtaip2 	1	brolis 	brolis	brother
+#15mtaip3 	7	brolis 	brolis	brother
+#9vtaip1 	3	brolis 	brolis	brother
+#10vtaip2 	3	brolis 	brolis	brother
+#12vtaip2 	4	brolis 	brolis	brother
+#15vtaip3 	3	brolis 	brolis	brother
+#8vtaip2 	5	svainis	svainis	brother-in-law
+#7vtaip1 	16	svainis 	svainis 	brother-in-law
+#3mtaip2	10	Broliene	broliene	brother's wife
+#8mtaip3	24	broliene	broliene	brother's wife
+#1vtaip1	25	broliene	broliene	brother's wife
+#2vtaip2	21	broliene	broliene	brother's wife
+#8vtaip2 	6	broliene	broliene	brother's wife
+#5vtaip3 	10	broliene 	broliene	brother's wife
+#10vtaip2 	8	broliene 	broliene	brother's wife
+#12vtaip2 	9	broliene 	broliene	brother's wife
+#4vtaip1 	6	brolio_zmona 	brolio_zmona 	brother's wife
+#15mtaip3 	3	vaikai 	vaikai	children
+#11vtaip3 	4	vaikai 	vaikai	children
+#7mtaip1 	16	vaikaitis	vaikaitis	grandchild
+#2vtaip2	19	vaikaitis	vaikaitis	grandchild
+#7vtaip1 	20	vaikaitis 	vaikaitis	grandchild
+#2mtaip1	9	Vaikas	vaikas	children
+#4vtaip1 	4	vaikas 	vaikas	children
+#13vtaip1 	1	vaikas 	vaikas	children
+#10mtaip2 	6	kuma	kuma	godmother
+#11mtaip2 	5	kuma	kuma	godmother
+#9mtaip1 	13	kuma 	kuma	godmother
+#6vtaip1 	13	kuma 	kuma	godmother
+#15mtaip3 	15	kuma 	kuma	godmother
+#13vtaip1 	13	kuma 	kuma	godmother
+#6mtaip3 	17	kumas 	kumas	godfather
+#6mtaip3 	18	kumina 	kumina	godmother
+#5mtaip1 	10	kuminas 	kuminas	godfather
+#9mtaip1 	14	kuminas 	kuminas	godfather
+#6vtaip1 	14	kuminas 	kuminas	godfather
+#11mtaip2 	6	kuminas 	kuminas	godfather
+#13vtaip1 	12	kuminas 	kuminas	godfather
+#1mtaip3	5	Pusbrolis	pusbrolis	cousin_b
+#4mtaip2	14	pusbrolis	pusbrolis	cousin_b
+#8mtaip3	26	pusbrolis	pusbrolis	cousin_b
+#1vtaip1	5	pusbrolis	pusbrolis	cousin_b
+#2vtaip2	16	pusbrolis	pusbrolis	cousin_b
+#10mtaip2 	3	pusbrolis	pusbrolis	cousin_b
+#8vtaip2 	14	pusbrolis	pusbrolis	cousin_b
+#5mtaip1 	11	pusbrolis 	pusbrolis	cousin_b
+#6mtaip3 	14	pusbrolis 	pusbrolis	cousin_b
+#7mtaip1 	11	pusbrolis 	pusbrolis	cousin_b
+#9mtaip1 	11	pusbrolis 	pusbrolis	cousin_b
+#6vtaip1 	10	pusbrolis 	pusbrolis	cousin_b
+#7vtaip1 	22	pusbrolis 	pusbrolis	cousin_b
+#13mtaip2 	6	pusbrolis 	pusbrolis	cousin_b
+#14mtaip2 	2	pusbrolis 	pusbrolis	cousin_b
+#9vtaip1 	9	pusbrolis 	pusbrolis	cousin_b
+#10vtaip2 	14	pusbrolis 	pusbrolis	cousin_b
+#14vtaip2 	5	pusbrolis 	pusbrolis	cousin_b
+#15vtaip3 	14	pusbrolis 	pusbrolis	cousin_b
+#11vtaip3 	13	pusbrolis  	pusbrolis	cousin_b
+#1mtaip3	6	Pussesere	pussesere	cousin_g
+#2mtaip1	7	Pussesere	pussesere	cousin_g
+#4mtaip2	15	pussesere	pussesere	cousin_g
+#8mtaip3	27	pussesere	pussesere	cousin_g
+#1vtaip1	6	pussesere	pussesere	cousin_g
+#2vtaip2	15	pussesere	pussesere	cousin_g
+#10mtaip2 	4	pussesere	pussesere	cousin_g
+#8vtaip2 	15	pussesere	pussesere	cousin_g
+#5mtaip1 	12	pussesere 	pussesere	cousin_g
+#6mtaip3 	15	pussesere 	pussesere	cousin_g
+#7mtaip1 	12	pussesere 	pussesere	cousin_g
+#9mtaip1 	12	pussesere 	pussesere	cousin_g
+#6vtaip1 	11	pussesere 	pussesere	cousin_g
+#7vtaip1 	21	pussesere 	pussesere	cousin_g
+#13mtaip2 	2	pussesere 	pussesere	cousin_g
+#14mtaip2 	1	pussesere 	pussesere	cousin_g
+#9vtaip1 	10	pussesere 	pussesere	cousin_g
+#10vtaip2 	15	pussesere 	pussesere	cousin_g
+#15vtaip3 	15	pussesere 	pussesere	cousin_g
+#2mtaip1	2	Dukra	dukra	daughter
+#1vtaip1	1	dukra	dukra	daughter
+#2vtaip2	1	dukra	dukra	daughter
+#8vtaip2 	2	dukra	dukra	daughter
+#5mtaip1 	3	dukra 	dukra	daughter
+#6mtaip3 	6	dukra 	dukra	daughter
+#7vtaip1 	8	dukra 	dukra	daughter
+#11mtaip2 	10	dukra 	dukra	daughter
+#9vtaip1 	5	dukra 	dukra	daughter
+#11vtaip3 	6	dukra 	dukra	daughter
+#7mtaip1 	5	dukrele 	dukrele	daughter
+#3vtaip1 	2	dukryte 	dukryte	daughter
+#4mtaip2	4	dukte	dukte	daughter
+#5vtaip3 	2	dukte 	dukte	daughter
+#15vtaip3 	9	dukte 	dukte	daughter
+#4mtaip2	19	marti	marti	daughter-in-law
+#8mtaip3	2	marti	marti	daughter-in-law
+#2vtaip2	22	marti	marti	daughter-in-law
+#5mtaip1 	8	marti 	marti	daughter-in-law
+#7mtaip1 	15	marti 	marti	daughter-in-law
+#9vtaip1 	15	marti 	marti	daughter-in-law
+#15vtaip3 	21	marti 	marti	daughter-in-law
+#10mtaip2 	14	tetis	tetis	father
+#6mtaip3 	2	tetis 	tetis	father
+#9mtaip1 	2	tetis 	tetis	father
+#7vtaip1 	2	tetis 	tetis	father
+#11mtaip2 	1	tetis 	tetis	father
+#10vtaip2 	2	tetis 	tetis	father
+#13vtaip1 	6	tetis 	tetis	father
+#6vtaip1 	4	tetukas 	tetukas	father
+#4mtaip2	2	tevas	tevas	father
+#8mtaip3	6	tevas	tevas	father
+#1vtaip1	3	tevas	tevas	father
+#2vtaip2	5	tevas	tevas	father
+#8vtaip2 	4	tevas	tevas	father
+#5mtaip1 	2	tevas 	tevas	father
+#7mtaip1 	2	tevas 	tevas	father
+#4vtaip1 	2	tevas 	tevas	father
+#9vtaip1 	2	tevas 	tevas	father
+#11vtaip3 	8	tevas 	tevas	father
+#12vtaip2 	5	tevas 	tevas	father
+#14vtaip2 	3	tevas 	tevas	father
+#15vtaip3 	2	tevas 	tevas	father
+#3mtaip2	4	Tevelis	tevelis	father
+#3vtaip1 	4	tevelis 	tevelis	father
+#12mtaip2 	4	tevelis 	tevelis	father
+#3mtaip2	6	Uosvis	uosvis	father-in-law
+#4mtaip2	13	uosvis	uosvis	father-in-law
+#8mtaip3	8	uosvis	uosvis	father-in-law
+#1vtaip1	19	uosvis	uosvis	father-in-law
+#2vtaip2	11	uosvis	uosvis	father-in-law
+#10mtaip2 	12	uosvis	uosvis	father-in-law
+#8vtaip2 	8	uosvis	uosvis	father-in-law
+#5mtaip1 	16	uosvis 	uosvis	father-in-law
+#9mtaip1 	7	uosvis 	uosvis	father-in-law
+#7vtaip1 	13	uosvis 	uosvis	father-in-law
+#13mtaip2 	8	uosvis 	uosvis	father-in-law
+#14mtaip2 	4	uosvis 	uosvis	father-in-law
+#15mtaip3 	14	uosvis 	uosvis	father-in-law
+#12vtaip2 	10	uosvis 	uosvis	father-in-law
+#13vtaip1 	4	uosvis 	uosvis	father-in-law
+#15vtaip3 	20	uosvis 	uosvis	father-in-law
+#6vtaip1 	2	suzadetine 	suzadetine 	fiance
+#1vtaip1	24	pirsliene	pirsliene	mathmaker (female)
+#8mtaip3	15	krikstadukra	krikstadukra	goddaughter
+#2vtaip2	24	kriksto_dukra	kriksto_dukra	goddaughter
+#10mtaip2 	8	kriksto_mama	kriksto_mama	godmother
+#2vtaip2	26	kriksto_tevai	kriksto_tevai	godparents
+#5vtaip3 	12	kriksto_tevai 	kriksto_tevai 	godparents
+#11vtaip3 	9	kriksto_tevas 	kriksto_tevas 	godfather
+#10vtaip2 	13	podziai (kriksto_tevai) 	podziai (kriksto_tevai) 	godparents
+#2vtaip2	25	kriksto_sunus	kriksto_sunus	godson
+#5vtaip3 	11	kriksto_sunus 	kriksto_sunus 	godson
+#8mtaip3	3	anuke	anuke	granddaughter
+#1vtaip1	14	anuke	anuke	granddaughter
+#8vtaip2 	17	anuke	anuke	granddaughter
+#7vtaip1 	10	anuke 	anuke	granddaughter
+#13mtaip2 	3	anuke 	anuke	granddaughter
+#15vtaip3 	11	anuke 	anuke	granddaughter
+#3mtaip2	3	Anukele	anukele	granddaughter
+#6mtaip3 	8	anukele 	anukele	granddaughter
+#11mtaip2 	7	dedis 	dedis	grandfather
+#12mtaip2 	7	diedelis 	diedelis	grandfather
+#1mtaip3	8	Diedukas	diedukas	grandfather
+#2vtaip2	18	diedukas	diedukas	grandfather
+#7mtaip1 	8	diedukas 	diedukas	grandfather
+#11vtaip3 	2	diedukas 	diedukas	grandfather
+#4mtaip2	8	senelis	senelis	grandfather
+#8mtaip3	16	senelis	senelis	grandfather
+#1vtaip1	8	senelis	senelis	grandfather
+#8vtaip2 	12	senelis	senelis	grandfather
+#5mtaip1 	6	senelis 	senelis	grandfather
+#6mtaip3 	9	senelis 	senelis	grandfather
+#7mtaip1 	3	senelis 	senelis	grandfather
+#3vtaip1 	10	senelis 	senelis	grandfather
+#7vtaip1 	12	senelis 	senelis	grandfather
+#13mtaip2 	9	senelis 	senelis	grandfather
+#14mtaip2 	6	senelis 	senelis	grandfather
+#9vtaip1 	7	senelis 	senelis	grandfather
+#15vtaip3 	5	senelis 	senelis	grandfather
+#10mtaip2 	10	baba	baba	grandmother
+#9mtaip1 	9	baba 	baba	grandmother
+#6vtaip1 	6	baba 	baba	grandmother
+#2vtaip2	17	bobute	bobute	grandmother
+#6mtaip3 	11	bobute 	bobute	grandmother
+#1mtaip3	7	Mociute	mociute	grandmother
+#3mtaip2	1	Mociute	mociute	grandmother
+#4mtaip2	7	mociute	mociute	grandmother
+#8mtaip3	17	mociute	mociute	grandmother
+#1vtaip1	7	mociute	mociute	grandmother
+#10mtaip2 	11	mociute	mociute	grandmother
+#8vtaip2 	13	mociute	mociute	grandmother
+#5mtaip1 	5	mociute 	mociute	grandmother
+#6mtaip3 	10	mociute 	mociute	grandmother
+#7mtaip1 	7	mociute 	mociute	grandmother
+#3vtaip1 	9	mociute 	mociute	grandmother
+#7vtaip1 	11	mociute 	mociute	grandmother
+#11mtaip2 	3	mociute 	mociute	grandmother
+#12mtaip2 	6	mociute 	mociute	grandmother
+#13mtaip2 	10	mociute 	mociute	grandmother
+#14mtaip2 	7	mociute 	mociute	grandmother
+#9vtaip1 	8	mociute 	mociute	grandmother
+#12vtaip2 	6	mociute 	mociute	grandmother
+#11vtaip3 	1	mociute(babytele) 	mociute	grandmother
+#8mtaip3	22	senele	senele	grandmother
+#7mtaip1 	4	senele 	senele	grandmother
+#15vtaip3 	6	senele 	senele	grandmother
+#3mtaip2	2	Anukas	anukas	grandson
+#8mtaip3	4	anukas	anukas	grandson
+#1vtaip1	13	anukas	anukas	grandson
+#8vtaip2 	16	anukas	anukas	grandson
+#6mtaip3 	7	anukas 	anukas	grandson
+#7vtaip1 	9	anukas 	anukas	grandson
+#14mtaip2 	8	anukas 	anukas	grandson
+#15mtaip3 	4	anukas 	anukas	grandson
+#14vtaip2 	6	anukas 	anukas	grandson
+#15vtaip3 	10	anukas 	anukas	grandson
+#13mtaip2 	4	proanuke 	proanuke 	great-granddaughter
+#15vtaip3 	19	proanuke 	proanuke 	great-granddaughter
+#1mtaip3	9	Prosenelis	prosenele	great-grandfather
+#5mtaip1 	15	prosenelis 	prosenele	great-grandfather
+#6mtaip3 	12	prosenelis 	prosenele	great-grandfather
+#3vtaip1 	12	prosenelis 	prosenele	great-grandfather
+#15vtaip3 	16	prosenelis  	prosenele	great-grandfather
+#1mtaip3	10	Prosenele	prosenele	great-grandmother
+#5mtaip1 	14	prosenele 	prosenele	great-grandmother
+#6mtaip3 	13	prosenele 	prosenele	great-grandmother
+#15vtaip3 	17	prosenele 	prosenele	great-grandmother
+#15vtaip3 	18	proanukis 	proanukis	great-grandson
+#8mtaip3	20	provaikaitis	provaikaitis	great-grandson
+#2vtaip2	20	provaikaitis	provaikaitis	great-grandson
+#2mtaip1	1	Vyras	vyras	husband
+#8mtaip3	12	vyras	vyras	husband
+#8vtaip2 	22	vyras	vyras	husband
+#9mtaip1 	4	vyras 	vyras	husband
+#7vtaip1 	6	vyras 	vyras	husband
+#15mtaip3 	5	vyras 	vyras	husband
+#2vtaip2	12	uosve	uosve	mother-in-law
+#7vtaip1 	23	meiluze 	meiluze	lover
+#8mtaip3	21	bocius	bocius	grandfather
+#6vtaip1 	7	bocius 	bocius	grandfather
+#2vtaip2	9	mosa	mosa	husband's sister
+#12vtaip2 	13	svogeriene 	svogeriene 	wife's sister
+#1mtaip3	1	Mama	mama	mother
+#2mtaip1	3	Mama	mama	mother
+#4mtaip2	1	mama	mama	mother
+#8mtaip3	5	mama	mama	mother
+#1vtaip1	4	mama	mama	mother
+#2vtaip2	4	mama	mama	mother
+#10mtaip2 	13	mama	mama	mother
+#5mtaip1 	1	mama 	mama	mother
+#6mtaip3 	1	mama 	mama	mother
+#7mtaip1 	1	mama 	mama	mother
+#9mtaip1 	1	Mama 	mama	mother
+#3vtaip1 	3	mama 	mama	mother
+#5vtaip3 	4	mama 	mama	mother
+#6vtaip1 	3	mama 	mama	mother
+#7vtaip1 	1	mama 	mama	mother
+#12mtaip2 	3	mama 	mama	mother
+#15mtaip3 	1	mama 	mama	mother
+#9vtaip1 	1	mama 	mama	mother
+#10vtaip2 	1	mama 	mama	mother
+#12vtaip2 	3	mama 	mama	mother
+#13vtaip1 	5	mama 	mama	mother
+#14vtaip2 	1	mama 	mama	mother
+#15vtaip3 	1	mama 	mama	mother
+#2mtaip1	10	Mamaite	mamaite	mother
+#2vtaip2	27	mamute 	mamute	mother
+#13vtaip1 	9	mamute 	mamute	mother
+#3mtaip2	5	Mamyte	mamyte	mother
+#11mtaip2 	2	mamyte 	mamyte	mother
+#8vtaip2 	3	motina	motina	mother
+#4vtaip1 	1	motina 	motina	mother
+#11vtaip3 	7	motina 	motina	mother
+#4vtaip1 	8	motinele 	motinele	mother
+#2mtaip1	8	Anyta	anyta	mother-in-law
+#8mtaip3	7	anyta	anyta	mother-in-law
+#10mtaip2 	2	anyta	anyta	mother-in-law
+#8vtaip2 	9	anyta	anyta	mother-in-law
+#5mtaip1 	7	anyta 	anyta	mother-in-law
+#6mtaip3 	16	anyta 	anyta	mother-in-law
+#4vtaip1 	9	anyta 	anyta	mother-in-law
+#7vtaip1 	15	anyta 	anyta	mother-in-law
+#9vtaip1 	13	anyta 	anyta	mother-in-law
+#15vtaip3 	23	anyta 	anyta	mother-in-law
+#3mtaip2	7	Uosviene	uosviene	mother-in-law
+#4mtaip2	12	uosviene	uosviene	mother-in-law
+#1vtaip1	20	uosviene	uosviene	mother-in-law
+#5mtaip1 	17	uosviene 	uosviene	mother-in-law
+#9mtaip1 	8	uosviene 	uosviene	mother-in-law
+#7vtaip1 	14	uosviene 	uosviene	mother-in-law
+#13mtaip2 	7	uosviene 	uosviene	mother-in-law
+#14mtaip2 	3	uosviene 	uosviene	mother-in-law
+#15mtaip3 	13	uosviene 	uosviene	mother-in-law
+#12vtaip2 	11	uosviene 	uosviene	mother-in-law
+#13vtaip1 	3	uosviene 	uosviene	mother-in-law
+#13vtaip1 	14	brolaitis 	brolaitis	nephew
+#1mtaip3	14	Dukterecia	dukterecia	niece
+#3mtaip2	14	Dukterecia	dukterecia	niece
+#4mtaip2	16	dukterecia	dukterecia	niece
+#8mtaip3	13	dukterecia	dukterecia	niece
+#1vtaip1	15	dukterecia	dukterecia	niece
+#2vtaip2	13	dukterecia	dukterecia	niece
+#3vtaip1 	7	dukterecia 	dukterecia	niece
+#5vtaip3 	9	dukterecia 	dukterecia	niece
+#10vtaip2 	9	dukterecia 	dukterecia	niece
+#10vtaip2 	17	antros_kartos_ pussesere (dazniausiai vadinu pusbroliais) 	antros_kartos_ pussesere (dazniausiai vadinu pusbroliais) 	second-cousin
+#10vtaip2 	16	antros_kartos_pusbrolis 	antros_kartos_pusbrolis 	second-cousin
+#1mtaip3	4	Sesuo	sesuo	sister
+#2mtaip1	4	Sesuo	sesuo	sister
+#3mtaip2	12	Sesuo	sesuo	sister
+#4mtaip2	5	sesuo	sesuo	sister
+#8mtaip3	23	sesuo	sesuo	sister
+#1vtaip1	11	sesuo	sesuo	sister
+#10mtaip2 	15	sesuo	sesuo	sister
+#6mtaip3 	3	sesuo 	sesuo	sister
+#9mtaip1 	5	sesuo 	sesuo	sister
+#5vtaip3 	7	sesuo 	sesuo	sister
+#6vtaip1 	5	sesuo 	sesuo	sister
+#7vtaip1 	4	sesuo 	sesuo	sister
+#15mtaip3 	6	sesuo 	sesuo	sister
+#9vtaip1 	4	sesuo 	sesuo	sister
+#14vtaip2 	4	sesuo 	sesuo	sister
+#15vtaip3 	4	sesuo 	sesuo	sister
+#8vtaip2 	11	sesura	sesura	husband's father
+#8mtaip3	19	sesuras	sesuras	husband's father
+#8vtaip2 	10	sesuras	sesuras	husband's father
+#15vtaip3 	24	sesuras	sesuras	husband's father
+#4vtaip1 	10	sesuras 	sesuras	husband's father
+#7vtaip1 	17	sesuras 	sesuras	husband's father
+#14mtaip2 	5	sesuras 	sesuras	husband's father
+#11mtaip2 	9	sese 	sese	sister
+#12mtaip2 	2	sese 	sese	sister
+#11vtaip3 	12	sese 	sese	sister
+#13vtaip1 	15	seseraite 	seseraite 	sister's daughter
+#1vtaip1	18	seserenas	seserenas	sister's son
+#3vtaip1 	5	seseris 	seseris 	sister
+#1vtaip1	22	svocia	svocia	matchmaker (female)
+#15mtaip3 	10	sesers_vaikai 	sesers_vaikai 	sister's children
+#15mtaip3 	12	sesers_dukte 	sesers_dukte 	sister's daughter
+#15mtaip3 	11	sesers_sunus 	sesers_sunus 	sister's son
+#1mtaip3	11	Svogeris	svogeris	sister's husband
+#3mtaip2	13	Svogeris	svogeris	sister's husband
+#4mtaip2	18	svogeris	svogeris	sister's husband
+#8vtaip2 	7	svogeris	svogeris	sister's husband
+#5mtaip1 	13	svogeris 	svogeris	sister's husband
+#7mtaip1 	13	svogeris 	svogeris	sister's husband
+#14mtaip2 	9	svogeris 	svogeris	sister's husband
+#10vtaip2 	6	svogeris 	svogeris	sister's husband
+#12vtaip2 	12	svogerius 	svogerius	sister's husband
+#7mtaip1 	6	sunelis 	sunelis	son
+#4mtaip2	3	sunus	sunus	son
+#8mtaip3	1	sunus	sunus	son
+#2vtaip2	2	sunus	sunus	son
+#2vtaip2	7	sunus	sunus	son
+#8vtaip2 	1	sunus	sunus	son
+#5mtaip1 	4	sunus 	sunus	son
+#6mtaip3 	5	sunus 	sunus	son
+#9mtaip1 	3	sunus 	sunus	son
+#5vtaip3 	1	sunus 	sunus	son
+#6vtaip1 	1	sunus 	sunus	son
+#7vtaip1 	7	sunus 	sunus	son
+#11mtaip2 	11	sunus 	sunus	son
+#9vtaip1 	6	sunus 	sunus	son
+#11vtaip3 	5	sunus 	sunus	son
+#12vtaip2 	1	sunus 	sunus	son
+#15vtaip3 	8	sunus 	sunus	son
+#10vtaip2 	5	sunus (vaikai) 	sunus	son
+#1mtaip3	15	Sunenas	sunenas	nephew
+#3mtaip2	15	Sunenas	sunenas	nephew
+#4mtaip2	17	sunenas	sunenas	nephew
+#8mtaip3	14	sunenas	sunenas	nephew
+#1vtaip1	16	sunenas	sunenas	nephew
+#2vtaip2	14	sunenas	sunenas	nephew
+#3vtaip1 	8	sunenas 	sunenas	nephew
+#4vtaip1 	7	sunenas 	sunenas	nephew
+#5vtaip3 	8	sunenas 	sunenas	nephew
+#10vtaip2 	10	sunenas 	sunenas	nephew
+#1mtaip3	12	Zentas	zentas	son-in-law
+#8mtaip3	9	zentas	zentas	son-in-law
+#2vtaip2	23	zentas	zentas	son-in-law
+#4mtaip2	20	zentas 	zentas	son-in-law
+#5mtaip1 	9	zentas 	zentas	son-in-law
+#7mtaip1 	14	zentas 	zentas	son-in-law
+#9vtaip1 	14	zentas 	zentas	son-in-law
+#15vtaip3 	22	zentas 	zentas	son-in-law
+#2mtaip1	5	Dede	dede	uncle
+#3mtaip2	9	Dede	dede	uncle
+#4mtaip2	10	dede	dede	uncle
+#8mtaip3	11	dede	dede	uncle
+#1vtaip1	9	dede	dede	uncle
+#2vtaip2	10	dede	dede	uncle
+#8vtaip2 	18	dede	dede	uncle
+#7mtaip1 	10	dede 	dede	uncle
+#3vtaip1 	15	dede 	dede	uncle
+#5vtaip3 	14	dede 	dede	uncle
+#6vtaip1 	9	dede 	dede	uncle
+#7vtaip1 	18	dede 	dede	uncle
+#13mtaip2 	5	dede 	dede	uncle
+#15mtaip3 	9	dede 	dede	uncle
+#9vtaip1 	12	dede 	dede	uncle
+#10vtaip2 	11	dede 	dede	uncle
+#11vtaip3 	11	dede 	dede	uncle
+#12vtaip2 	8	dede 	dede	uncle
+#13vtaip1 	8	dede 	dede	uncle
+#14vtaip2 	2	dede 	dede	uncle
+#15vtaip3 	12	dede 	dede	uncle
+#1mtaip3	13	Dediene	dediene	uncle's wife
+#4mtaip2	11	dediene	dediene	uncle's wife
+#2vtaip2	8	dediene	dediene	uncle's wife
+#10mtaip2 	5	dediene	dediene	uncle's wife
+#8vtaip2 	21	dediene	dediene	uncle's wife
+#6mtaip3 	19	dediene 	dediene	uncle's wife
+#8mtaip3	28	dediene 	dediene	uncle's wife
+#3vtaip1 	16	dediene 	dediene	uncle's wife
+#11vtaip3 	10	dediene 	dediene	uncle's wife
+#5vtaip3 	5	tevukas 	tevukas	father
+#13vtaip1 	10	tevukas  	tevukas	father
+#13vtaip1 	2	pati 	pati	wife
+#1vtaip1	2	zmona	zmona	wife
+#2vtaip2	3	zmona	zmona	wife
+#8vtaip2 	23	zmona	zmona	wife
+#3vtaip1 	1	zmona 	zmona	wife
+#4vtaip1 	3	zmona 	zmona	wife
+#5vtaip3 	3	zmona 	zmona	wife
+#7vtaip1 	5	zmona 	zmona	wife
+#10vtaip2 	4	zmona 	zmona	wife
+#11vtaip3 	3	zmona 	zmona	wife
+#12vtaip2 	2	zmona 	zmona	wife
+#15vtaip3 	7	zmona 	zmona	wife
+#1vtaip1	23	pirslys	pirslys	matchmaker (male)
+#9mtaip1 	15	pode	pode	godmother
+#10mtaip2 	7	pode	pode	godmother
+#12mtaip2 	5	pode	pode	godmother
+#6vtaip1 	12	pode 	pode	godmother
+#13vtaip1 	11	pode 	pode	godmother
+#8mtaip3	18	promociute	promociute	great-grandmother
+#3vtaip1 	11	promuciute 	promociute	great-grandmother
+#15mtaip3 	16	puode 	puode	godmother
+#10mtaip2 	9	senole	senole	grandmother
+#11mtaip2 	4	senuolius	senuolius	grandfather
+#10vtaip2 	7	svogerka 	svogerka	brother's wife
+#1vtaip1	21	svotas	svotas	father-in-law

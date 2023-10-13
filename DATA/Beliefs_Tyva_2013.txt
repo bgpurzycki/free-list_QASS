@@ -1,0 +1,365 @@
+CERCID	Order	BGD	LGD	POD
+BGP018	1	Virtue	Ecology	Morality
+BGP018	2	Morality	Ecology	Substance Use/Abuse
+BGP018	3	NA	Ecology	Morality
+CERC436	1	Miscellaneous	Ecology	Miscellaneous
+CERC436	2	NA	NA	Virtue
+CERC436	3	NA	NA	Ritual
+CERC436	4	NA	NA	Morality
+CERC436	5	NA	NA	Morality
+CERC437	1	Ecology	Religion	People
+CERC437	2	Religion	Ritual	Substance Use/Abuse
+CERC437	3	Virtue	Ecology	Morality
+CERC437	4	Virtue	NA	Miscellaneous
+CERC437	5	Ecology	NA	Morality
+CERC438	1	Morality	Ecology	Morality
+CERC438	2	Substance Use/Abuse	Ecology	Morality
+CERC438	3	Morality	Etiquette	Morality
+CERC438	4	NA	NA	Miscellaneous
+CERC438	5	NA	NA	Morality
+CERC439	1	Religion	Ecology	Miscellaneous
+CERC439	2	Ritual	NA	NA
+CERC439	3	Virtue	NA	NA
+CERC439	4	NA	NA	NA
+CERC439	5	NA	NA	NA
+CERC440	1	Miscellaneous	Religion	Miscellaneous
+CERC440	2	Morality	NA	Virtue
+CERC440	3	Virtue	NA	Morality
+CERC440	4	NA	NA	Miscellaneous
+CERC440	5	NA	NA	Miscellaneous
+CERC441	1	Morality	Ecology	Morality
+CERC441	2	Morality	NA	Morality
+CERC441	3	Morality	NA	Morality
+CERC441	4	NA	NA	Morality
+CERC441	5	NA	NA	Morality
+CERC442	1	Substance Use/Abuse	Ecology	Morality
+CERC442	2	Substance Use/Abuse	Ecology	Substance Use/Abuse
+CERC442	3	Substance Use/Abuse	Virtue	Substance Use/Abuse
+CERC442	4	Morality	Ecology	Etiquette
+CERC442	5	NA	NA	Substance Use/Abuse
+CERC443	1	Virtue	Ecology	Morality
+CERC443	2	Morality	Ecology	Virtue
+CERC443	3	Etiquette	NA	Morality
+CERC443	4	NA	NA	Virtue
+CERC443	5	NA	NA	Virtue
+CERC444	1	Religion	Ecology	Morality
+CERC444	2	Morality	Religion	NA
+CERC444	3	Morality	NA	NA
+CERC444	4	Miscellaneous	NA	NA
+CERC444	5	NA	NA	NA
+CERC445	1	Ecology	Ritual	Morality
+CERC445	2	Substance Use/Abuse	Ritual	Miscellaneous
+CERC445	3	NA	Ecology	Morality
+CERC445	4	NA	NA	NA
+CERC445	5	NA	NA	NA
+CERC446	1	Morality	Ritual	Morality
+CERC446	2	Ecology	Ritual	People
+CERC446	3	Morality	NA	Morality
+CERC446	4	NA	NA	Substance Use/Abuse
+CERC446	5	NA	NA	NA
+CERC447	1	Substance Use/Abuse	Substance Use/Abuse	Virtue
+CERC447	2	Substance Use/Abuse	Morality	Substance Use/Abuse
+CERC447	3	Ecology	Etiquette	Morality
+CERC447	4	Morality	NA	Miscellaneous
+CERC447	5	NA	NA	Morality
+CERC448	1	Miscellaneous	Ecology	Substance Use/Abuse
+CERC448	2	NA	NA	Substance Use/Abuse
+CERC448	3	NA	NA	People
+CERC448	4	NA	NA	Morality
+CERC448	5	NA	NA	Etiquette
+CERC449	1	Morality	Ecology	Virtue
+CERC449	2	Morality	NA	Virtue
+CERC449	3	Virtue	NA	Morality
+CERC449	4	NA	NA	NA
+CERC449	5	NA	NA	NA
+CERC450	1	Substance Use/Abuse	Morality	Virtue
+CERC450	2	Substance Use/Abuse	NA	NA
+CERC450	3	Substance Use/Abuse	NA	NA
+CERC450	4	NA	NA	NA
+CERC450	5	NA	NA	NA
+CERC452	1	Virtue	Ecology	Morality
+CERC452	2	Morality	Ecology	Substance Use/Abuse
+CERC452	3	Morality	NA	Morality
+CERC452	4	Ritual	NA	Morality
+CERC452	5	Ritual	NA	Miscellaneous
+CERC452	6	NA	NA	NA
+CERC453	1	Virtue	Ecology	Morality
+CERC453	2	Ecology	NA	NA
+CERC453	3	NA	NA	NA
+CERC453	4	NA	NA	NA
+CERC453	5	NA	NA	NA
+CERC454	1	Virtue	Ecology	Miscellaneous
+CERC454	2	Substance Use/Abuse	NA	Morality
+CERC454	3	Virtue	NA	People
+CERC454	4	NA	NA	Miscellaneous
+CERC454	5	NA	NA	Morality
+CERC455	1	Miscellaneous	Ecology	Virtue
+CERC455	2	NA	NA	Virtue
+CERC455	3	NA	NA	Morality
+CERC455	4	NA	NA	Morality
+CERC455	5	NA	NA	Virtue
+CERC457	1	Morality	Ritual	D/K
+CERC457	2	Morality	NA	NA
+CERC457	3	NA	NA	NA
+CERC457	4	NA	NA	NA
+CERC457	5	NA	NA	NA
+CERC458	1	Morality	Virtue	NA
+CERC458	2	Morality	Morality	NA
+CERC458	3	Virtue	Morality	NA
+CERC458	4	NA	Virtue	NA
+CERC458	5	NA	NA	NA
+CERC459	1	Morality	Ecology	Morality
+CERC459	2	Morality	Ritual	Morality
+CERC459	3	Morality	Substance Use/Abuse	Virtue
+CERC459	4	Virtue	NA	NA
+CERC459	5	Morality	NA	NA
+CERC460	1	Morality	Ecology	Substance Use/Abuse
+CERC460	2	Virtue	Ecology	Substance Use/Abuse
+CERC460	3	Ecology	NA	Morality
+CERC460	4	NA	NA	NA
+CERC460	5	NA	NA	Morality
+CERC461	1	Morality	Ecology	D/K
+CERC461	2	Virtue	Virtue	NA
+CERC461	3	NA	NA	NA
+CERC461	4	NA	NA	NA
+CERC461	5	NA	NA	NA
+CERC463	1	Morality	Religion	Virtue
+CERC463	2	NA	NA	Substance Use/Abuse
+CERC463	3	NA	NA	Virtue
+CERC463	4	NA	NA	Morality
+CERC463	5	NA	NA	Miscellaneous
+CERC464	1	D/K	NA	Morality
+CERC464	2	NA	NA	Miscellaneous
+CERC464	3	NA	NA	NA
+CERC464	4	NA	NA	NA
+CERC464	5	NA	NA	NA
+CERC465	1	Morality	Ritual	Substance Use/Abuse
+CERC465	2	Morality	Ecology	Morality
+CERC465	3	Substance Use/Abuse	NA	Substance Use/Abuse
+CERC465	4	NA	NA	Morality
+CERC465	5	NA	NA	Miscellaneous
+CERC466	1	Miscellaneous	Morality	Morality
+CERC466	2	NA	Ecology	Substance Use/Abuse
+CERC466	3	NA	NA	Morality
+CERC466	4	NA	NA	NA
+CERC466	5	NA	NA	NA
+CERC467	1	Ritual	Ecology	Morality
+CERC467	2	Morality	NA	Substance Use/Abuse
+CERC467	3	Substance Use/Abuse	NA	Substance Use/Abuse
+CERC467	4	NA	NA	NA
+CERC467	5	NA	NA	NA
+CERC468	1	Miscellaneous	Miscellaneous	Substance Use/Abuse
+CERC468	2	NA	NA	Morality
+CERC468	3	NA	NA	NA
+CERC468	4	NA	NA	NA
+CERC468	5	NA	NA	NA
+CERC469	1	Virtue	Ecology	Morality
+CERC469	2	Morality	Morality	Morality
+CERC469	3	Morality	Ritual	Morality
+CERC469	4	NA	NA	Morality
+CERC469	5	NA	NA	Virtue
+CERC470	1	Religion	Ecology	Substance Use/Abuse
+CERC470	2	Religion	Ritual	Miscellaneous
+CERC470	3	NA	NA	Morality
+CERC470	4	NA	NA	NA
+CERC470	5	NA	NA	NA
+CERC471	1	Virtue	Ecology	Morality
+CERC471	2	NA	Miscellaneous	Morality
+CERC471	3	NA	NA	Morality
+CERC471	4	NA	NA	Morality
+CERC471	5	NA	NA	Morality
+CERC472	1	Virtue	Miscellaneous	Virtue
+CERC472	2	NA	Miscellaneous	Morality
+CERC472	3	NA	NA	Morality
+CERC472	4	NA	NA	Miscellaneous
+CERC472	5	NA	NA	Miscellaneous
+CERC473	1	Miscellaneous	Ritual	Morality
+CERC473	2	NA	Ritual	People
+CERC473	3	NA	NA	NA
+CERC473	4	NA	NA	NA
+CERC473	5	NA	NA	NA
+CERC474	1	Morality	Ecology	Morality
+CERC474	2	Morality	Ritual	Morality
+CERC474	3	Morality	NA	Etiquette
+CERC474	4	Morality	NA	Morality
+CERC474	5	Morality	NA	Etiquette
+CERC475	1	Ecology	Ecology	People
+CERC475	2	NA	Ecology	Morality
+CERC475	3	NA	NA	Miscellaneous
+CERC475	4	NA	NA	Morality
+CERC475	5	NA	NA	Miscellaneous
+CERC476	1	Morality	Morality	Morality
+CERC476	2	Virtue	Morality	Morality
+CERC476	3	NA	NA	Miscellaneous
+CERC476	4	NA	NA	NA
+CERC476	5	NA	NA	NA
+CERC478	1	Morality	Religion	Morality
+CERC478	3	Substance Use/Abuse	NA	NA
+CERC478	2	Miscellaneous	Religion	People
+CERC478	4	NA	NA	NA
+CERC478	5	NA	NA	NA
+CERC479	1	Morality	Ecology	Miscellaneous
+CERC479	2	Morality	Ecology	People
+CERC479	3	Virtue	Ecology	Morality
+CERC479	4	NA	NA	Miscellaneous
+CERC479	5	NA	NA	NA
+CERC480	1	Morality	Ecology	Morality
+CERC480	2	Morality	Ecology	Substance Use/Abuse
+CERC480	3	NA	Ecology	Morality
+CERC480	4	NA	NA	NA
+CERC480	5	NA	NA	NA
+CERC481	1	Morality	Ecology	Morality
+CERC481	2	Etiquette	NA	Virtue
+CERC481	3	NA	NA	Virtue
+CERC481	4	NA	NA	Morality
+CERC481	5	NA	NA	NA
+CERC483	1	Morality	Morality	Morality
+CERC483	2	Morality	Substance Use/Abuse	Morality
+CERC483	3	Substance Use/Abuse	Morality	Virtue
+CERC483	4	Morality	NA	Morality
+CERC483	5	NA	NA	NA
+CERC484	1	Morality	Ecology	Morality
+CERC484	2	Morality	NA	Substance Use/Abuse
+CERC484	3	Morality	NA	Morality
+CERC484	4	NA	NA	People
+CERC484	5	NA	NA	Virtue
+CERC485	1	Morality	Ecology	Substance Use/Abuse
+CERC485	2	Virtue	Ecology	Morality
+CERC485	3	NA	Ecology	People
+CERC485	4	NA	Virtue	Morality
+CERC485	5	NA	NA	Morality
+CERC487	1	Morality	Ecology	People
+CERC487	2	Virtue	Ritual	Morality
+CERC487	3	Morality	Ritual	Morality
+CERC487	4	Morality	NA	Substance Use/Abuse
+CERC487	5	Miscellaneous	NA	Morality
+CERC488	1	Morality	Ecology	Morality
+CERC488	2	NA	Ritual	Morality
+CERC488	3	NA	NA	Morality
+CERC488	4	NA	NA	Morality
+CERC488	5	NA	NA	Miscellaneous
+CERC489	1	Morality	Ecology	Morality
+CERC489	2	Morality	NA	Substance Use/Abuse
+CERC489	3	NA	NA	NA
+CERC489	4	NA	NA	NA
+CERC489	5	NA	NA	NA
+CERC490	1	Morality	Ecology	Morality
+CERC490	2	Morality	Ecology	Substance Use/Abuse
+CERC490	3	Etiquette	Ecology	Etiquette
+CERC490	4	Substance Use/Abuse	Etiquette	Morality
+CERC490	5	NA	NA	NA
+CERC491	1	Morality	Ecology	Virtue
+CERC491	2	Virtue	Ecology	Substance Use/Abuse
+CERC491	3	NA	Ecology	Miscellaneous
+CERC491	4	NA	Ecology	Morality
+CERC491	5	NA	NA	NA
+CERC492	1	Virtue	Ecology	Substance Use/Abuse
+CERC492	2	Morality	Ritual	Substance Use/Abuse
+CERC492	3	Virtue	NA	Morality
+CERC492	4	NA	NA	Miscellaneous
+CERC492	5	NA	NA	NA
+CERC493	1	Morality	Ritual	Morality
+CERC493	2	Virtue	Ritual	Substance Use/Abuse
+CERC493	3	Virtue	Ritual	Etiquette
+CERC493	4	NA	Virtue	Morality
+CERC493	5	NA	NA	NA
+CERC494	1	Morality	Ecology	Morality
+CERC494	2	Morality	Ecology	NA
+CERC494	3	NA	NA	NA
+CERC494	4	NA	NA	NA
+CERC494	5	NA	NA	NA
+CERC495	1	Morality	Ecology	Morality
+CERC495	2	Morality	Ritual	Morality
+CERC495	3	Morality	Religion	Morality
+CERC495	4	NA	NA	People
+CERC495	5	NA	NA	NA
+CERC496	1	Virtue	Ecology	NA
+CERC496	2	NA	Ritual	NA
+CERC496	3	NA	NA	NA
+CERC496	4	NA	NA	NA
+CERC496	5	NA	NA	NA
+CERC497	1	Morality	Religion	Miscellaneous
+CERC497	2	NA	Etiquette	Morality
+CERC497	3	NA	Ecology	Miscellaneous
+CERC497	4	NA	NA	People
+CERC497	5	NA	NA	Miscellaneous
+CERC499	1	Substance Use/Abuse	Ecology	Substance Use/Abuse
+CERC499	2	Ecology	Ecology	Morality
+CERC499	3	Morality	Ecology	Miscellaneous
+CERC499	4	NA	NA	Virtue
+CERC499	5	NA	NA	NA
+CERC500	1	Virtue	Ecology	Miscellaneous
+CERC500	2	Substance Use/Abuse	Ecology	Morality
+CERC500	3	Morality	NA	Miscellaneous
+CERC500	4	NA	NA	Miscellaneous
+CERC500	5	NA	NA	NA
+CERC501	1	Morality	Ecology	Morality
+CERC501	2	Morality	Ecology	Substance Use/Abuse
+CERC501	3	NA	Ecology	Morality
+CERC501	4	NA	NA	NA
+CERC501	5	NA	NA	NA
+CERC502	1	Morality	Ecology	Morality
+CERC502	2	Morality	Ritual	Morality
+CERC502	3	Morality	NA	Substance Use/Abuse
+CERC502	4	NA	NA	Substance Use/Abuse
+CERC502	5	NA	NA	NA
+CERC503	1	Virtue	Ecology	Substance Use/Abuse
+CERC503	2	Morality	Ritual	Etiquette
+CERC503	3	Virtue	Ritual	Etiquette
+CERC503	4	Virtue	NA	Morality
+CERC503	5	Morality	NA	Morality
+CERC504	1	Substance Use/Abuse	Substance Use/Abuse	Substance Use/Abuse
+CERC504	2	Substance Use/Abuse	Substance Use/Abuse	Substance Use/Abuse
+CERC504	3	Etiquette	Etiquette	Etiquette
+CERC504	4	Ecology	Morality	Morality
+CERC504	5	NA	NA	Morality
+CERC505	1	Virtue	Ecology	Morality
+CERC505	2	Virtue	NA	Morality
+CERC505	3	NA	NA	Virtue
+CERC505	4	NA	NA	Virtue
+CERC505	5	NA	NA	NA
+CERC508	1	Virtue	Ecology	Substance Use/Abuse
+CERC508	2	Virtue	NA	Morality
+CERC508	3	NA	NA	Morality
+CERC508	4	NA	NA	Morality
+CERC508	5	NA	NA	Morality
+CERC509	1	Morality	Substance Use/Abuse	Virtue
+CERC509	2	Morality	Morality	Substance Use/Abuse
+CERC509	3	NA	Morality	Substance Use/Abuse
+CERC509	4	NA	Religion	Morality
+CERC509	5	NA	NA	Morality
+CERC510	1	Virtue	Ecology	Morality
+CERC510	2	Morality	Ecology	Substance Use/Abuse
+CERC510	3	Morality	NA	Substance Use/Abuse
+CERC510	4	Morality	NA	Morality
+CERC510	5	Ecology	NA	NA
+CERC511	1	Virtue	Miscellaneous	Morality
+CERC511	2	Virtue	Miscellaneous	Morality
+CERC511	3	NA	Virtue	Morality
+CERC511	4	NA	NA	NA
+CERC511	5	NA	NA	NA
+CERC512	1	Substance Use/Abuse	Ecology	Morality
+CERC512	2	Substance Use/Abuse	Ecology	Morality
+CERC512	3	Virtue	Ecology	Morality
+CERC512	4	Morality	Ritual	NA
+CERC512	5	Virtue	NA	NA
+CERC513	1	Substance Use/Abuse	Ecology	Virtue
+CERC513	2	Morality	Substance Use/Abuse	Morality
+CERC513	3	Morality	Morality	Morality
+CERC513	4	Morality	Ritual	Substance Use/Abuse
+CERC513	5	Virtue	NA	Morality
+CERC514	1	Morality	Ecology	Virtue
+CERC514	2	Morality	Ecology	Morality
+CERC514	3	Virtue	NA	Substance Use/Abuse
+CERC514	4	NA	NA	NA
+CERC514	5	NA	NA	NA
+CERC515	1	Morality	Food	Virtue
+CERC515	2	Morality	Ritual	Morality
+CERC515	3	NA	Morality	Virtue
+CERC515	4	NA	NA	Virtue
+CERC515	5	NA	NA	Morality
+CERC516	1	Morality	Virtue	Morality
+CERC516	2	Morality	NA	Virtue
+CERC516	3	Morality	NA	Morality
+CERC516	4	NA	NA	Morality
+CERC516	5	NA	NA	Substance Use/Abuse

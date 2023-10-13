@@ -1,0 +1,22 @@
+PARTID	LIST1	LIST2	LIST3	LIST4	LIST5	LIST6	LIST7	LIST8	LIST9	LIST10	LIST11	LIST12	LIST13	LIST14	LIST15	LIST16	LIST17	LIST18	LIST19	LIST20	LIST21	LIST22	LIST23	LIST24	LIST25	LIST26	LIST27	LIST28	LIST29	LIST30	NA
+ME1	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+ME2	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+ME3	Azul	Verde	Rojo	Naranja	Amarillo	Violeta	Blanco	Negro	Gris	Rosa	Marron	Granate	Lila	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+ME4	Rojo	Amarillo	Naranja	Rosa	Morado	Azul	Verde	Negro	Blanco	Burdeos	Marron	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+ME5	Azul	Rojo	Lila	Morado	Verde	Amarillo	Naranja	Negro	Blanco	Marron	Gris	Turquesa	Azul marino	Purpura	Verde agua	Gris perla	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+ME6	Verde	Amarillo	Rojo	Azul	Morado	Violeta	Magenta	Marron	Blanco	Negro	Gris	Beige	Turquesa	Mostaza	Celeste	Azul marino	Pistacho	Lima	Ocre	Naranja	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+ME7	Azul	Negro	Verde	Rosa	Violeta	Rojo	Morado	Blanco	Gris	Burdeos	Marron	Celeste	Azul marino	Aguamarina	Naranja	Amarillo	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+ME8	Naranja	Verde	Azul	Rojo	Amarillo	Negro	Blanco	Gris	Magenta	Rosa	Violeta	Beige	Verde oscuro	Naranja amarillo	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+ME9	Rojo	Amarillo	Naranja	Verde	Azul	Morado	Rosa	Negro	Blanco	Beige	Marron	Celeste	Fucsia	Lila	Azul pavo	Verde agua	Azul cielo	Blanco champagne	Amarillo huevo	Buganvilla	Rosa palo	Rosa bebe	Rosa chicle	Azul oscuro	NA	NA	NA	NA	NA	NA	NA
+ME10	Azul	Verde	Violeta	Morado	Negro	Blanco	Rojo	Amarillo	Gris	Marron	Azul pavo	Azul marino	Rosa	Celeste	Naranja	Rosa mosqueta	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+ME11	Azul	Rojo	Verde	Amarillo	Rosa	Negro	Morado	Turquesa	Verde agua	Marron	Violeta	Fucsia	Gris	Blanco	Celeste	Dorado	Plateado	Bronce	Azul electrico	Naranja	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+ME12	Rosa	Rosa fucsia	Azul claro	Azul marino	Azul oscuro	Marron oscuro	Marron claro	Marron	Rojo	Naranja	Magenta	Azul turquesa	Azul celeste	Amarillo	Negro	Blanco	Verde	Color carne	Gris	Verdfe azulado	Purpura	Lila	Malva	Naranja claro	Naranja oscuro	Amarillo claro	Blanco azulado	Amarillo oscuro	Rosa claro	Rojo oscuro	NA
+ME13	Rojo	Rosa	Verde	Azul	Gris	Amarillo	Negro	Blanco	Marron	Azul marino	Azul celeste	Turquesa	Morado	Lila	Magenta	Naranja	Granate	Azul cielo	Mate	Rosa palo	Oro	Plata	Color carne	Blanco crema	Verde agua	NA	NA	NA	NA	NA	NA
+ME14	Azul	Rojo	Rosa	Amarillo	Violeta	Negro	Blanco	Gris	Cian	Verde	Verde agua	Burdeos	Verde limon	Celeste	Azul marino	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+ME15	Verde	Rojo	Azul	Amarillo	Naranja	Rosa	Morado	Celeste	Turquesa	Negro	Blanco	Gris	Verde agua	Salmon	Rosa fucsia	Rosa bebe	Violeta	Amarillo limon	Verde pistacho	Esmeralda	Verde botella	Burdeos	Marron	Beige	Crudo	NA	NA	NA	NA	NA	NA
+ME16	Amarillo	Rojo	Azul	Verde	Naranja	Violeta	Celeste	Marron	Lila	Negro	Gris	Rosa fucsia	Burdeos	Verde esperanza	Rosa palo	Rosa bebe	Buganvilla	Azul marino	Turquesa	Verde pistacho	Color coral	Color carne	Beige	NA	NA	NA	NA	NA	NA	NA	NA
+ME17	Blanco	Negro	Rojo	Amarillo	Azul	Verde	Morado	Gris	Marron	Beige	Celeste	Verde agua	Fucsia	Azul marino	Rosa	Rosa palo	Mostaza	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+ME18	Amarillo	Verde	Celeste	Rosa	Rojo	Naranja	Azul	Marron	Gris	Blanco	Negro	Violeta	Malva	Morado	Beige	Plateado	Dorado	Azulado	Color carne	Blanco roto	Caqui	Verde limon	Verde agua	NA	NA	NA	NA	NA	NA	NA	NA
+ME19	Blanco	Negro	Rojo	Azul	Verde	Amarillo	Gris	Violeta	Verde agua	Celeste	Vanilla	Naranja	Rosa	Azul marino	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+ME20	Azul	Amarillo	Rosa	Rojo	Celeste	Verde	Oro	Gris	Verde azulado	Lila	Morado	Negro	Blanco	Marron	Corinto	Ocre	Magenta	Blanco crudo	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+ME21	Azul	Rojo	Amarillo	Naranja	Verde	Rosa	Blanco	Negro	Celeste	Turquesa	Marron	Gris	Beige	Dorado	Plateado	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA

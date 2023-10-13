@@ -1,0 +1,4306 @@
+Subj	Order	Code	Age	Gender	SES	Believe_God	Rej_Church
+1	1	Churches/Buildings	1	2	3	1	1
+1	2	Sacraments/Rites of Passage	1	2	3	1	1
+1	3	God	1	2	3	1	1
+1	4	Clergy	1	2	3	1	1
+1	5	Mass	1	2	3	1	1
+1	6	Comforting/Caring	1	2	3	1	1
+1	7	Prayer	1	2	3	1	1
+1	8	Comforting/Caring	1	2	3	1	1
+1	9	Comforting/Caring	1	2	3	1	1
+2	1	Outdated/Conservative	5	1	3	0	0
+4	1	Clergy	4	1	3	1	1
+4	2	Religion	4	1	3	1	1
+4	3	Vatican/Overall Structure	4	1	3	1	1
+4	4	Pope	4	1	3	1	1
+4	5	Sacraments/Rites of Passage	4	1	3	1	1
+4	6	Other rituals	4	1	3	1	1
+4	7	Mass	4	1	3	1	1
+4	8	Preaching/Sermons	4	1	3	1	1
+4	9	Vatican/Overall Structure	4	1	3	1	1
+4	10	Abuse/Paedophilia	4	1	3	1	1
+4	11	Abuse/Paedophilia	4	1	3	1	1
+4	12	Cover-up/Secrecy	4	1	3	1	1
+4	13	Let down/Betrayed	4	1	3	1	1
+4	14	Outdated/Conservative	4	1	3	1	1
+4	15	Outdated/Conservative	4	1	3	1	1
+4	16	Authoritarian/Dominant	4	1	3	1	1
+4	17	Declining	4	1	3	1	1
+4	18	Nuns	4	1	3	1	1
+4	19	Sacraments/Rites of Passage	4	1	3	1	1
+4	20	Spiritual	4	1	3	1	1
+4	21	The Cross	4	1	3	1	1
+4	22	Corrupt/Materialistic	4	1	3	1	1
+5	1	Mass	6	1	4	1	1
+5	2	Sacraments/Rites of Passage	6	1	4	1	1
+5	3	Sacraments/Rites of Passage	6	1	4	1	1
+5	4	Sacraments/Rites of Passage	6	1	4	1	1
+5	5	Clergy	6	1	4	1	1
+6	1	Fast	2	1	4	1	0
+6	2	Churches/Buildings	2	1	4	1	0
+6	3	Clergy	2	1	4	1	0
+7	1	Dishonest/Untrustworthy	1	1	3	0	1
+7	2	Dishonest/Untrustworthy	1	1	3	0	1
+7	3	Corrupt/Materialistic	1	1	3	0	1
+7	4	Nonsense/Fiction	1	1	3	0	1
+7	5	Bad/Immoral	1	1	3	0	1
+8	1	Let down/Betrayed	2	2	4	1	1
+8	2	Hypocrisy	2	2	4	1	1
+8	3	Uncaring	2	2	4	1	1
+8	4	Dishonest/Untrustworthy	2	2	4	1	1
+8	5	Shame/Disgust	2	2	4	1	1
+8	6	Insular/Detached	2	2	4	1	1
+8	7	Let down/Betrayed	2	2	4	1	1
+8	8	Bad/Immoral	2	2	4	1	1
+9	1	Mass	2	2	11	1	0
+9	2	Pope	2	2	11	1	0
+9	3	Vatican/Overall Structure	2	2	11	1	0
+9	4	Churches/Buildings	2	2	11	1	0
+9	5	Clergy	2	2	11	1	0
+9	6	Jesus	2	2	11	1	0
+9	7	Mary	2	2	11	1	0
+10	1	God	3	1	3	1	0
+10	2	Authoritarian/Dominant	3	1	3	1	0
+10	3	Tradition	3	1	3	1	0
+10	4	Reforming/Changing	3	1	3	1	0
+10	5	Clergy	3	1	3	1	0
+10	6	Vatican/Overall Structure	3	1	3	1	0
+10	7	Pope	3	1	3	1	0
+10	8	Communion	3	1	3	1	0
+10	9	Sacraments/Rites of Passage	3	1	3	1	0
+10	10	Sacraments/Rites of Passage	3	1	3	1	0
+10	11	Sacraments/Rites of Passage	3	1	3	1	0
+10	12	Jesus	3	1	3	1	0
+10	13	Christmas/Other Religious Occasion	3	1	3	1	0
+10	14	Confession	3	1	3	1	0
+10	15	Fear	3	1	3	1	0
+11	1	Patriarchal/Misogynist	5	1	3	0	1
+11	2	Abuse/Paedophilia	5	1	3	0	1
+11	3	Insular/Detached	5	1	3	0	1
+11	4	Insular/Detached	5	1	3	0	1
+11	5	Outdated/Conservative	5	1	3	0	1
+12	1	Abuse/Paedophilia	3	1	1	0	1
+12	2	Corrupt/Materialistic	3	1	1	0	1
+12	3	Authoritarian/Dominant	3	1	1	0	1
+12	4	Patriarchal/Misogynist	3	1	1	0	1
+12	5	Corrupt/Materialistic	3	1	1	0	1
+12	6	Corrupt/Materialistic	3	1	1	0	1
+13	1	Clergy	5	2	2	1	0
+13	2	Clergy	5	2	2	1	0
+13	3	Mass	5	2	2	1	0
+13	4	Other Rituals	5	2	2	1	0
+13	5	Authoritarian/Dominant	5	2	2	1	0
+13	6	Scandal	5	2	2	1	0
+13	7	Patriarchal/Misogynist	5	2	2	1	0
+13	8	Cover-up/Secrecy	5	2	2	1	0
+13	9	Authoritarian/Dominant	5	2	2	1	0
+13	10	Charity	5	2	2	1	0
+13	11	Missionaries	5	2	2	1	0
+13	12	Outdated/Conservative	5	2	2	1	0
+13	13	Education System	5	2	2	1	0
+13	14	Confession	5	2	2	1	0
+13	15	Guilt	5	2	2	1	0
+13	16	Prayer	5	2	2	1	0
+14	1	Nonsense/Fiction	1	1	6	0	1
+14	2	Nonsense/Fiction	1	1	6	0	1
+14	3	Routine/Habit	1	1	6	0	1
+15	1	Outdated/Conservative	1	2	2	1	1
+15	2	Old People	1	2	2	1	1
+15	3	Outdated/Conservative	1	2	2	1	1
+16	1	Churches/Buildings	2	2	2	1	0
+16	2	Communion	2	2	2	1	0
+16	3	Prayer	2	2	2	1	0
+16	4	Community	2	2	2	1	0
+16	5	Tradition	2	2	2	1	0
+16	6	Clergy	2	2	2	1	0
+16	7	Nuns	2	2	2	1	0
+16	8	Education System	2	2	2	1	0
+16	9	Sacraments/Rites of Passage	2	2	2	1	0
+16	10	Sacraments/Rites of Passage	2	2	2	1	0
+16	11	Sacraments/Rites of Passage	2	2	2	1	0
+16	12	Corrupt/Materialistic	2	2	2	1	0
+16	13	Corrupt/Materialistic	2	2	2	1	0
+16	14	Choir/Music	2	2	2	1	0
+16	15	Mass	2	2	2	1	0
+16	16	Sacraments/Rites of Passage	2	2	2	1	0
+16	17	Bible/Gospel	2	2	2	1	0
+16	18	Old People	2	2	2	1	0
+16	19	Prayer	2	2	2	1	0
+16	20	Prayer	2	2	2	1	0
+16	21	Donations/Collections	2	2	2	1	0
+16	22	Authoritarian/Dominant	2	2	2	1	0
+17	1	Sacraments/Rites of Passage	3	2	8	1	1
+17	2	Sacraments/Rites of Passage	3	2	8	1	1
+17	3	Sacraments/Rites of Passage	3	2	8	1	1
+17	4	Christmas/Other Religious Occasion	3	2	8	1	1
+17	5	Clergy	3	2	8	1	1
+17	6	Candles	3	2	8	1	1
+17	7	Religious Artifacts	3	2	8	1	1
+17	8	Corrupt/Materialistic	3	2	8	1	1
+17	9	Children	3	2	8	1	1
+17	10	Education System	3	2	8	1	1
+17	11	Nuns	3	2	8	1	1
+17	12	Churches/Buildings	3	2	8	1	1
+17	13	Confession	3	2	8	1	1
+17	14	Sacraments/Rites of Passage	3	2	8	1	1
+18	1	Fear	4	1	9	1	1
+18	2	Indoctrination	4	1	9	1	1
+18	3	Bad/Immoral	4	1	9	1	1
+18	4	Authoritarian/Dominant	4	1	9	1	1
+18	5	Indoctrination	4	1	9	1	1
+18	6	Authoritarian/Dominant	4	1	9	1	1
+19	1	Clergy	3	2	10	1	1
+19	2	Donations/Collections	3	2	10	1	1
+19	3	Education System	3	2	10	1	1
+19	4	Religion	3	2	10	1	1
+19	5	Belief/Faith	3	2	10	1	1
+19	6	Forgiveness	3	2	10	1	1
+19	7	Belief/Faith	3	2	10	1	1
+19	8	Comforting/Caring	3	2	10	1	1
+20	1	Media	4	2	2	1	0
+20	2	Tradition	4	2	2	1	0
+20	3	Declining	4	2	2	1	0
+20	4	Old People	4	2	2	1	0
+20	5	Let down/Betrayed	4	2	2	1	0
+20	6	Insular/Detached	4	2	2	1	0
+20	7	Comforting/Caring	4	2	2	1	0
+20	8	Community	4	2	2	1	0
+21	1	Jesus	4	2	8	1	1
+21	2	Clergy	4	2	8	1	1
+21	3	Communion	4	2	8	1	1
+21	4	Sacraments/Rites of Passage	4	2	8	1	1
+21	5	Prayer	4	2	8	1	1
+21	6	Candles	4	2	8	1	1
+21	7	Prayer	4	2	8	1	1
+21	8	Sacraments/Rites of Passage	4	2	8	1	1
+21	9	Community	4	2	8	1	1
+21	10	Sacraments/Rites of Passage	4	2	8	1	1
+21	11	Mass	4	2	8	1	1
+21	12	Abuse/Paedophilia	4	2	8	1	1
+21	13	Altar Boys	4	2	8	1	1
+21	14	Christmas/Other Religious Occasion	4	2	8	1	1
+22	1	Abuse/Paedophilia	3	2	3	0	1
+22	2	Clergy	3	2	3	0	1
+22	3	Corrupt/Materialistic	3	2	3	0	1
+22	4	Vatican/Overall Structure	3	2	3	0	1
+22	5	Vatican/Overall Structure	3	2	3	0	1
+22	6	Vatican/Overall Structure	3	2	3	0	1
+22	7	Patriarchal/Misogynist	3	2	3	0	1
+22	8	Nuns	3	2	3	0	1
+22	9	Choir/Music	3	2	3	0	1
+22	10	Education System	3	2	3	0	1
+22	11	Charity	3	2	3	0	1
+22	12	Authoritarian/Dominant	3	2	3	0	1
+22	13	Authoritarian/Dominant	3	2	3	0	1
+22	14	Tradition	3	2	3	0	1
+22	15	Churches/Buildings	3	2	3	0	1
+22	16	Authoritarian/Dominant	3	2	3	0	1
+22	17	Afterlife	3	2	3	0	1
+22	18	Afterlife	3	2	3	0	1
+22	19	Afterlife	3	2	3	0	1
+22	20	Afterlife	3	2	3	0	1
+22	21	Sin	3	2	3	0	1
+22	22	Children	3	2	3	0	1
+22	23	Judas	3	2	3	0	1
+22	24	Christmas/Other Religious Occasion	3	2	3	0	1
+22	25	Christmas/Other Religious Occasion	3	2	3	0	1
+22	26	Christmas/Other Religious Occasion	3	2	3	0	1
+22	27	Religious Artifact	3	2	3	0	1
+22	28	Nonsense/Fiction	3	2	3	0	1
+22	29	Nonsense/Fiction	3	2	3	0	1
+22	30	Nonsense/Fiction	3	2	3	0	1
+23	1	God	5	1	5	1	0
+23	2	Jesus	5	1	5	1	0
+23	3	Jesus	5	1	5	1	0
+23	4	Clergy	5	1	5	1	0
+23	5	Nuns	5	1	5	1	0
+23	6	Pope	5	1	5	1	0
+23	7	Churches/Buildings	5	1	5	1	0
+23	8	Mass	5	1	5	1	0
+23	9	Good/Holy	5	1	5	1	0
+23	10	Sacraments/Rites of Passage	5	1	5	1	0
+23	11	Sacraments/Rites of Passage	5	1	5	1	0
+23	12	Sacraments/Rites of Passage	5	1	5	1	0
+23	13	Communion	5	1	5	1	0
+23	14	Community	5	1	5	1	0
+23	15	Christmas/Other Religious Occasion	5	1	5	1	0
+23	16	Vatican/Overall Structure	5	1	5	1	0
+23	17	Christmas/Other Religious Occasion	5	1	5	1	0
+23	18	Christmas/Other Religious Occasion	5	1	5	1	0
+23	19	Confession	5	1	5	1	0
+23	20	Religious Artifacts	5	1	5	1	0
+24	1	Sacraments/Rites of Passage	4	2	2	1	0
+24	2	Communion	4	2	2	1	0
+24	3	Communion	4	2	2	1	0
+24	4	Sacraments/Rites of Passage	4	2	2	1	0
+24	5	Mass	4	2	2	1	0
+24	6	Sacraments/Rites of Passage	4	2	2	1	0
+24	7	Confession	4	2	2	1	0
+24	8	Sacraments/Rites of Passage	4	2	2	1	0
+24	9	Sacraments/Rites of Passage	4	2	2	1	0
+24	10	Clergy	4	2	2	1	0
+24	11	Clergy	4	2	2	1	0
+24	12	Clergy	4	2	2	1	0
+24	13	Pope	4	2	2	1	0
+24	14	Communion	4	2	2	1	0
+24	15	Communion	4	2	2	1	0
+24	16	Christmas/Other Religious Occasion	4	2	2	1	0
+24	17	Jesus	4	2	2	1	0
+24	18	Christmas/Other Religious Occasion	4	2	2	1	0
+24	19	Other Theological/Scriptural Association	4	2	2	1	0
+24	20	Christmas/Other Religious Occasion	4	2	2	1	0
+24	21	Christmas/Other Religious Occasion	4	2	2	1	0
+25	1	Morality	1	2	10	1	1
+25	2	Confession	1	2	10	1	1
+25	3	Sin	1	2	10	1	1
+25	4	Jesus	1	2	10	1	1
+25	5	Forgiveness	1	2	10	1	1
+25	6	Forgiveness	1	2	10	1	1
+25	7	Morality	1	2	10	1	1
+25	8	God	1	2	10	1	1
+25	9	Communion	1	2	10	1	1
+25	10	Sacraments/Rites of Passage	1	2	10	1	1
+25	11	Church	1	2	10	1	1
+25	12	Sacraments/Rites of Passage	1	2	10	1	1
+25	13	Nuns	1	2	10	1	1
+25	14	Clergy	1	2	10	1	1
+25	15	Sunday	1	2	10	1	1
+25	16	Christmas/Other Religious Occasion	1	2	10	1	1
+25	17	Christmas/Other Religious Occasion	1	2	10	1	1
+25	18	Other Theological/Scriptural Association	1	2	10	1	1
+25	19	Other Theological/Scriptural Association	1	2	10	1	1
+25	20	Mary	1	2	10	1	1
+25	21	Joseph	1	2	10	1	1
+25	22	Other Theological/Scriptural Association	1	2	10	1	1
+26	1	Arrogance	4	2	2	0	1
+26	2	Outdated/Conservative	4	2	2	0	1
+26	3	Patriarchal/Misogynist	4	2	2	0	1
+26	4	Abuse/Paedophilia	4	2	2	0	1
+26	5	Corrupt/Materialistic	4	2	2	0	1
+26	6	Saints	4	2	2	0	1
+26	7	Nuns	4	2	2	0	1
+26	8	Altar Boys	4	2	2	0	1
+26	9	Outdated/Conservative	4	2	2	0	1
+26	10	Abortion	4	2	2	0	1
+26	11	Corrupt/Materialistic	4	2	2	0	1
+26	12	Old People	4	2	2	0	1
+26	13	Declining	4	2	2	0	1
+26	14	Mass	4	2	2	0	1
+26	15	Communion	4	2	2	0	1
+26	16	Churches/Buildings	4	2	2	0	1
+26	17	Outdated/Conservative	4	2	2	0	1
+26	18	Stoic	4	2	2	0	1
+26	19	Charity	4	2	2	0	1
+26	20	Charity	4	2	2	0	1
+27	1	Abuse/Paedophilia	3	1	3	0	1
+27	2	Nonsense/Fiction	3	1	3	0	1
+27	3	Hypocrisy	3	1	3	0	1
+27	4	Morality	3	1	3	0	1
+27	5	Clergy	3	1	3	0	1
+27	6	Cover-up/Secrecy	3	1	3	0	1
+27	7	Dishonest/Untrustworthy	3	1	3	0	1
+27	8	Corrupt/Materialistic	3	1	3	0	1
+27	9	Afterlife	3	1	3	0	1
+27	10	Afterlife	3	1	3	0	1
+27	11	Jesus	3	1	3	0	1
+27	12	Christmas/Other Religious Occasion	3	1	3	0	1
+27	13	Other Theological/Scriptural Association	3	1	3	0	1
+27	14	Bible/Gospel	3	1	3	0	1
+27	15	Shame/Disgust	3	1	3	0	1
+27	16	Nonsense/Fiction	3	1	3	0	1
+27	17	Agnostic	3	1	3	0	1
+27	18	Dishonest/Untrustworthy	3	1	3	0	1
+27	19	Nonsense/Fiction	3	1	3	0	1
+27	20	Outdated/Conservative	3	1	3	0	1
+27	21	Insular/Detached	3	1	3	0	1
+28	1	Churches/Buildings	3	1	4	0	1
+28	2	Clergy	3	1	4	0	1
+28	3	Old People	3	1	4	0	1
+28	4	Outdated/Conservative	3	1	4	0	1
+28	5	Religion	3	1	4	0	1
+28	6	Nuns	3	1	4	0	1
+28	7	Education System	3	1	4	0	1
+28	8	Mass	3	1	4	0	1
+28	9	Confession	3	1	4	0	1
+28	10	Communion	3	1	4	0	1
+28	11	Sacraments/Rites of Passage	3	1	4	0	1
+28	12	Sacraments/Rites of Passage	3	1	4	0	1
+28	13	Boring	3	1	4	0	1
+28	14	Teaching	3	1	4	0	1
+28	15	Stigma	3	1	4	0	1
+28	16	Media	3	1	4	0	1
+28	17	Diocese/Parish	3	1	4	0	1
+28	18	Pope	3	1	4	0	1
+28	19	Vatican/Overall Structure	3	1	4	0	1
+28	20	Clergy	3	1	4	0	1
+29	1	Corrupt/Materialistic	2	2	6	1	1
+29	2	Nonsense/Fiction	2	2	6	1	1
+29	3	Abuse/Paedophilia	2	2	6	1	1
+29	4	Clergy	2	2	6	1	1
+29	5	Homosexuality	2	2	6	1	1
+29	6	Dishonest/Untrustworthy	2	2	6	1	1
+29	7	Good/Holy	2	2	6	1	1
+29	8	Good/Holy	2	2	6	1	1
+29	9	Comforting/Caring	2	2	6	1	1
+29	10	Old People	2	2	6	1	1
+29	11	Old People	2	2	6	1	1
+29	12	Unappealing	2	2	6	1	1
+29	13	Declining	2	2	6	1	1
+29	14	Candles	2	2	6	1	1
+29	15	Corrupt/Materialistic	2	2	6	1	1
+29	16	Sadness	2	2	6	1	1
+29	17	Sadness	2	2	6	1	1
+29	18	Sadness	2	2	6	1	1
+29	19	Insular/Detached	2	2	6	1	1
+29	20	Bad/Immoral	2	2	6	1	1
+30	1	Pope	2	1	5	0	1
+30	2	Clergy	2	1	5	0	1
+30	3	Big	2	1	5	0	1
+30	4	Churches/Buildings	2	1	5	0	1
+30	5	Belief/Faith	2	1	5	0	1
+30	6	Prayer	2	1	5	0	1
+30	7	Self-denial	2	1	5	0	1
+30	8	Nonsense/Fiction	2	1	5	0	1
+30	9	Charity	2	1	5	0	1
+30	10	Old People	2	1	5	0	1
+30	11	Churches/Buildings	2	1	5	0	1
+31	1	Mass	5	2	4	1	0
+31	2	Clergy	5	2	4	1	0
+31	3	Clergy	5	2	4	1	0
+31	4	Pope	5	2	4	1	0
+31	5	Vatican/Overall Structure	5	2	4	1	0
+31	6	Missionaries	5	2	4	1	0
+31	7	Vatican/Overall Structure	5	2	4	1	0
+31	8	Churches/Buildings	5	2	4	1	0
+31	9	Churches/Buildings	5	2	4	1	0
+31	10	Donations/Collections	5	2	4	1	0
+31	11	Mass	5	2	4	1	0
+31	12	Christmas/Other Religious Occasion	5	2	4	1	0
+31	13	Christmas/Other Religious Occasion	5	2	4	1	0
+31	14	Christmas/Other Religious Occasion	5	2	4	1	0
+31	15	Money	5	2	4	1	0
+32	1	Mass	5	1	3	1	0
+32	2	Communion	5	1	3	1	0
+32	3	Comforting/Caring	5	1	3	1	0
+32	4	Sacraments/Rites of Passage	5	1	3	1	0
+32	5	Sacraments/Rites of Passage	5	1	3	1	0
+32	6	Sacraments/Rites of Passage	5	1	3	1	0
+32	7	Sacraments/Rites of Passage	5	1	3	1	0
+32	8	Community	5	1	3	1	0
+32	9	Comforting/Caring	5	1	3	1	0
+32	10	Comforting/Caring	5	1	3	1	0
+32	11	Sadness	5	1	3	1	0
+32	12	Community	5	1	3	1	0
+32	13	Comforting/Caring	5	1	3	1	0
+32	14	Comforting/Caring	5	1	3	1	0
+32	15	Good/Holy	5	1	3	1	0
+32	16	Forgiveness	5	1	3	1	0
+32	17	Piety	5	1	3	1	0
+32	18	Comforting/Caring	5	1	3	1	0
+32	19	Comforting/Caring	5	1	3	1	0
+32	20	Comforting/Caring	5	1	3	1	0
+32	21	Comforting/Caring	5	1	3	1	0
+33	1	Education System	3	1	2	0	1
+33	2	Clergy	3	1	2	0	1
+33	3	Religion	3	1	2	0	1
+33	4	Abuse/Paedophilia	3	1	2	0	1
+33	5	Vatican/Overall Structure	3	1	2	0	1
+33	6	Hypocrisy	3	1	2	0	1
+33	7	Patriarchal/Misogynist	3	1	2	0	1
+33	8	Outdated/Conservative	3	1	2	0	1
+33	9	Corrupt/Materialistic	3	1	2	0	1
+33	10	Bigotry	3	1	2	0	1
+33	11	Charity	3	1	2	0	1
+33	12	Mass	3	1	2	0	1
+33	13	Sacraments/Rites of Passage	3	1	2	0	1
+33	14	Sacraments/Rites of Passage	3	1	2	0	1
+33	15	Old People	3	1	2	0	1
+33	16	Traditional	3	1	2	0	1
+33	17	Outdated/Conservative	3	1	2	0	1
+33	18	Uncaring	3	1	2	0	1
+33	19	Outdated/Conservative	3	1	2	0	1
+33	20	Churches/Buildings	3	1	2	0	1
+34	1	Abuse/Paedophilia	2	1	5	1	1
+34	2	Abuse/Paedophilia	2	1	5	1	1
+34	3	Corrupt/Materialistic	2	1	5	1	1
+34	4	Boring	2	1	5	1	1
+34	5	Corrupt/Materialistic	2	1	5	1	1
+34	6	Outdated/Conservative	2	1	5	1	1
+34	7	Corrupt/Materialistic	2	1	5	1	1
+34	8	Authoritarian/Dominant	2	1	5	1	1
+34	9	Corrupt/Materialistic	2	1	5	1	1
+34	10	Abuse/Paedophilia	2	1	5	1	1
+34	11	Cover-up/Secrecy	2	1	5	1	1
+34	12	Corrupt/Materialistic	2	1	5	1	1
+34	13	Declining	2	1	5	1	1
+34	14	Old People	2	1	5	1	1
+34	15	Tradition	2	1	5	1	1
+34	16	Jesus	2	1	5	1	1
+34	17	Mary	2	1	5	1	1
+34	18	Joseph	2	1	5	1	1
+34	19	Other Theological/Scriptural Association	2	1	5	1	1
+34	20	Other Theological/Scriptural Association	2	1	5	1	1
+35	1	Abuse/Paedophilia	2	1	3	0	1
+35	2	Sex	2	1	3	0	1
+35	3	Authoritarian/Dominant	2	1	3	0	1
+35	4	Property	2	1	3	0	1
+35	5	Authoritarian/Dominant	2	1	3	0	1
+35	6	Patriarchal/Misogynist	2	1	3	0	1
+35	7	State Influence	2	1	3	0	1
+35	8	Outdated/Conservative	2	1	3	0	1
+35	9	Bigotry	2	1	3	0	1
+35	10	Bigotry	2	1	3	0	1
+35	11	Sectarian	2	1	3	0	1
+35	12	Education System	2	1	3	0	1
+35	13	Tradition	2	1	3	0	1
+35	14	Vatican/Overall Structure	2	1	3	0	1
+35	15	Vatican/Overall Structure	2	1	3	0	1
+35	16	Pope	2	1	3	0	1
+35	17	Parochialism	2	1	3	0	1
+35	18	Maynooth	2	1	3	0	1
+35	19	Death	2	1	3	0	1
+35	20	Abortion	2	1	3	0	1
+35	21	Bigotry	2	1	3	0	1
+35	22	Patriarchal/Misogynist	2	1	3	0	1
+35	23	Celibacy	2	1	3	0	1
+35	24	Obsession	2	1	3	0	1
+36	1	Corrupt/Materialistic	4	1	2	0	0
+36	2	Outdated/Conservative	4	1	2	0	0
+36	3	Boring	4	1	2	0	0
+36	4	Authoritarian/Dominant	4	1	2	0	0
+36	5	Corrupt/Materialistic	4	1	2	0	0
+36	6	Old People	4	1	2	0	0
+36	7	Nonsense/Fiction	4	1	2	0	0
+36	8	Outdated/Conservative	4	1	2	0	0
+36	9	Corrupt/Materialistic	4	1	2	0	0
+36	10	Uncaring	4	1	2	0	0
+36	11	Authoritarian/Dominant	4	1	2	0	0
+36	12	Strange	4	1	2	0	0
+36	13	Outdated/Conservative	4	1	2	0	0
+36	14	Insular/Detached	4	1	2	0	0
+36	15	Arrogance	4	1	2	0	0
+36	16	Uncaring	4	1	2	0	0
+36	17	Boring	4	1	2	0	0
+36	18	Outdated/Conservative	4	1	2	0	0
+36	19	Uncaring	4	1	2	0	0
+36	20	Outdated/Conservative	4	1	2	0	0
+37	1	Corrupt/Materialistic	2	2	3	0	1
+37	2	Abuse/Paedophilia	2	2	3	0	1
+37	3	Vatican/Overall Structure	2	2	3	0	1
+37	4	Pope	2	2	3	0	1
+37	5	Education System	2	2	3	0	1
+37	6	Abuse/Paedophilia	2	2	3	0	1
+37	7	Children	2	2	3	0	1
+37	8	Clergy	2	2	3	0	1
+37	9	Nuns	2	2	3	0	1
+37	10	Fear	2	2	3	0	1
+37	11	Authoritarian/Dominant	2	2	3	0	1
+37	12	Bigotry	2	2	3	0	1
+38	1	Declining	5	1	2	1	0
+38	2	Declining	5	1	2	1	0
+38	3	Declining	5	1	2	1	0
+38	4	Tradition	5	1	2	1	0
+38	5	Outdated/Conservative	5	1	2	1	0
+38	6	Uncaring	5	1	2	1	0
+38	7	Sadness	5	1	2	1	0
+38	8	Outdated/Conservative	5	1	2	1	0
+38	9	Declining	5	1	2	1	0
+38	10	Declining	5	1	2	1	0
+38	11	Declining	5	1	2	1	0
+38	12	Declining	5	1	2	1	0
+38	13	Insular/Detached	5	1	2	1	0
+38	14	Declining	5	1	2	1	0
+38	15	Insular/Detached	5	1	2	1	0
+38	16	Shame/Disgust	5	1	2	1	0
+38	17	Shame/Disgust	5	1	2	1	0
+38	18	Fear	5	1	2	1	0
+38	19	Declining	5	1	2	1	0
+38	20	Declining	5	1	2	1	0
+39	1	Mass	2	2	3	0	1
+39	2	Churches/Buildings	2	2	3	0	1
+39	3	Prayer	2	2	3	0	1
+39	4	Pope	2	2	3	0	1
+39	5	Mass	2	2	3	0	1
+39	6	Sacraments/Rites of Passage	2	2	3	0	1
+39	7	Sacraments/Rites of Passage	2	2	3	0	1
+39	8	Sacraments/Rites of Passage	2	2	3	0	1
+39	9	Sacraments/Rites of Passage	2	2	3	0	1
+39	10	Sacraments/Rites of Passage	2	2	3	0	1
+39	11	Confession	2	2	3	0	1
+39	12	Clergy	2	2	3	0	1
+39	13	Nuns	2	2	3	0	1
+39	14	Vatican/Overall Structure	2	2	3	0	1
+39	15	Other Theological/Scriptural Association	2	2	3	0	1
+39	16	Afterlife	2	2	3	0	1
+39	17	Bible/Gospel	2	2	3	0	1
+39	18	God	2	2	3	0	1
+39	19	Mary	2	2	3	0	1
+39	20	Jesus	2	2	3	0	1
+40	1	Mass	4	1	3	0	0
+40	2	Pope	4	1	3	0	0
+40	3	Sacraments/Rites of Passage	4	1	3	0	0
+40	4	Sacraments/Rites of Passage	4	1	3	0	0
+40	5	Clergy	4	1	3	0	0
+40	6	Nuns	4	1	3	0	0
+40	7	Clergy	4	1	3	0	0
+40	8	Vatican/Overall Structure	4	1	3	0	0
+40	9	Money	4	1	3	0	0
+40	10	Corrupt/Materialistic	4	1	3	0	0
+40	11	Crusades	4	1	3	0	0
+40	12	Abuse/Paedophilia	4	1	3	0	0
+40	13	Northern IreProperty	4	1	3	0	0
+40	14	Sectarian	4	1	3	0	0
+40	15	The Cross	4	1	3	0	0
+40	16	Jesus	4	1	3	0	0
+40	17	Confession	4	1	3	0	0
+41	1	Mass	1	2	2	0	1
+41	2	Clergy	1	2	2	0	1
+41	3	Scandal	1	2	2	0	1
+41	4	Authoritarian/Dominant	1	2	2	0	1
+41	5	Bad/Immoral	1	2	2	0	1
+41	6	Old People	1	2	2	0	1
+41	7	Irrelevant	1	2	2	0	1
+41	8	Nonsense/Fiction	1	2	2	0	1
+41	9	Outdated/Conservative	1	2	2	0	1
+41	10	Outdated/Conservative	1	2	2	0	1
+41	11	Boring	1	2	2	0	1
+41	12	Corrupt/Materialistic	1	2	2	0	1
+41	13	Abuse/Paedophilia	1	2	2	0	1
+41	14	Churches/Buildings	1	2	2	0	1
+41	15	Uncaring	1	2	2	0	1
+41	16	Candles	1	2	2	0	1
+41	17	Nuns	1	2	2	0	1
+41	18	Oppressive Institutions (Laundries. etc.)	1	2	2	0	1
+41	19	Celibacy	1	2	2	0	1
+41	20	Declining	1	2	2	0	1
+42	1	Abuse/Paedophilia	2	2	3	1	1
+42	2	Clergy	2	2	3	1	1
+42	3	Nuns	2	2	3	1	1
+42	4	Sacraments/Rites of Passage	2	2	3	1	1
+42	5	Sacraments/Rites of Passage	2	2	3	1	1
+42	6	Sectarian	2	2	3	1	1
+42	7	Authoritarian/Dominant	2	2	3	1	1
+42	8	Insular/Detached	2	2	3	1	1
+42	9	Confession	2	2	3	1	1
+42	10	Communion	2	2	3	1	1
+42	11	Sacraments/Rites of Passage	2	2	3	1	1
+42	12	Sacraments/Rites of Passage	2	2	3	1	1
+42	13	Churches/Buildings	2	2	3	1	1
+42	14	Churches/Buildings	2	2	3	1	1
+42	15	Pope	2	2	3	1	1
+42	16	Clergy	2	2	3	1	1
+42	17	Religious Artifacts	2	2	3	1	1
+42	18	Communion	2	2	3	1	1
+42	19	Communion	2	2	3	1	1
+42	20	Communion	2	2	3	1	1
+43	1	Troubled	3	1	2	1	0
+43	2	Reforming/Changing	3	1	2	1	0
+43	3	Troubled	3	1	2	1	0
+43	4	Stigma	3	1	2	1	0
+43	5	Abuse/Paedophilia	3	1	2	1	0
+43	6	Stigma	3	1	2	1	0
+43	7	Cover-up/Secrecy	3	1	2	1	0
+43	8	Silence	3	1	2	1	0
+43	9	Stigma	3	1	2	1	0
+43	10	Clericalism	3	1	2	1	0
+43	11	Clericalism	3	1	2	1	0
+43	12	Reform needed	3	1	2	1	0
+43	13	No balls	3	1	2	1	0
+43	14	Morality	3	1	2	1	0
+43	15	Fear	3	1	2	1	0
+43	16	Stigma	3	1	2	1	0
+43	17	Shame/Disgust	3	1	2	1	0
+43	18	Uncaring	3	1	2	1	0
+43	19	Charity	3	1	2	1	0
+43	20	Forgiveness	3	1	2	1	0
+44	1	Mass	3	2	8	1	0
+44	2	Churches/Buildings	3	2	8	1	0
+44	3	Clergy	3	2	8	1	0
+44	4	Sacraments/Rites of Passage	3	2	8	1	0
+44	5	Communion	3	2	8	1	0
+44	6	Sacraments/Rites of Passage	3	2	8	1	0
+44	7	Readings	3	2	8	1	0
+44	8	Bible/Gospel	3	2	8	1	0
+44	9	Community	3	2	8	1	0
+44	10	Other Theological/Scriptural Association	3	2	8	1	0
+44	11	Jesus	3	2	8	1	0
+44	12	Mary	3	2	8	1	0
+44	13	Joseph	3	2	8	1	0
+44	14	Other Theological/Scriptural Association	3	2	8	1	0
+44	15	Communion	3	2	8	1	0
+44	16	Communion	3	2	8	1	0
+44	17	Communion	3	2	8	1	0
+44	18	Choir/Music	3	2	8	1	0
+44	19	Choir/Music	3	2	8	1	0
+44	20	God	3	2	8	1	0
+45	1	Clergy	3	2	3	1	1
+45	2	Religion	3	2	3	1	1
+45	3	Jesus	3	2	3	1	1
+45	4	Abortion	3	2	3	1	1
+45	5	Religious Artifacts	3	2	3	1	1
+45	6	Communion	3	2	3	1	1
+45	7	Mass	3	2	3	1	1
+45	8	Churches/Buildings	3	2	3	1	1
+45	9	Prayer	3	2	3	1	1
+45	10	God	3	2	3	1	1
+45	11	God	3	2	3	1	1
+45	12	Confession	3	2	3	1	1
+45	13	Churches/Buildings	3	2	3	1	1
+45	14	Sacraments/Rites of Passage	3	2	3	1	1
+45	15	Kneeling	3	2	3	1	1
+45	16	Religious Artifacts	3	2	3	1	1
+45	17	Belief/Faith	3	2	3	1	1
+45	18	Humanity	3	2	3	1	1
+45	19	Donations/Collections	3	2	3	1	1
+45	20	Comforting/Caring	3	2	3	1	1
+46	1	Religion	2	1	1	1	0
+46	2	Clergy	2	1	1	1	0
+46	3	Mass	2	1	1	1	0
+46	4	Christmas/Other Religious Occasion	2	1	1	1	0
+46	5	Mass	2	1	1	1	0
+46	6	Prayer	2	1	1	1	0
+46	7	Kneeling	2	1	1	1	0
+46	8	Donations/Collections	2	1	1	1	0
+46	9	Oppressive Institutions (Laundries. etc.)	2	1	1	1	0
+46	10	Authoritarian/Dominant	2	1	1	1	0
+46	11	Comforting/Caring	2	1	1	1	0
+46	12	Stigma	2	1	1	1	0
+46	13	Stigma	2	1	1	1	0
+46	14	Corrupt/Materialistic	2	1	1	1	0
+46	15	Old People	2	1	1	1	0
+46	16	Comforting/Caring	2	1	1	1	0
+46	17	Confession	2	1	1	1	0
+46	18	Sacraments/Rites of Passage	2	1	1	1	0
+46	19	Sacraments/Rites of Passage	2	1	1	1	0
+46	20	Communion	2	1	1	1	0
+47	1	Clergy	3	2	4	1	1
+47	2	Abuse/Paedophilia	3	2	4	1	1
+47	3	Religion	3	2	4	1	1
+47	4	Sacraments/Rites of Passage	3	2	4	1	1
+47	5	Mass	3	2	4	1	1
+47	6	Clergy	3	2	4	1	1
+47	7	Comforting/Caring	3	2	4	1	1
+47	8	Vatican/Overall Structure	3	2	4	1	1
+47	9	Bible/Gospel	3	2	4	1	1
+47	10	Communion	3	2	4	1	1
+47	11	Sacraments/Rites of Passage	3	2	4	1	1
+47	12	Confession	3	2	4	1	1
+47	13	Corrupt/Materialistic	3	2	4	1	1
+47	14	Corrupt/Materialistic	3	2	4	1	1
+47	15	Love	3	2	4	1	1
+47	16	Dishonest/Untrustworthy	3	2	4	1	1
+47	17	Let down/Betrayed	3	2	4	1	1
+47	18	Communion	3	2	4	1	1
+47	19	Mass	3	2	4	1	1
+47	20	Confession	3	2	4	1	1
+48	1	God	3	2	2	1	1
+48	2	Religion	3	2	2	1	1
+48	3	Family	3	2	2	1	1
+48	4	Sacraments/Rites of Passage	3	2	2	1	1
+48	5	Flowers	3	2	2	1	1
+48	6	Clergy	3	2	2	1	1
+48	7	Altar boys	3	2	2	1	1
+48	8	Graveyard	3	2	2	1	1
+48	9	Religious Artifacts	3	2	2	1	1
+48	10	Religious Artifacts	3	2	2	1	1
+48	11	Mary	3	2	2	1	1
+48	12	Seats	3	2	2	1	1
+48	13	Flowers	3	2	2	1	1
+48	14	Donations/Collections	3	2	2	1	1
+48	15	Choir/Music	3	2	2	1	1
+48	16	Choir/Music	3	2	2	1	1
+48	17	Prayer	3	2	2	1	1
+48	18	Children	3	2	2	1	1
+48	19	Candles	3	2	2	1	1
+48	20	Lights	3	2	2	1	1
+49	1	Religion	2	1	2	1	1
+49	2	Old People	2	1	2	1	1
+49	3	Troubled	2	1	2	1	1
+49	4	Homeless	2	1	2	1	1
+49	5	Comforting/Caring	2	1	2	1	1
+49	6	Belief/Faith	2	1	2	1	1
+49	7	Morality	2	1	2	1	1
+49	8	Charity	2	1	2	1	1
+49	9	Community	2	1	2	1	1
+49	10	Communion	2	1	2	1	1
+49	11	Clergy	2	1	2	1	1
+49	12	Mass	2	1	2	1	1
+49	13	Abuse/Paedophilia	2	1	2	1	1
+49	14	Outdated/Conservative	2	1	2	1	1
+49	15	Morality	2	1	2	1	1
+49	16	Declining	2	1	2	1	1
+49	17	Coffee	2	1	2	1	1
+49	18	Mass	2	1	2	1	1
+49	19	Homosexuality	2	1	2	1	1
+49	20	Comforting/Caring	2	1	2	1	1
+50	1	Churches/Buildings	3	2	1	1	0
+50	2	Clergy	3	2	1	1	0
+50	3	Communion	3	2	1	1	0
+50	4	Sacraments/Rites of Passage	3	2	1	1	0
+50	5	Sacraments/Rites of Passage	3	2	1	1	0
+50	6	Confession	3	2	1	1	0
+50	7	Sacraments/Rites of Passage	3	2	1	1	0
+50	8	Sacraments/Rites of Passage	3	2	1	1	0
+50	9	Sacraments/Rites of Passage	3	2	1	1	0
+50	10	Sacraments/Rites of Passage	3	2	1	1	0
+50	11	Clergy	3	2	1	1	0
+50	12	Religious Artifacts	3	2	1	1	0
+50	13	Sacraments/Rites of Passage	3	2	1	1	0
+50	14	The Cross	3	2	1	1	0
+50	15	Christmas/Other Religious Occasion	3	2	1	1	0
+50	16	Christmas/Other Religious Occasion	3	2	1	1	0
+50	17	Saints	3	2	1	1	0
+50	18	Jesus	3	2	1	1	0
+50	19	Mary	3	2	1	1	0
+50	20	Joseph	3	2	1	1	0
+50	21	God	3	2	1	1	0
+50	22	Candles	3	2	1	1	0
+50	23	Religious Artifacts	3	2	1	1	0
+50	24	Other Theological/Scriptural Association	3	2	1	1	0
+50	25	Other Religion	3	2	1	1	0
+51	1	Religion	4	2	9	1	1
+51	2	Clergy	4	2	9	1	1
+51	3	Baptism	4	2	9	1	1
+51	4	Communion	4	2	9	1	1
+51	5	Sacraments/Rites of Passage	4	2	9	1	1
+51	6	Sacraments/Rites of Passage	4	2	9	1	1
+51	7	Sacraments/Rites of Passage	4	2	9	1	1
+51	8	Nuns	4	2	9	1	1
+51	9	Churches	4	2	9	1	1
+51	10	Education System	4	2	9	1	1
+51	11	Clergy	4	2	9	1	1
+51	12	Community	4	2	9	1	1
+51	13	Power	4	2	9	1	1
+51	14	Corrupt/Materialistic	4	2	9	1	1
+51	15	Abuse/Paedophilia	4	2	9	1	1
+51	16	Mass	4	2	9	1	1
+51	17	Scandal	4	2	9	0	1
+51	18	Clergy	4	2	9	0	1
+52	1	Abuse/Paedophilia	2	2	2	0	1
+52	2	Abuse/Paedophilia	2	2	2	0	1
+52	3	Dishonest/Untrustworthy	2	2	2	0	1
+52	4	Dishonest/Untrustworthy	2	2	2	0	1
+52	5	Hypocrisy	2	2	2	0	1
+52	6	Patriarchal/Misogynist	2	2	2	0	1
+52	7	Arrogance	2	2	2	0	1
+52	8	Authoritarian/Dominant	2	2	2	0	1
+52	9	Old People	2	2	2	0	1
+52	10	Outdated/Conservative	2	2	2	0	1
+52	11	Arrogance	2	2	2	0	1
+52	12	State Influence	2	2	2	0	1
+52	13	Boring	2	2	2	0	1
+52	14	Nonsense/Fiction	2	2	2	0	1
+52	15	Nonsense/Fiction	2	2	2	0	1
+52	16	Nonsense/Fiction	2	2	2	0	1
+52	17	Outdated/Conservative	2	2	2	0	1
+52	18	Irrelevant	2	2	2	0	1
+52	19	Poor	2	2	2	0	1
+52	20	Aggressive	2	2	2	0	1
+53	1	Clergy	2	1	2	1	1
+53	2	Mass	2	1	2	1	1
+53	3	Abuse/Paedophilia	2	1	2	1	1
+53	4	Ritual	2	1	2	1	1
+53	5	Communion	2	1	2	1	1
+53	6	Sacraments/Rites of Passage	2	1	2	1	1
+53	7	Religious Artifacts	2	1	2	1	1
+53	8	Choir/Music	2	1	2	1	1
+53	9	Choir/Music	2	1	2	1	1
+53	10	Donations/Collections	2	1	2	1	1
+53	11	Money	2	1	2	1	1
+53	12	Bible/Gospel	2	1	2	1	1
+53	13	Standing	2	1	2	1	1
+53	14	Mass	2	1	2	1	1
+53	15	Sacraments/Rites of Passage	2	1	2	1	1
+53	16	Sacraments/Rites of Passage	2	1	2	1	1
+53	17	Sacraments/Rites of Passage	2	1	2	1	1
+53	18	Collar	2	1	2	1	1
+53	19	Black	2	1	2	1	1
+53	20	Procession	2	1	2	1	1
+54	1	Churches/Buildings	3	1	2	1	0
+54	2	Jesus	3	1	2	1	0
+54	3	Charity	3	1	2	1	0
+54	4	Saints	3	1	2	1	0
+54	5	Mary	3	1	2	1	0
+54	6	Pilgrim Site	3	1	2	1	0
+54	7	Hunger	3	1	2	1	0
+54	8	Irish	3	1	2	1	0
+54	9	Confession	3	1	2	1	0
+54	10	Charity	3	1	2	1	0
+54	11	Stone	3	1	2	1	0
+54	12	Saints	3	1	2	1	0
+54	13	Clergy	3	1	2	1	0
+54	14	God	3	1	2	1	0
+54	15	Good/Holy	3	1	2	1	0
+54	16	Christmas/Other Religious Occasion	3	1	2	1	0
+54	17	Christmas/Other Religious Occasion	3	1	2	1	0
+54	18	Love	3	1	2	1	0
+54	19	Comforting/Caring	3	1	2	1	0
+54	20	Comforting/Caring	3	1	2	1	0
+55	1	Sin	4	2	3	1	1
+55	2	Authoritarian/Dominant	4	2	3	1	1
+55	3	Clergy	4	2	3	1	1
+55	4	Bad/Immoral	4	2	3	1	1
+55	5	Irish	4	2	3	1	1
+55	6	Fear	4	2	3	1	1
+55	7	Corrupt/Materialistic	4	2	3	1	1
+55	8	Comforting/Caring	4	2	3	1	1
+55	9	Pain	4	2	3	1	1
+55	10	Dishonest/Untrustworthy	4	2	3	1	1
+55	11	Pain	4	2	3	1	1
+55	12	Abuse/Paedophilia	4	2	3	1	1
+55	13	Pain	4	2	3	1	1
+55	14	Bad/Immoral	4	2	3	1	1
+55	15	Pain	4	2	3	1	1
+55	16	Corrupt/Materialistic	4	2	3	1	1
+55	17	Fear	4	2	3	1	1
+55	18	Pope	4	2	3	1	1
+55	19	Reforming/Changing	4	2	3	1	1
+55	20	Comforting/Caring	4	2	3	1	1
+56	1	Tradition	4	1	10	1	1
+56	2	Outdated/Conservative	4	1	10	1	1
+56	3	Outdated/Conservative	4	1	10	1	1
+56	4	Scandal	4	1	10	1	1
+56	5	Authoritarian/Dominant	4	1	10	1	1
+56	6	Clergy	4	1	10	1	1
+56	7	Clergy	4	1	10	1	1
+56	8	Pope	4	1	10	1	1
+56	9	Altar boys	4	1	10	1	1
+56	10	Mass	4	1	10	1	1
+56	11	Confession	4	1	10	1	1
+56	12	Communion	4	1	10	1	1
+56	13	Sacraments/Rites of Passage	4	1	10	1	1
+56	14	Sacraments/Rites of Passage	4	1	10	1	1
+56	15	Prayer	4	1	10	1	1
+56	16	Christmas/Other Religious Occasion	4	1	10	1	1
+56	17	Christmas/Other Religious Occasion	4	1	10	1	1
+56	18	Nuns	4	1	10	1	1
+56	19	Christmas/Other Religious Occasion	4	1	10	1	1
+56	20	Jesus	4	1	10	1	1
+56	21	God	4	1	10	1	1
+57	1	Clergy	4	1	3	1	0
+57	2	Mass	4	1	3	1	0
+57	3	Confession	4	1	3	1	0
+57	4	Nuns	4	1	3	1	0
+57	5	Convent	4	1	3	1	0
+57	6	Laity	4	1	3	1	0
+57	7	Patriarchal/Misogynist	4	1	3	1	0
+57	8	Black	4	1	3	1	0
+57	9	Abuse/Paedophilia	4	1	3	1	0
+57	10	Clergy	4	1	3	1	0
+57	11	Stigma	4	1	3	1	0
+57	12	Pope	4	1	3	1	0
+57	13	1979	4	1	3	1	0
+57	14	Hypocrisy	4	1	3	1	0
+57	15	Communion	4	1	3	1	0
+57	16	Sacraments/Rites of Passage	4	1	3	1	0
+57	17	Vatican/Overall Structure	4	1	3	1	0
+57	18	Kneeling	4	1	3	1	0
+57	19	Community	4	1	3	1	0
+58	1	Mass	3	2	2	0	1
+58	2	Communion	3	2	2	0	1
+58	3	Elitism	3	2	2	0	1
+58	4	Outdated/Conservative	3	2	2	0	1
+58	5	Education System	3	2	2	0	1
+58	6	Scandal	3	2	2	0	1
+58	7	Dishonest/Untrustworthy	3	2	2	0	1
+58	8	Pope	3	2	2	0	1
+58	9	Patriarchal/Misogynist	3	2	2	0	1
+58	10	Authoritarian/Dominant	3	2	2	0	1
+58	11	State Influence	3	2	2	0	1
+58	12	Pilgrim Site	3	2	2	0	1
+58	13	Church	3	2	2	0	1
+58	14	Silence	3	2	2	0	1
+58	15	Education System	3	2	2	0	1
+58	16	God	3	2	2	0	1
+58	17	Mass	3	2	2	0	1
+58	18	Prayer	3	2	2	0	1
+58	19	Oppressive Institutions (Laundries. etc.)	3	2	2	0	1
+58	20	Scandal	3	2	2	0	1
+59	1	Mass	4	2	3	1	0
+59	2	Pope	4	2	3	1	0
+59	3	Corrupt/Materialistic	4	2	3	1	0
+59	4	Declining	4	2	3	1	0
+59	5	Boring	4	2	3	1	0
+59	6	Religious Artifacts	4	2	3	1	0
+59	7	Gold	4	2	3	1	0
+59	8	Comforting/Caring	4	2	3	1	0
+59	9	Confession	4	2	3	1	0
+59	10	Christmas/Other Religious Occasion	4	2	3	1	0
+59	11	Religious Artifacts	4	2	3	1	0
+59	12	Mary	4	2	3	1	0
+59	13	Forgiveness	4	2	3	1	0
+59	14	Abuse/Paedophilia	4	2	3	1	0
+59	15	Communion	4	2	3	1	0
+59	16	Sacraments/Rites of Passage	4	2	3	1	0
+59	17	The Cross	4	2	3	1	0
+59	18	Choir/Music	4	2	3	1	0
+59	19	Graveyards	4	2	3	1	0
+59	20	Collections	4	2	3	1	0
+60	1	Comforting/Caring	4	2	8	1	0
+60	2	Mass	4	2	8	1	0
+60	3	God	4	2	8	1	0
+60	4	Community	4	2	8	1	0
+61	1	Sacraments/Rites of Passage	2	2	2	1	1
+61	2	Education System	2	2	2	1	1
+61	3	Communion	2	2	2	1	1
+61	4	Sacraments/Rites of Passage	2	2	2	1	1
+61	5	Christmas/Other Religious Occasion	2	2	2	1	1
+61	6	Christmas/Other Religious Occasion	2	2	2	1	1
+61	7	Mass	2	2	2	1	1
+61	8	Sunday	2	2	2	1	1
+61	9	Christmas/Other Religious Occasion	2	2	2	1	1
+61	10	Clergy	2	2	2	1	1
+61	11	Nuns	2	2	2	1	1
+61	12	The Cross	2	2	2	1	1
+61	13	Mary	2	2	2	1	1
+61	14	Other Theological/Scriptural Association	2	2	2	1	1
+61	15	Other Theological/Scriptural Association	2	2	2	1	1
+61	16	Other Theological/Scriptural Association	2	2	2	1	1
+61	17	Other Theological/Scriptural Association	2	2	2	1	1
+61	18	Other Theological/Scriptural Association	2	2	2	1	1
+61	19	Other Theological/Scriptural Association	2	2	2	1	1
+61	20	Morality	2	2	2	1	1
+62	1	Pope	4	2	9	1	0
+62	2	Vatican/Overall Structure	4	2	9	1	0
+62	3	Mary	4	2	9	1	0
+62	4	Jesus	4	2	9	1	0
+62	5	God	4	2	9	1	0
+62	6	Churches/Buildings	4	2	9	1	0
+62	7	Prayer	4	2	9	1	0
+62	8	Sacraments/Rites of Passage	4	2	9	1	0
+62	9	Communion	4	2	9	1	0
+62	10	Sacraments/Rites of Passage	4	2	9	1	0
+62	11	Pilgrim Site	4	2	9	1	0
+62	12	Pilgrim Site	4	2	9	1	0
+62	13	Pilgrim Site	4	2	9	1	0
+62	14	Pilgrim Site	4	2	9	1	0
+62	15	Visions	4	2	9	1	0
+62	16	Bible/Gospel	4	2	9	1	0
+62	17	Confession	4	2	9	1	0
+62	18	Missionaries	4	2	9	1	0
+62	19	Prayer	4	2	9	1	0
+62	20	Mass	4	2	9	1	0
+63	1	Religion	3	1	2	1	0
+63	2	Clergy	3	1	2	1	0
+63	3	Communion	3	1	2	1	0
+63	4	Silence	3	1	2	1	0
+63	5	Comforting/Caring	3	1	2	1	0
+63	6	Reflection	3	1	2	1	0
+63	7	Comforting/Caring	3	1	2	1	0
+63	8	Happiness	3	1	2	1	0
+63	9	Sadness	3	1	2	1	0
+63	10	Reforming/Changing	3	1	2	1	0
+63	11	Comforting/Caring	3	1	2	1	0
+63	12	Comforting/Caring	3	1	2	1	0
+63	13	Charity	3	1	2	1	0
+63	14	Good/Holy	3	1	2	1	0
+63	15	Belief/Faith	3	1	2	1	0
+63	16	Morality	3	1	2	1	0
+63	17	Tradition	3	1	2	1	0
+63	18	Reforming/Changing	3	1	2	1	0
+63	19	Reforming/Changing	3	1	2	1	0
+63	20	Reforming/Changing	3	1	2	1	0
+64	1	Religion	2	2	3	0	1
+64	2	Belief/Faith	2	2	3	0	1
+64	3	God	2	2	3	0	1
+64	4	Prayer	2	2	3	0	1
+64	5	Clergy	2	2	3	0	1
+64	6	Laity	2	2	3	0	1
+64	7	Candles	2	2	3	0	1
+64	8	The Cross	2	2	3	0	1
+64	9	Choir/Music	2	2	3	0	1
+64	10	Choir/Music	2	2	3	0	1
+64	11	Communion	2	2	3	0	1
+64	12	Bible/Gospel	2	2	3	0	1
+64	13	Confession	2	2	3	0	1
+64	14	The Cross	2	2	3	0	1
+64	15	Sacraments/Rites of Passage	2	2	3	0	1
+64	16	Churches/Buildings	2	2	3	0	1
+65	1	Family	2	2	2	1	0
+65	2	Comforting/Caring	2	2	2	1	0
+65	3	Love	2	2	2	1	0
+65	4	Morality	2	2	2	1	0
+65	5	Authoritarian/Dominant	2	2	2	1	0
+65	6	Loyalty	2	2	2	1	0
+65	7	Comforting/Caring	2	2	2	1	0
+65	8	Morality	2	2	2	1	0
+65	9	Children	2	2	2	1	0
+65	10	Wedding	2	2	2	1	0
+65	11	Pain	2	2	2	1	0
+65	12	Sacraments/Rites of Passage	2	2	2	1	0
+65	13	Sacraments/Rites of Passage	2	2	2	1	0
+65	14	Clergy	2	2	2	1	0
+65	15	Communion	2	2	2	1	0
+65	16	Education System	2	2	2	1	0
+65	17	Mass	2	2	2	1	0
+65	18	Community	2	2	2	1	0
+65	19	Weekends	2	2	2	1	0
+65	20	Life	2	2	2	1	0
+66	1	Tradition	3	2	3	1	1
+66	2	Religion	3	2	3	1	1
+66	3	Dishonest/Untrustworthy	3	2	3	1	1
+66	4	Nonsense/Fiction	3	2	3	1	1
+66	5	Nonsense/Fiction	3	2	3	1	1
+66	6	Dishonest/Untrustworthy	3	2	3	1	1
+66	7	Authoritarian/Dominant	3	2	3	1	1
+66	8	Charity	3	2	3	1	1
+66	9	Churches/Buildings	3	2	3	1	1
+66	10	Declining	3	2	3	1	1
+66	11	Old People	3	2	3	1	1
+66	12	Clergy	3	2	3	1	1
+66	13	Nuns	3	2	3	1	1
+66	14	Pope	3	2	3	1	1
+66	15	Hypocrisy	3	2	3	1	1
+66	16	Authoritarian/Dominant	3	2	3	1	1
+66	17	Mass	3	2	3	1	1
+66	18	Corrupt/Materialistic	3	2	3	1	1
+66	19	Let down/Betrayed	3	2	3	1	1
+66	20	Declining	3	2	3	1	1
+67	1	Corrupt/Materialistic	2	2	4	0	1
+67	2	Cover-up/Secrecy	2	2	4	0	1
+67	3	Dishonest/Untrustworthy	2	2	4	0	1
+67	4	Corrupt/Materialistic	2	2	4	0	1
+67	5	Corrupt/Materialistic	2	2	4	0	1
+67	6	Corrupt/Materialistic	2	2	4	0	1
+67	7	Nonsense/Fiction	2	2	4	0	1
+67	8	Outdated/Conservative	2	2	4	0	1
+67	9	Abuse/Paedophilia	2	2	4	0	1
+67	10	State Influence	2	2	4	0	1
+67	11	Clericalism	2	2	4	0	1
+67	12	Baptism for Education	2	2	4	0	1
+67	13	Fear	2	2	4	0	1
+67	14	Baptism for Education	2	2	4	0	1
+67	15	Divorce	2	2	4	0	1
+67	16	Suicide	2	2	4	0	1
+67	17	Contraception	2	2	4	0	1
+67	18	Nonsense/Fiction	2	2	4	0	1
+67	19	Nonsense/Fiction	2	2	4	0	1
+67	20	Hypocrisy	2	2	4	0	1
+67	21	Nonsense/Fiction	2	2	4	0	1
+68	1	Corrupt/Materialistic	3	1	5	0	1
+68	2	Authoritarian/Dominant	3	1	5	0	1
+68	3	Irrelevant	3	1	5	0	1
+68	4	Hypocrisy	3	1	5	0	1
+68	5	Jesus	3	1	5	0	1
+68	6	Sacraments/Rites of Passage	3	1	5	0	1
+68	7	Communion	3	1	5	0	1
+68	8	Mass	3	1	5	0	1
+68	9	Mass	3	1	5	0	1
+68	10	Prayer	3	1	5	0	1
+68	11	Clergy	3	1	5	0	1
+68	12	Sacraments/Rites of Passage	3	1	5	0	1
+68	13	Sacraments/Rites of Passage	3	1	5	0	1
+68	14	Mary	3	1	5	0	1
+68	15	Mary	3	1	5	0	1
+68	16	Christmas/Other Religious Occasion	3	1	5	0	1
+68	17	Christmas/Other Religious Occasion	3	1	5	0	1
+68	18	Good/Holy	3	1	5	0	1
+68	19	Choir/Music	3	1	5	0	1
+68	20	Vatican/Overall Structure	3	1	5	0	1
+69	1	Education System	2	2	3	1	1
+69	2	Mass	2	2	3	1	1
+69	3	Mass	2	2	3	1	1
+69	4	Family	2	2	3	1	1
+69	5	Nuns	2	2	3	1	1
+69	6	Morality	2	2	3	1	1
+69	7	State Influence	2	2	3	1	1
+69	8	Clergy	2	2	3	1	1
+69	9	Children	2	2	3	1	1
+69	10	Christmas/Other Religious Occasion	2	2	3	1	1
+69	11	Christmas/Other Religious Occasion	2	2	3	1	1
+69	12	Sacraments/Rites of Passage	2	2	3	1	1
+69	13	Night	2	2	3	1	1
+69	14	Rain	2	2	3	1	1
+69	15	Water	2	2	3	1	1
+69	16	Dark	2	2	3	1	1
+69	17	Churches/Buildings	2	2	3	1	1
+69	18	Community	2	2	3	1	1
+69	19	Confession	2	2	3	1	1
+69	20	Sacraments/Rites of Passage	2	2	3	1	1
+70	1	Jesus	2	1	2	1	1
+70	2	Prayer	2	1	2	1	1
+70	3	Religion	2	1	2	1	1
+70	4	Persecution	2	1	2	1	1
+70	5	Outdated/Conservative	2	1	2	1	1
+70	6	Comforting/Caring	2	1	2	1	1
+70	7	Belief/Faith	2	1	2	1	1
+70	8	Tolerant	2	1	2	1	1
+70	9	Forgiveness	2	1	2	1	1
+70	10	Good/Holy	2	1	2	1	1
+70	11	Other Theological/Scriptural Association	2	1	2	1	1
+70	12	God	2	1	2	1	1
+70	13	Christmas/Other Religious Occasion	2	1	2	1	1
+70	14	Communion	2	1	2	1	1
+70	15	Prayer	2	1	2	1	1
+70	16	Death	2	1	2	1	1
+70	17	Sacraments/Rites of Passage	2	1	2	1	1
+70	18	Sacraments/Rites of Passage	2	1	2	1	1
+70	19	Sacraments/Rites of Passage	2	1	2	1	1
+70	20	Sacraments/Rites of Passage	2	1	2	1	1
+70	21	Ownership of marriage	2	1	2	1	1
+70	22	Annulment	2	1	2	1	1
+70	23	Other Rituals	2	1	2	1	1
+70	24	Other Theological/Scriptural Association	2	1	2	1	1
+70	25	Clergy	2	1	2	1	1
+70	26	Clergy	2	1	2	1	1
+70	27	Nuns	2	1	2	1	1
+70	28	Clergy	2	1	2	1	1
+70	29	Pope	2	1	2	1	1
+70	30	Vatican/Overall Structure	2	1	2	1	1
+71	1	Pope	2	1	1	0	0
+71	2	Mass	2	1	1	0	0
+71	3	Sacraments/Rites of Passage	2	1	1	0	0
+71	4	Sacraments/Rites of Passage	2	1	1	0	0
+71	5	Education System	2	1	1	0	0
+71	6	Abuse/Paedophilia	2	1	1	0	0
+71	7	Old People	2	1	1	0	0
+71	8	Comforting/Caring	2	1	1	0	0
+71	9	Comforting/Caring	2	1	1	0	0
+71	10	Foreign Clergy	2	1	1	0	0
+71	11	Celibacy	2	1	1	0	0
+71	12	Sacraments/Rites of Passage	2	1	1	0	0
+71	13	Religious Artifacts	2	1	1	0	0
+71	14	Outdated/Conservative	2	1	1	0	0
+71	15	Liturgical Changes	2	1	1	0	0
+71	16	Missionaries	2	1	1	0	0
+71	17	Donations/Collections	2	1	1	0	0
+71	18	Communion	2	1	1	0	0
+71	19	Christmas/Other Religious Occasion	2	1	1	0	0
+71	20	Christmas/Other Religious Occasion	2	1	1	0	0
+72	1	Irish	3	1	2	1	1
+72	2	Community	3	1	2	1	1
+72	3	Tradition	3	1	2	1	1
+72	4	Morality	3	1	2	1	1
+72	5	Love	3	1	2	1	1
+72	6	Knowledge	3	1	2	1	1
+72	7	Tradition	3	1	2	1	1
+72	8	Community	3	1	2	1	1
+72	9	Childcare	3	1	2	1	1
+73	1	Clergy	3	2	6	1	0
+73	2	Clergy	3	2	6	1	0
+73	3	Communion	3	2	6	1	0
+73	4	Churches/Buildings	3	2	6	1	0
+73	5	Religion	3	2	6	1	0
+73	6	Graveyard	3	2	6	1	0
+73	7	Bible/Gospel	3	2	6	1	0
+73	8	Candles	3	2	6	1	0
+73	9	Christmas/Other Religious Occasion	3	2	6	1	0
+73	10	Sacraments/Rites of Passage	3	2	6	1	0
+73	11	Sacraments/Rites of Passage	3	2	6	1	0
+73	12	Death	3	2	6	1	0
+73	13	Sacraments/Rites of Passage	3	2	6	1	0
+73	14	Flowers	3	2	6	1	0
+73	15	Communion	3	2	6	1	0
+73	16	God	3	2	6	1	0
+73	17	Robes	3	2	6	1	0
+73	18	Religious Artifacts	3	2	6	1	0
+73	19	Communion	3	2	6	1	0
+73	20	Other Theological/Scriptural Association	3	2	6	1	0
+74	1	Belief/Faith	3	2	2	1	1
+74	2	Education System	3	2	2	1	1
+74	3	Health care	3	2	2	1	1
+74	4	Scandal	3	2	2	1	1
+74	5	Religious Orders	3	2	2	1	1
+74	6	Mass	3	2	2	1	1
+74	7	Clergy	3	2	2	1	1
+74	8	Abortion	3	2	2	1	1
+74	9	Candles	3	2	2	1	1
+74	10	Nuns	3	2	2	1	1
+74	11	Convents	3	2	2	1	1
+74	12	Money	3	2	2	1	1
+74	13	Communion	3	2	2	1	1
+74	14	Bible/Gospel	3	2	2	1	1
+74	15	Other Rituals	3	2	2	1	1
+74	16	Christmas/Other Religious Occasion	3	2	2	1	1
+74	17	Christmas/Other Religious Occasion	3	2	2	1	1
+74	18	Religious Artifacts	3	2	2	1	1
+74	19	Prayer	3	2	2	1	1
+74	20	Religious Artifacts	3	2	2	1	1
+75	1	Pope	4	2	3	1	0
+75	2	Clergy	4	2	3	1	0
+75	3	Tradition	4	2	3	1	0
+75	4	Bible/Gospel	4	2	3	1	0
+75	5	Communion	4	2	3	1	0
+75	6	Clergy	4	2	3	1	0
+75	7	Communion	4	2	3	1	0
+75	8	Altar Boys	4	2	3	1	0
+75	9	Other Rituals	4	2	3	1	0
+75	10	Mass	4	2	3	1	0
+75	11	Candles	4	2	3	1	0
+75	12	Religious Artifacts	4	2	3	1	0
+75	13	Saints	4	2	3	1	0
+75	14	Sin	4	2	3	1	0
+75	15	Christmas/Other Religious Occasion	4	2	3	1	0
+75	16	Christmas/Other Religious Occasion	4	2	3	1	0
+75	17	Christmas/Other Religious Occasion	4	2	3	1	0
+75	18	Confession	4	2	3	1	0
+75	19	Sacraments/Rites of Passage	4	2	3	1	0
+75	20	Sacraments/Rites of Passage	4	2	3	1	0
+75	21	Love	4	2	3	1	0
+75	22	Love	4	2	3	1	0
+76	1	Sacraments/Rites of Passage	1	2	3	1	0
+76	2	Churches/Buildings	1	2	3	1	0
+76	3	Clergy	1	2	3	1	0
+76	4	Morality	1	2	3	1	0
+76	5	Morality	1	2	3	1	0
+77	1	Outdated/Conservative	3	2	3	0	1
+77	2	Outdated/Conservative	3	2	3	0	1
+77	3	Outdated/Conservative	3	2	3	0	1
+77	4	Boring	3	2	3	0	1
+77	5	Irrelevant	3	2	3	0	1
+77	6	Declining	3	2	3	0	1
+77	7	Authoritarian/Dominant	3	2	3	0	1
+77	8	Outdated/Conservative	3	2	3	0	1
+77	9	Authoritarian/Dominant	3	2	3	0	1
+77	10	Irrelevant	3	2	3	0	1
+77	11	Irrelevant	3	2	3	0	1
+77	12	Outdated/Conservative	3	2	3	0	1
+78	1	Churches/Buildings	1	1	3	1	1
+78	2	Pope	1	1	3	1	1
+78	3	Clergy	1	1	3	1	1
+78	4	Nuns	1	1	3	1	1
+78	5	The Cross	1	1	3	1	1
+78	6	Jesus	1	1	3	1	1
+78	7	God	1	1	3	1	1
+78	8	Mary	1	1	3	1	1
+78	9	Joseph	1	1	3	1	1
+78	10	Christmas/Other Religious Occasion	1	1	3	1	1
+78	11	Christmas/Other Religious Occasion	1	1	3	1	1
+79	1	Mass	2	2	4	1	0
+79	2	Clergy	2	2	4	1	0
+79	3	Scandal	2	2	4	1	0
+79	4	Churches/Buildings	2	2	4	1	0
+79	5	Hypocrisy	2	2	4	1	0
+79	6	Mass	2	2	4	1	0
+79	7	Clergy	2	2	4	1	0
+79	8	Fear	2	2	4	1	0
+80	1	Corrupt/Materialistic	4	2	4	1	1
+80	2	Tradition	4	2	4	1	1
+80	3	Abuse/Paedophilia	4	2	4	1	1
+81	1	Religion	4	1	2	1	0
+81	2	God	4	1	2	1	0
+81	3	Pope	4	1	2	1	0
+81	4	Afterlife	4	1	2	1	0
+81	5	Afterlife	4	1	2	1	0
+81	6	Jesus	4	1	2	1	0
+81	7	Christmas/Other Religious Occasion	4	1	2	1	0
+81	8	Christmas/Other Religious Occasion	4	1	2	1	0
+81	9	Clergy	4	1	2	1	0
+81	10	Good/Holy	4	1	2	1	0
+81	11	Corrupt/Materialistic	4	1	2	1	0
+81	12	Tradition	4	1	2	1	0
+81	13	Scandal	4	1	2	1	0
+81	14	Religious Orders	4	1	2	1	0
+81	15	Churches/Buildings	4	1	2	1	0
+81	16	Missionaries	4	1	2	1	0
+81	17	Bible/Gospel	4	1	2	1	0
+81	18	Vatican/Overall Structure	4	1	2	1	0
+81	19	Saints	4	1	2	1	0
+81	20	Mass	4	1	2	1	0
+82	1	Abuse/Paedophilia	3	1	4	1	0
+82	2	Good/Holy	3	1	4	1	0
+82	3	Pope	3	1	4	1	0
+82	4	Money	3	1	4	1	0
+82	5	Clergy	3	1	4	1	0
+82	6	Churches/Buildings	3	1	4	1	0
+82	7	Religious Artifacts	3	1	4	1	0
+82	8	Busy	3	1	4	1	0
+82	9	Parochialism	3	1	4	1	0
+82	10	Old People	3	1	4	1	0
+82	11	Tradition	3	1	4	1	0
+82	12	Maynooth	3	1	4	1	0
+82	13	Parish/Diocese	3	1	4	1	0
+82	14	Sacraments/Rites of Passage	3	1	4	1	0
+82	15	Education System	3	1	4	1	0
+82	16	Altar boys	3	1	4	1	0
+82	17	Christmas/Other Religious Occasion	3	1	4	1	0
+82	18	Jesus	3	1	4	1	0
+82	19	Christmas/Other Religious Occasion	3	1	4	1	0
+82	20	God	3	1	4	1	0
+83	1	Abuse/Paedophilia	3	2	3	1	1
+83	2	Mass	3	2	3	1	1
+83	3	Education System	3	2	3	1	1
+83	4	Clergy	3	2	3	1	1
+83	5	Contraception	3	2	3	1	1
+83	6	Tradition	3	2	3	1	1
+83	7	Religion	3	2	3	1	1
+83	8	Sin	3	2	3	1	1
+83	9	Confession	3	2	3	1	1
+83	10	Pope	3	2	3	1	1
+83	11	Vatican/Overall Structure	3	2	3	1	1
+83	12	Church	3	2	3	1	1
+83	13	Death	3	2	3	1	1
+83	14	Graveyard	3	2	3	1	1
+83	15	Prayer	3	2	3	1	1
+83	16	God	3	2	3	1	1
+83	17	Morality	3	2	3	1	1
+83	18	Tradition	3	2	3	1	1
+83	19	Nuns	3	2	3	1	1
+83	20	Other Rituals	3	2	3	1	1
+84	1	Jesus	4	1	4	1	0
+84	2	Mass	4	1	4	1	0
+84	3	Belief/Faith	4	1	4	1	0
+84	4	God	4	1	4	1	0
+84	5	Irish	4	1	4	1	0
+84	6	Religion	4	1	4	1	0
+84	7	Good/Holy	4	1	4	1	0
+84	8	Spiritual	4	1	4	1	0
+84	9	Sincerity/Honesty	4	1	4	1	0
+84	10	Good/Holy	4	1	4	1	0
+84	11	Good/Holy	4	1	4	1	0
+84	12	Community	4	1	4	1	0
+84	13	Pope	4	1	4	1	0
+84	14	Clergy	4	1	4	1	0
+84	15	Parish/Diocese	4	1	4	1	0
+84	16	Contemporary	4	1	4	1	0
+84	17	Sincerity/Honesty	4	1	4	1	0
+84	18	Good/Holy	4	1	4	1	0
+84	19	Mass	4	1	4	1	0
+84	20	Morality	4	1	4	1	0
+85	1	Declining	4	2	7	0	1
+85	2	Declining	4	2	7	0	1
+85	3	Old People	4	2	7	0	1
+85	4	Churches/Buildings	4	2	7	0	1
+85	5	Declining	4	2	7	0	1
+85	6	Outdated/Conservative	4	2	7	0	1
+85	7	Reflection	4	2	7	0	1
+85	8	Silence	4	2	7	0	1
+85	9	Mass	4	2	7	0	1
+85	10	Sacraments/Rites of Passage	4	2	7	0	1
+85	11	Christmas/Other Religious Occasion	4	2	7	0	1
+85	12	Christmas/Other Religious Occasion	4	2	7	0	1
+85	13	Christmas/Other Religious Occasion	4	2	7	0	1
+85	14	Nuns	4	2	7	0	1
+85	15	Bible/Gospel	4	2	7	0	1
+85	16	Choir/Music	4	2	7	0	1
+85	17	Community	4	2	7	0	1
+86	1	Abuse/Paedophilia	4	1	2	1	0
+86	2	Outdated/Conservative	4	1	2	1	0
+86	3	Corrupt/Materialistic	4	1	2	1	0
+86	4	Declining	4	1	2	1	0
+86	5	Declining	4	1	2	1	0
+86	6	Declining	4	1	2	1	0
+86	7	Tolerant	4	1	2	1	0
+86	8	Stigma	4	1	2	1	0
+86	9	Education System	4	1	2	1	0
+86	10	Declining	4	1	2	1	0
+86	11	Cold churches	4	1	2	1	0
+86	12	Architect on Thurles Cathedral was an idiot	4	1	2	1	0
+86	13	Old People	4	1	2	1	0
+86	14	Pope	4	1	2	1	0
+86	15	A la carte	4	1	2	1	0
+87	1	Jesus	1	1	9	0	1
+87	2	Mass	1	1	9	0	1
+87	3	Clergy	1	1	9	0	1
+87	4	Bible/Gospel	1	1	9	0	1
+87	5	Good/Holy	1	1	9	0	1
+87	6	Communion	1	1	9	0	1
+87	7	Mary	1	1	9	0	1
+87	8	Sacraments/Rites of Passage	1	1	9	0	1
+87	9	Churches/Buildings	1	1	9	0	1
+87	10	Death	1	1	9	0	1
+87	11	Afterlife	1	1	9	0	1
+87	12	Christmas/Other Religious Occasion	1	1	9	0	1
+87	13	Christmas/Other Religious Occasion	1	1	9	0	1
+87	14	Pope	1	1	9	0	1
+87	15	Vatican/Overall Structure	1	1	9	0	1
+87	16	Vatican/Overall Structure	1	1	9	0	1
+87	17	Clergy	1	1	9	0	1
+87	18	Clergy	1	1	9	0	1
+88	1	Corrupt/Materialistic	2	1	3	0	0
+88	2	Dishonest/Untrustworthy	2	1	3	0	0
+88	3	Abuse/Paedophilia	2	1	3	0	0
+88	4	Outdated/Conservative	2	1	3	0	0
+88	5	Outdated/Conservative	2	1	3	0	0
+88	6	Corrupt/Materialistic	2	1	3	0	0
+88	7	Declining	2	1	3	0	0
+88	8	God	2	1	3	0	0
+88	9	Parish/Diocese	2	1	3	0	0
+88	10	Christmas/Other Religious Occasion	2	1	3	0	0
+88	11	Sacraments/Rites of Passage	2	1	3	0	0
+88	12	Sacraments/Rites of Passage	2	1	3	0	0
+88	13	Christenings	2	1	3	0	0
+88	14	Christmas/Other Religious Occasion	2	1	3	0	0
+88	15	Jesus	2	1	3	0	0
+88	16	Other Rituals	2	1	3	0	0
+88	17	Choir/Music	2	1	3	0	0
+88	18	Vatican/Overall Structure	2	1	3	0	0
+88	19	Vatican/Overall Structure	2	1	3	0	0
+88	20	Pilgrim Site	2	1	3	0	0
+89	1	Abuse/Paedophilia	5	2	5	1	1
+89	2	Authoritarian/Dominant	5	2	5	1	1
+89	3	Authoritarian/Dominant	5	2	5	1	1
+89	4	Authoritarian/Dominant	5	2	5	1	1
+89	5	Dishonest/Untrustworthy	5	2	5	1	1
+89	6	Corrupt/Materialistic	5	2	5	1	1
+89	7	Hypocrisy	5	2	5	1	1
+89	8	Nonsense/Fiction	5	2	5	1	1
+89	9	Waste	5	2	5	1	1
+89	10	Patriarchal/Misogynist	5	2	5	1	1
+89	11	Education System	5	2	5	1	1
+89	12	Alchocolism	5	2	5	1	1
+89	13	Arrogance	5	2	5	1	1
+89	14	Uncaring	5	2	5	1	1
+89	15	Insular/Detached	5	2	5	1	1
+89	16	Hiding	5	2	5	1	1
+89	17	Cover-up/Secrecy	5	2	5	1	1
+89	18	Arrogance	5	2	5	1	1
+89	19	Preaching/Sermons	5	2	5	1	1
+89	20	Arrogance	5	2	5	1	1
+91	1	Abuse/Paedophilia	5	1	4	0	1
+91	2	Dishonest/Untrustworthy	5	1	4	0	1
+91	3	Bad/Immoral	5	1	4	0	1
+91	4	Nonsense/Fiction	5	1	4	0	1
+91	5	Old People	5	1	4	0	1
+91	6	Bad/Immoral	5	1	4	0	1
+91	7	Annoying	5	1	4	0	1
+91	8	Clergy	5	1	4	0	1
+91	9	Money	5	1	4	0	1
+91	10	Dishonest/Untrustworthy	5	1	4	0	1
+91	11	Irrelevant	5	1	4	0	1
+91	12	Nonsense/Fiction	5	1	4	0	1
+91	13	Dishonest/Untrustworthy	5	1	4	0	1
+91	14	Bigotry	5	1	4	0	1
+92	1	Mass	5	1	9	1	1
+92	2	God	5	1	9	1	1
+92	3	Afterlife	5	1	9	1	1
+92	4	Afterlife	5	1	9	1	1
+92	5	Clergy	5	1	9	1	1
+92	6	Altar Boys	5	1	9	1	1
+92	7	Altar Boys	5	1	9	1	1
+92	8	Sacraments/Rites of Passage	5	1	9	1	1
+92	9	Sacraments/Rites of Passage	5	1	9	1	1
+92	10	Sacraments/Rites of Passage	5	1	9	1	1
+92	11	Churches/Buildings	5	1	9	1	1
+92	12	Money	5	1	9	1	1
+92	13	Good/Holy	5	1	9	1	1
+93	1	Communion	1	3	5	0	1
+93	2	Pope	1	3	5	0	1
+93	3	Scandal	1	3	5	0	1
+93	4	Oppressive Institutions (Laundries. etc.)	1	3	5	0	1
+93	5	Christmas/Other Religious Occasion	1	3	5	0	1
+93	6	Abuse/Paedophilia	1	3	5	0	1
+93	7	Sacraments/Rites of Passage	1	3	5	0	1
+93	8	Church	1	3	5	0	1
+93	9	Old People	1	3	5	0	1
+93	10	Prayer	1	3	5	0	1
+93	11	State Influence	1	3	5	0	1
+93	12	Homosexuality	1	3	5	0	1
+93	13	Choir/Music	1	3	5	0	1
+93	14	Choir/Music	1	3	5	0	1
+93	15	Mass	1	3	5	0	1
+93	16	Communion	1	3	5	0	1
+93	17	Communion	1	3	5	0	1
+93	18	Vatican/Overall Structure	1	3	5	0	1
+93	19	White	1	3	5	0	1
+93	20	Tradition	1	3	5	0	1
+94	1	Clergy	1	2	4	1	1
+94	2	Communion	1	2	4	1	1
+94	3	Sin	1	2	4	1	1
+94	4	Other Theological/Scriptural Association	1	2	4	1	1
+94	5	Other Theological/Scriptural Association	1	2	4	1	1
+94	6	Pride	1	2	4	1	1
+94	7	Prayer	1	2	4	1	1
+94	8	Mass	1	2	4	1	1
+94	9	Confession	1	2	4	1	1
+94	10	Forgiveness	1	2	4	1	1
+94	11	Altar Boys	1	2	4	1	1
+94	12	Communion	1	2	4	1	1
+94	13	Communion	1	2	4	1	1
+94	14	Sacraments/Rites of Passage	1	2	4	1	1
+94	15	Education System	1	2	4	1	1
+94	16	Christmas/Other Religious Occasion	1	2	4	1	1
+94	17	Christmas/Other Religious Occasion	1	2	4	1	1
+94	18	Christmas/Other Religious Occasion	1	2	4	1	1
+94	19	Religious Artifacts	1	2	4	1	1
+94	20	Jesus	1	2	4	1	1
+94	21	Mary	1	2	4	1	1
+94	22	Sacraments/Rites of Passage	1	2	4	1	1
+94	23	Religious Artifacts	1	2	4	1	1
+94	24	Mary	1	2	4	1	1
+94	25	Bible/Gospel	1	2	4	1	1
+94	26	Churches/Buildings	1	2	4	1	1
+94	27	Churches/Buildings	1	2	4	1	1
+94	28	Prayer	1	2	4	1	1
+94	29	Love	1	2	4	1	1
+94	30	Morality	1	2	4	1	1
+95	1	Big	3	1	2	0	1
+95	2	Abuse/Paedophilia	3	1	2	0	1
+95	3	Outdated/Conservative	3	1	2	0	1
+95	4	Education System	3	1	2	0	1
+95	5	Clergy	3	1	2	0	1
+95	6	Churches/Buildings	3	1	2	0	1
+95	7	Mass	3	1	2	0	1
+95	8	Confession	3	1	2	0	1
+95	9	Pope	3	1	2	0	1
+95	10	Mass	3	1	2	0	1
+95	11	Morality	3	1	2	0	1
+95	12	Christmas/Other Religious Occasion	3	1	2	0	1
+95	13	Money	3	1	2	0	1
+95	14	Saints	3	1	2	0	1
+95	15	Divorce	3	1	2	0	1
+95	16	Abortion	3	1	2	0	1
+95	17	Nuns	3	1	2	0	1
+95	18	Sacraments/Rites of Passage	3	1	2	0	1
+95	19	Sacraments/Rites of Passage	3	1	2	0	1
+95	20	Sacraments/Rites of Passage	3	1	2	0	1
+95	21	Sacraments/Rites of Passage	3	1	2	0	1
+95	22	Sacraments/Rites of Passage	3	1	2	0	1
+96	1	Clergy	5	2	4	1	1
+96	2	Communion	5	2	4	1	1
+96	3	Religious Artifacts	5	2	4	1	1
+96	4	Arrogance	5	2	4	1	1
+96	5	Sacraments/Rites of Passage	5	2	4	1	1
+96	6	Sacraments/Rites of Passage	5	2	4	1	1
+96	7	Sacraments/Rites of Passage	5	2	4	1	1
+96	8	Mass	5	2	4	1	1
+96	9	Incense	5	2	4	1	1
+96	10	Churches/Buildings	5	2	4	1	1
+96	11	Churches/Buildings	5	2	4	1	1
+96	12	Tradition	5	2	4	1	1
+96	13	Comforting/Caring	5	2	4	1	1
+96	14	Silence	5	2	4	1	1
+96	15	Mass	5	2	4	1	1
+96	16	Religious Artifacts	5	2	4	1	1
+96	17	Sacraments/Rites of Passage	5	2	4	1	1
+96	18	Money	5	2	4	1	1
+96	19	Churches/Buildings	5	2	4	1	1
+96	20	Community	5	2	4	1	1
+96	21	Missionaries	5	2	4	1	1
+97	1	Religion	4	2	6	1	0
+97	2	Money	4	2	6	1	0
+97	3	Good/Holy	4	2	6	1	0
+97	4	Charity	4	2	6	1	0
+97	5	Dishonest/Untrustworthy	4	2	6	1	0
+97	6	Anger	4	2	6	1	0
+97	7	Insular/Detached	4	2	6	1	0
+97	8	Dishonest/Untrustworthy	4	2	6	1	0
+97	9	Cover-up/Secrecy	4	2	6	1	0
+97	10	Outdated/Conservative	4	2	6	1	0
+97	11	Abuse/Paedophilia	4	2	6	1	0
+97	12	Let down/Betrayed	4	2	6	1	0
+97	13	Scandal	4	2	6	1	0
+97	14	Abuse/Paedophilia	4	2	6	1	0
+97	15	Clergy	4	2	6	1	0
+97	16	Stigma	4	2	6	1	0
+97	17	Declining	4	2	6	1	0
+97	18	Religious Orders	4	2	6	1	0
+97	19	Nuns	4	2	6	1	0
+97	20	Insular/Detached	4	2	6	1	0
+98	1	Religion	1	2	6	1	0
+98	2	Clergy	1	2	6	1	0
+98	3	Mass	1	2	6	1	0
+98	4	Scandal	1	2	6	1	0
+98	5	Laity	1	2	6	1	0
+98	6	Churches/Buildings	1	2	6	1	0
+98	7	Nuns	1	2	6	1	0
+98	8	Prayer	1	2	6	1	0
+98	9	Communion	1	2	6	1	0
+98	10	Bible/Gospel	1	2	6	1	0
+98	11	Religious Artifacts	1	2	6	1	0
+98	12	Maynooth	1	2	6	1	0
+98	13	Sacraments/Rites of Passage	1	2	6	1	0
+98	14	Confession	1	2	6	1	0
+98	15	Communion	1	2	6	1	0
+98	16	Sacraments/Rites of Passage	1	2	6	1	0
+98	17	Sacraments/Rites of Passage	1	2	6	1	0
+98	18	Candles	1	2	6	1	0
+98	19	Religious Artifacts	1	2	6	1	0
+98	20	Prayer	1	2	6	1	0
+99	1	Hypocrisy	6	2	11	1	0
+99	2	Dishonest/Untrustworthy	6	2	11	1	0
+99	3	Abuse/Paedophilia	6	2	11	1	0
+99	4	Outdated/Conservative	6	2	11	1	0
+99	5	Father DArcy	6	2	11	1	0
+99	6	Bad/Immoral	6	2	11	1	0
+99	7	Cover-up/Secrecy	6	2	11	1	0
+99	8	Education System	6	2	11	1	0
+99	9	Churches/Buildings	6	2	11	1	0
+99	10	Oppressive Institutions (Laundries. etc.)	6	2	11	1	0
+99	11	Oppressive Institutions (Laundries. etc.)	6	2	11	1	0
+99	12	Hypocrisy	6	2	11	1	0
+99	13	Education System	6	2	11	1	0
+99	14	Missionaries	6	2	11	1	0
+99	15	Health Care	6	2	11	1	0
+99	16	Hypocrisy	6	2	11	1	0
+99	17	Hypocrisy	6	2	11	1	0
+99	18	Stigma	6	2	11	1	0
+99	19	Authoritarian/Dominant	6	2	11	1	0
+99	20	Let down/Betrayed	6	2	11	1	0
+100	1	Religion	6	2	11	1	0
+100	2	Vatican/Overall Structure	6	2	11	1	0
+100	3	Money	6	2	11	1	0
+100	4	Other Theological/Scriptural Association	6	2	11	1	0
+100	5	Community	6	2	11	1	0
+100	6	Clergy	6	2	11	1	0
+100	7	Clergy	6	2	11	1	0
+100	8	Clergy	6	2	11	1	0
+100	9	Abuse/Paedophilia	6	2	11	1	0
+100	10	Authoritarian/Dominant	6	2	11	1	0
+100	11	Mass	6	2	11	1	0
+100	12	Confession	6	2	11	1	0
+100	13	Sacraments/Rites of Passage	6	2	11	1	0
+100	14	Mass	6	2	11	1	0
+100	15	Christmas/Other Religious Occasion	6	2	11	1	0
+100	16	Christmas/Other Religious Occasion	6	2	11	1	0
+100	17	Christmas/Other Religious Occasion	6	2	11	1	0
+100	18	Education System	6	2	11	1	0
+100	19	Marriage councillors	6	2	11	1	0
+100	20	Mass	6	2	11	1	0
+101	1	Outdated/Conservative	3	1	3	0	1
+101	2	Outdated/Conservative	3	1	3	0	1
+101	3	Bad/Immoral	3	1	3	0	1
+101	4	Irrelevant	3	1	3	0	1
+101	5	Insular/Detached	3	1	3	0	1
+101	6	Good/Holy	3	1	3	0	1
+101	7	God	3	1	3	0	1
+101	8	Mary	3	1	3	0	1
+101	9	Mary	3	1	3	0	1
+101	10	Jesus	3	1	3	0	1
+101	11	Jesus	3	1	3	0	1
+101	12	Confession	3	1	3	0	1
+101	13	Clergy	3	1	3	0	1
+101	14	Celibacy	3	1	3	0	1
+101	15	Communion	3	1	3	0	1
+101	16	Communion	3	1	3	0	1
+101	17	Sin	3	1	3	0	1
+101	18	Sin	3	1	3	0	1
+101	19	Afterlife	3	1	3	0	1
+102	1	Abuse/Paedophilia	1	1	10	1	0
+102	2	Pope	1	1	10	1	0
+102	3	Vatican/Overall Structure	1	1	10	1	0
+102	4	Clergy	1	1	10	1	0
+102	5	Church	1	1	10	1	0
+102	6	Baptism	1	1	10	1	0
+102	7	Communion	1	1	10	1	0
+102	8	Sacraments/Rites of Passage	1	1	10	1	0
+102	9	Incense	1	1	10	1	0
+102	10	Choir/Music	1	1	10	1	0
+102	11	Mass	1	1	10	1	0
+102	12	Vatican/Overall Structure	1	1	10	1	0
+102	13	Clergy	1	1	10	1	0
+102	14	Clergy	1	1	10	1	0
+102	15	Clergy	1	1	10	1	0
+102	16	Clergy	1	1	10	1	0
+102	17	Family	1	1	10	1	0
+102	18	Good/Holy	1	1	10	1	0
+102	19	Religious Artifacts	1	1	10	1	0
+102	20	Communion	1	1	10	1	0
+102	21	Christmas/Other Religious Occasion	1	1	10	1	0
+102	22	Jesus	1	1	10	1	0
+102	23	Bible/Gospel	1	1	10	1	0
+102	24	Prayer	1	1	10	1	0
+103	1	Clergy	4	1	4	1	0
+103	2	Churches/Buildings	4	1	4	1	0
+103	3	Sacraments/Rites of Passage	4	1	4	1	0
+103	4	Sacraments/Rites of Passage	4	1	4	1	0
+103	5	Sundays	4	1	4	1	0
+103	6	Scandal	4	1	4	1	0
+103	7	Communion	4	1	4	1	0
+103	8	Confession	4	1	4	1	0
+103	9	Mass	4	1	4	1	0
+103	10	Mass	4	1	4	1	0
+103	11	Sacraments/Rites of Passage	4	1	4	1	0
+103	12	Sacraments/Rites of Passage	4	1	4	1	0
+103	13	The Cross	4	1	4	1	0
+103	14	Communion	4	1	4	1	0
+103	15	Communion	4	1	4	1	0
+103	16	Religious Artifacts	4	1	4	1	0
+103	17	Religious Artifacts	4	1	4	1	0
+103	18	Choir/Music	4	1	4	1	0
+103	19	Choir/Music	4	1	4	1	0
+103	20	Community	4	1	4	1	0
+104	1	Corrupt/Materialistic	1	2	4	0	1
+104	2	Abuse/Paedophilia	1	2	4	0	1
+104	3	Scandal	1	2	4	0	1
+104	4	Mass	1	2	4	0	1
+104	5	Institutions	1	2	4	0	1
+104	6	Outdated/Conservative	1	2	4	0	1
+104	7	Declining	1	2	4	0	1
+105	1	Outdated/Conservative	5	1	11	0	1
+105	2	Arrogance	5	1	11	0	1
+105	3	Elitism	5	1	11	0	1
+105	4	Comforting/Caring	5	1	11	0	1
+105	5	Declining	5	1	11	0	1
+105	6	Old People	5	1	11	0	1
+105	7	Authoritarian/Dominant	5	1	11	0	1
+105	8	Charitable	5	1	11	0	1
+105	9	Bigotry	5	1	11	0	1
+105	10	Patriarchal/Misogynist	5	1	11	0	1
+105	11	Hypocrisy	5	1	11	0	1
+105	12	Corrupt/Materialistic	5	1	11	0	1
+105	13	Uncaring	5	1	11	0	1
+105	14	Education System	5	1	11	0	1
+105	15	Abortion	5	1	11	0	1
+105	16	Missionaries	5	1	11	0	1
+105	17	Nonsense/Fiction	5	1	11	0	1
+105	18	State Influence	5	1	11	0	1
+105	19	Irrelevant	5	1	11	0	1
+105	20	Elitism	5	1	11	0	1
+106	1	Clergy	1	2	3	1	1
+106	2	Nuns	1	2	3	1	1
+106	3	Education System	1	2	3	1	1
+106	4	Oppressive Institutions (Laundries. etc.)	1	2	3	1	1
+106	5	Missionaries	1	2	3	1	1
+106	6	Oppressive Institutions (Laundries. etc.)	1	2	3	1	1
+106	7	Abuse/Paedophilia	1	2	3	1	1
+106	8	Bad/Immoral	1	2	3	1	1
+106	9	Bad/Immoral	1	2	3	1	1
+106	10	Communion	1	2	3	1	1
+106	11	Sacraments/Rites of Passage	1	2	3	1	1
+106	12	Religious Artifacts	1	2	3	1	1
+106	13	Clergy	1	2	3	1	1
+106	14	Pope	1	2	3	1	1
+106	15	Celibacy	1	2	3	1	1
+106	16	Health Care	1	2	3	1	1
+106	17	Monks	1	2	3	1	1
+106	18	Nuns	1	2	3	1	1
+106	19	Saints	1	2	3	1	1
+106	20	Monastery	1	2	3	1	1
+107	1	Media	5	1	5	1	1
+107	2	Religion	5	1	5	1	1
+107	3	Mass	5	1	5	1	1
+107	4	Confession	5	1	5	1	1
+107	5	Sacraments/Rites of Passage	5	1	5	1	1
+107	6	Sacraments/Rites of Passage	5	1	5	1	1
+107	7	Christmas/Other Religious Occasion	5	1	5	1	1
+107	8	Clergy	5	1	5	1	1
+107	9	Declining	5	1	5	1	1
+107	10	Education System	5	1	5	1	1
+107	11	Donations/Collections	5	1	5	1	1
+107	12	Pope	5	1	5	1	1
+107	13	Clergy	5	1	5	1	1
+107	14	Abuse/Paedophilia	5	1	5	1	1
+107	15	Cover-up/Secrecy	5	1	5	1	1
+107	16	Nuns	5	1	5	1	1
+107	17	Celibacy	5	1	5	1	1
+107	18	Preaching/Sermons	5	1	5	1	1
+107	19	Churches/Buildings	5	1	5	1	1
+107	20	Churches/Buildings	5	1	5	1	1
+108	1	Abuse/Paedophilia	4	1	4	1	1
+108	2	Wealth	4	1	4	1	1
+108	3	Corrupt/Materialistic	4	1	4	1	1
+108	4	Grandeur	4	1	4	1	1
+108	5	Comforting/Caring	4	1	4	1	1
+108	6	Comforting/Caring	4	1	4	1	1
+109	1	Authoritarian/Dominant	4	2	3	1	1
+109	2	Authoritarian/Dominant	4	2	3	1	1
+109	3	Arrogance	4	2	3	1	1
+109	4	Bigotry	4	2	3	1	1
+109	5	Authoritarian/Dominant	4	2	3	1	1
+109	6	Insular/Detached	4	2	3	1	1
+109	7	Uncaring	4	2	3	1	1
+109	8	Hypocrisy	4	2	3	1	1
+109	9	Insular/Detached	4	2	3	1	1
+109	10	Uncaring	4	2	3	1	1
+109	11	Corrupt/Materialistic	4	2	3	1	1
+109	12	Authoritarian/Dominant	4	2	3	1	1
+109	13	Uncaring	4	2	3	1	1
+109	14	Access to sacraments difficult 	4	2	3	1	1
+109	15	Education System	4	2	3	1	1
+109	16	Elitism	4	2	3	1	1
+109	17	Elitism	4	2	3	1	1
+109	18	Elitism	4	2	3	1	1
+109	19	Comforting/Caring	4	2	3	1	1
+109	20	Insular/Detached	4	2	3	1	1
+110	1	Scandal	2	1	5	0	0
+110	2	Pope	2	1	5	0	0
+110	3	Oppressive Institutions (Laundries. etc.)	2	1	5	0	0
+110	4	Nuns	2	1	5	0	0
+110	5	Communion	2	1	5	0	0
+110	6	Corrupt/Materialistic	2	1	5	0	0
+110	7	Clergy	2	1	5	0	0
+110	8	Clergy	2	1	5	0	0
+110	9	Confession	2	1	5	0	0
+110	10	Outdated/Conservative	2	1	5	0	0
+110	11	Donations/Collections	2	1	5	0	0
+110	12	Donations/Collections	2	1	5	0	0
+110	13	Mass	2	1	5	0	0
+110	14	Christmas/Other Religious Occasion	2	1	5	0	0
+110	15	Christmas/Other Religious Occasion	2	1	5	0	0
+110	16	Maynooth	2	1	5	0	0
+110	17	Parish/Diocese	2	1	5	0	0
+110	18	Belief/faith	2	1	5	0	0
+110	19	Vatican/Overall Structure	2	1	5	0	0
+110	20	Fonts	2	1	5	0	0
+111	1	Abuse/Paedophilia	3	2	4	1	1
+111	2	Clergy	3	2	4	1	1
+111	3	Outdated/Conservative	3	2	4	1	1
+111	4	Corrupt/Materialistic	3	2	4	1	1
+111	5	Nuns	3	2	4	1	1
+111	6	Churches/Buildings	3	2	4	1	1
+111	7	Education System	3	2	4	1	1
+111	8	Corporal punishment	3	2	4	1	1
+111	9	Authoritarian/Dominant	3	2	4	1	1
+111	10	Corrupt/Materialistic	3	2	4	1	1
+111	11	Declining	3	2	4	1	1
+111	12	Insular/Detached	3	2	4	1	1
+111	13	Authoritarian/Dominant	3	2	4	1	1
+111	14	Communion	3	2	4	1	1
+111	15	Authoritarian/Dominant	3	2	4	1	1
+111	16	Education System	3	2	4	1	1
+111	17	Outdated/Conservative	3	2	4	1	1
+111	18	Parochialism	3	2	4	1	1
+111	19	Irrelevant	3	2	4	1	1
+111	20	Irrelevant	3	2	4	1	1
+112	1	Belief/Faith	2	2	4	1	1
+112	2	Religion	2	2	4	1	1
+112	3	Shame/Disgust	2	2	4	1	1
+112	4	Abuse/Paedophilia	2	2	4	1	1
+112	5	Sadness	2	2	4	1	1
+112	6	Communion	2	2	4	1	1
+112	7	Community	2	2	4	1	1
+112	8	Community	2	2	4	1	1
+113	1	Belief/Faith	6	1	11	1	0
+113	2	Tradition	6	1	11	1	0
+113	3	Belief/Faith	6	1	11	1	0
+113	4	God	6	1	11	1	0
+113	5	Belief/Faith	6	1	11	1	0
+113	6	Loyalty	6	1	11	1	0
+113	7	Community	6	1	11	1	0
+113	8	Mortality	6	1	11	1	0
+113	9	Afterlife	6	1	11	1	0
+113	10	Sacraments/Rites of Passage	6	1	11	1	0
+113	11	Prayer	6	1	11	1	0
+113	12	Clergy	6	1	11	1	0
+113	13	Clergy	6	1	11	1	0
+113	14	Nuns	6	1	11	1	0
+113	15	Brothers	6	1	11	1	0
+113	16	Schools	6	1	11	1	0
+113	17	Health Care	6	1	11	1	0
+113	18	Charity	6	1	11	1	0
+113	19	Charity	6	1	11	1	0
+113	20	Comforting/Caring	6	1	11	1	0
+114	1	Mass	6	2	8	1	0
+114	2	Communion	6	2	8	1	0
+114	3	Sacraments/Rites of Passage	6	2	8	1	0
+114	4	Mass	6	2	8	1	0
+114	5	Religion	6	2	8	1	0
+114	6	Community	6	2	8	1	0
+114	7	Clergy	6	2	8	1	0
+114	8	Servers	6	2	8	1	0
+114	9	Choir/Music	6	2	8	1	0
+114	10	Religious Artifacts	6	2	8	1	0
+114	11	Saints	6	2	8	1	0
+114	12	Reflection	6	2	8	1	0
+114	13	Community	6	2	8	1	0
+114	14	Sacraments/Rites of Passage	6	2	8	1	0
+114	15	Sacraments/Rites of Passage	6	2	8	1	0
+114	16	Community	6	2	8	1	0
+114	17	Morality	6	2	8	1	0
+114	18	Nuns	6	2	8	1	0
+114	19	Morality	6	2	8	1	0
+114	20	Other Rituals	6	2	8	1	0
+115	1	Mass	4	1	4	1	0
+115	2	Sacraments/Rites of Passage	4	1	4	1	0
+115	3	Clergy	4	1	4	1	0
+115	4	Churches/Buildings	4	1	4	1	0
+115	5	Communion	4	1	4	1	0
+115	6	Laity	4	1	4	1	0
+115	7	Religious Orders	4	1	4	1	0
+115	8	Nuns	4	1	4	1	0
+115	9	Corrupt/Materialistic	4	1	4	1	0
+115	10	Scandal	4	1	4	1	0
+115	11	Pope	4	1	4	1	0
+115	12	Media	4	1	4	1	0
+115	13	Authoritarian/Dominant	4	1	4	1	0
+115	14	Education System	4	1	4	1	0
+115	15	Big	4	1	4	1	0
+115	16	Old People	4	1	4	1	0
+115	17	Declining	4	1	4	1	0
+115	18	Declining	4	1	4	1	0
+115	19	Tolerant	4	1	4	1	0
+115	20	Ecumenism	4	1	4	1	0
+116	1	Comforting/Caring	5	1	11	1	1
+116	2	Good/Holy	5	1	11	1	1
+116	3	Silence	5	1	11	1	1
+116	4	Comforting/Caring	5	1	11	1	1
+116	5	Comforting/Caring	5	1	11	1	1
+116	6	Comforting/Caring	5	1	11	1	1
+116	7	Charity	5	1	11	1	1
+116	8	Charity	5	1	11	1	1
+116	9	Tolerant	5	1	11	1	1
+116	10	Old People	5	1	11	1	1
+116	11	Reforming/Changing	5	1	11	1	1
+116	12	Reforming/Changing	5	1	11	1	1
+116	13	Important	5	1	11	1	1
+116	14	Tolerant	5	1	11	1	1
+116	15	Comforting/Caring	5	1	11	1	1
+116	16	Popular	5	1	11	1	1
+116	17	Tradition	5	1	11	1	1
+116	18	Tradition	5	1	11	1	1
+116	19	Comforting/Caring	5	1	11	1	1
+116	20	Sincerity/Honesty	5	1	11	1	1
+116	21	Good/Holy	5	1	11	1	1
+117	1	Corrupt/Materialistic	5	1	2	1	1
+117	2	Vatican/Overall Structure	5	1	2	1	1
+117	3	Pope	5	1	2	1	1
+117	4	Abuse/Paedophilia	5	1	2	1	1
+117	5	Clergy	5	1	2	1	1
+117	6	Mass	5	1	2	1	1
+117	7	Donations/Collections	5	1	2	1	1
+117	8	Wealth	5	1	2	1	1
+117	9	Elitism	5	1	2	1	1
+117	10	Education System	5	1	2	1	1
+117	11	Authoritarian/Dominant	5	1	2	1	1
+117	12	Hypocrisy	5	1	2	1	1
+117	13	Choir/Music	5	1	2	1	1
+117	14	Prayer	5	1	2	1	1
+117	15	Sacraments/Rites of Passage	5	1	2	1	1
+117	16	Confession	5	1	2	1	1
+117	17	Corrupt/Materialistic	5	1	2	1	1
+117	18	Arrogance	5	1	2	1	1
+117	19	Celibacy	5	1	2	1	1
+117	20	Churches/Buildings	5	1	2	1	1
+118	1	Outdated/Conservative	5	1	4	1	1
+118	2	Insular/Detached	5	1	4	1	1
+118	3	Irrelevant	5	1	4	1	1
+118	4	Cover-up/Secrecy	5	1	4	1	1
+118	5	Abuse/Paedophilia	5	1	4	1	1
+118	6	Patriarchal/Misogynist	5	1	4	1	1
+118	7	Corrupt/Materialistic	5	1	4	1	1
+118	8	Elitism	5	1	4	1	1
+118	9	Authoritarian/Dominant	5	1	4	1	1
+118	10	Belief/Faith	5	1	4	1	1
+118	11	Arrogance	5	1	4	1	1
+118	12	Vatican/Overall Structure	5	1	4	1	1
+118	13	Contraception	5	1	4	1	1
+118	14	Insular/Detached	5	1	4	1	1
+118	15	Authoritarian/Dominant	5	1	4	1	1
+118	16	Preaching/Sermons	5	1	4	1	1
+119	1	Abuse/Paedophilia	3	1	4	1	0
+119	2	Tradition	3	1	4	1	0
+119	3	Outdated/Conservative	3	1	4	1	0
+119	4	Populism	3	1	4	1	0
+119	5	Nonsense/Fiction	3	1	4	1	0
+119	6	Father Ted	3	1	4	1	0
+119	7	Corrupt/Materialistic	3	1	4	1	0
+119	8	Popular	3	1	4	1	0
+119	9	crossed	3	1	4	1	0
+119	10	Pope	3	1	4	1	0
+119	11	Pope	3	1	4	1	0
+119	12	Latin	3	1	4	1	0
+119	13	Bible/Gospel	3	1	4	1	0
+119	14	Outdated/Conservative	3	1	4	1	0
+119	15	Corrupt/Materialistic	3	1	4	1	0
+119	16	Bad/Immoral	3	1	4	1	0
+119	17	Bad/Immoral	3	1	4	1	0
+119	18	Bad/Immoral	3	1	4	1	0
+119	19	Spreading	3	1	4	1	0
+119	20	Bad/Immoral	3	1	4	1	0
+120	1	Other Theological/Scriptural Association	3	1	4	1	1
+120	2	Jesus	3	1	4	1	1
+120	3	Pope	3	1	4	1	1
+120	4	Bible/Gospel	3	1	4	1	1
+120	5	Prayer	3	1	4	1	1
+120	6	Vatican/Overall Structure	3	1	4	1	1
+120	7	Mary	3	1	4	1	1
+120	8	Other Theological/Scriptural Association	3	1	4	1	1
+120	9	The Cross	3	1	4	1	1
+120	10	Confession	3	1	4	1	1
+120	11	Sacraments/Rites of Passage	3	1	4	1	1
+120	12	Communion	3	1	4	1	1
+120	13	Communion	3	1	4	1	1
+120	14	Religious Artifacts	3	1	4	1	1
+120	15	Missionaries	3	1	4	1	1
+120	16	Clergy	3	1	4	1	1
+120	17	Apostle	3	1	4	1	1
+120	18	Church of IreProperty	3	1	4	1	1
+120	19	Irish	3	1	4	1	1
+120	20	Other Theological/Scriptural Association	3	1	4	1	1
+121	1	Mass	3	1	9	1	0
+121	2	Good/Holy	3	1	9	1	0
+121	3	Bible/Gospel	3	1	9	1	0
+121	4	Pope	3	1	9	1	0
+121	5	Irish	3	1	9	1	0
+121	6	Jesus	3	1	9	1	0
+121	7	Mary	3	1	9	1	0
+121	8	Joseph	3	1	9	1	0
+121	9	God	3	1	9	1	0
+121	10	Communion	3	1	9	1	0
+121	11	Belief/Faith	3	1	9	1	0
+121	12	The Cross	3	1	9	1	0
+121	13	Religious Artifacts	3	1	9	1	0
+121	14	Saints	3	1	9	1	0
+121	15	Pilgrim Site	3	1	9	1	0
+121	16	Saints	3	1	9	1	0
+121	17	Saints	3	1	9	1	0
+121	18	Tradition	3	1	9	1	0
+121	19	Irish	3	1	9	1	0
+121	20	Armagh	3	1	9	1	0
+122	1	Dishonest/Untrustworthy	5	1	9	0	0
+122	2	Abuse/Paedophilia	5	1	9	0	0
+122	3	Bad/Immoral	5	1	9	0	0
+122	4	Uncaring	5	1	9	0	0
+122	5	Authoritarian/Dominant	5	1	9	0	0
+122	6	 Corrupt/Materialistic	5	1	9	0	0
+122	7	 Involving	5	1	9	0	0
+122	8	 Knowledge 	5	1	9	0	0
+122	9	Community	5	1	9	0	0
+122	10	 Well Knowledge 	5	1	9	0	0
+122	11	 Corrupt/Materialistic	5	1	9	0	0
+122	12	Arrogance	5	1	9	0	0
+122	13	Authoritarian/Dominant	5	1	9	0	0
+122	14	Corrupt/Materialistic	5	1	9	0	0
+122	15	Authoritarian/Dominant	5	1	9	0	0
+122	16	Bad/Immoral	5	1	9	0	0
+122	17	Arrogance	5	1	9	0	0
+122	18	Cover-up/Secrecy	5	1	9	0	0
+122	19	Dishonest/Untrustworthy	5	1	9	0	0
+122	20	Obsessive	5	1	9	0	0
+123	1	Clergy	5	2	4	1	1
+123	2	Jesus	5	2	4	1	1
+123	3	Church	5	2	4	1	1
+123	4	Mary	5	2	4	1	1
+123	5	Communion	5	2	4	1	1
+123	6	Confession	5	2	4	1	1
+123	7	Sacraments/Rites of Passage	5	2	4	1	1
+123	8	Christmas/Other Religious Occasion	5	2	4	1	1
+123	9	Christmas/Other Religious Occasion	5	2	4	1	1
+123	10	Nuns	5	2	4	1	1
+123	11	Brothers	5	2	4	1	1
+123	12	Saints	5	2	4	1	1
+123	13	Afterlife	5	2	4	1	1
+123	14	Education System	5	2	4	1	1
+123	15	Candles	5	2	4	1	1
+123	16	Other Rituals	5	2	4	1	1
+123	17	Other Rituals	5	2	4	1	1
+123	18	Religious Artifacts	5	2	4	1	1
+123	19	Religious Artifacts	5	2	4	1	1
+123	20	Religious Artifacts	5	2	4	1	1
+123	21	Other Rituals	5	2	4	1	1
+123	22	Religious Artifacts	5	2	4	1	1
+123	23	Altar boys	5	2	4	1	1
+123	24	Abuse/Paedophilia	5	2	4	1	1
+124	1	Bad/Immoral	6	1	2	0	1
+124	2	Bad/Immoral	6	1	2	0	1
+124	3	Hypocrisy	6	1	2	0	1
+124	4	Corrupt/Materialistic	6	1	2	0	1
+124	5	Authoritarian/Dominant	6	1	2	0	1
+124	6	Abuse/Paedophilia	6	1	2	0	1
+124	7	Bad/Immoral	6	1	2	0	1
+124	8	Uncaring	6	1	2	0	1
+124	9	Corrupt/Materialistic	6	1	2	0	1
+124	10	Dishonest/Untrustworthy	6	1	2	0	1
+124	11	Hypocrisy	6	1	2	0	1
+124	12	Authoritarian/Dominant	6	1	2	0	1
+124	13	Dishonest/Untrustworthy	6	1	2	0	1
+124	14	Patriarchal/Misogynist	6	1	2	0	1
+124	15	Corrupt/Materialistic	6	1	2	0	1
+124	16	State Influence	6	1	2	0	1
+124	17	Authoritarian/Dominant	6	1	2	0	1
+124	18	Homosexuality	6	1	2	0	1
+124	19	Indoctrination	6	1	2	0	1
+124	20	Authoritarian/Dominant	6	1	2	0	1
+126	1	Communion	1	2	4	1	0
+126	2	Sacraments/Rites of Passage	1	2	4	1	0
+126	3	Sacraments/Rites of Passage	1	2	4	1	0
+126	4	Sacraments/Rites of Passage	1	2	4	1	0
+126	5	Mass	1	2	4	1	0
+126	6	Sacraments/Rites of Passage	1	2	4	1	0
+126	7	Clergy	1	2	4	1	0
+126	8	Altar Boys	1	2	4	1	0
+126	9	Choir/Music	1	2	4	1	0
+126	10	Confession	1	2	4	1	0
+126	11	Other Rituals	1	2	4	1	0
+126	12	Communion	1	2	4	1	0
+126	13	Choir/Music	1	2	4	1	0
+126	14	Communion	1	2	4	1	0
+126	15	Other Rituals	1	2	4	1	0
+126	16	Bible/Gospel	1	2	4	1	0
+126	17	Prayer	1	2	4	1	0
+126	18	Bible/Gospel	1	2	4	1	0
+126	19	Bible/Gospel	1	2	4	1	0
+126	20	The Cross	1	2	4	1	0
+127	1	Clergy	6	1	4	0	1
+127	2	Abuse/Paedophilia	6	1	4	0	1
+127	3	Corrupt/Materialistic	6	1	4	0	1
+127	4	Dishonest/Untrustworthy	6	1	4	0	1
+127	5	Nonsense/Fiction	6	1	4	0	1
+127	6	Mass	6	1	4	0	1
+127	7	Mass	6	1	4	0	1
+127	8	Kneeling	6	1	4	0	1
+127	9	Nonsense/Fiction	6	1	4	0	1
+127	10	Property	6	1	4	0	1
+127	11	Houses	6	1	4	0	1
+127	12	Corrupt/Materialistic	6	1	4	0	1
+127	13	Corrupt/Materialistic	6	1	4	0	1
+127	14	Clergy	6	1	4	0	1
+127	15	Clergy	6	1	4	0	1
+127	16	Corrupt/Materialistic	6	1	4	0	1
+127	17	Corrupt/Materialistic	6	1	4	0	1
+128	1	Tradition	4	2	4	1	0
+128	2	Clergy	4	2	4	1	0
+128	3	Hypocrisy	4	2	4	1	0
+128	4	Pope	4	2	4	1	0
+128	5	Churches/Buildings	4	2	4	1	0
+128	6	Abuse/Paedophilia	4	2	4	1	0
+128	7	Sacraments/Rites of Passage	4	2	4	1	0
+128	8	Sacraments/Rites of Passage	4	2	4	1	0
+128	9	Sacraments/Rites of Passage	4	2	4	1	0
+128	10	Clergy	4	2	4	1	0
+128	11	Comforting/Caring	4	2	4	1	0
+128	12	Candles	4	2	4	1	0
+128	13	Mary	4	2	4	1	0
+128	14	Scandal	4	2	4	1	0
+128	15	Declining	4	2	4	1	0
+128	16	Graveyard	4	2	4	1	0
+128	17	Pope	4	2	4	1	0
+128	18	Hypocrisy	4	2	4	1	0
+128	19	Rural	4	2	4	1	0
+128	20	Confession	4	2	4	1	0
+128	21	Blessings	4	2	4	1	0
+129	1	Pope	4	2	5	1	1
+129	2	Churches/Buildings	4	2	5	1	1
+129	3	Mass	4	2	5	1	1
+129	4	Saints	4	2	5	1	1
+129	5	Communion	4	2	5	1	1
+129	6	Sacraments/Rites of Passage	4	2	5	1	1
+129	7	Confession	4	2	5	1	1
+129	8	Clergy	4	2	5	1	1
+129	9	Clergy	4	2	5	1	1
+129	10	Mass	4	2	5	1	1
+129	11	Christmas/Other Religious Occasion	4	2	5	1	1
+129	12	Religious Artifacts	4	2	5	1	1
+129	13	Prayer	4	2	5	1	1
+129	14	Prayer	4	2	5	1	1
+129	15	The Cross	4	2	5	1	1
+129	16	Mary	4	2	5	1	1
+129	17	Jesus	4	2	5	1	1
+129	18	God	4	2	5	1	1
+129	19	Other Theological/Scriptural Association	4	2	5	1	1
+129	20	Communion	4	2	5	1	1
+130	1	Outdated/Conservative	1	2	4	1	1
+130	2	Outdated/Conservative	1	2	4	1	1
+130	3	Tradition	1	2	4	1	1
+130	4	Education System	1	2	4	1	1
+130	5	Background	1	2	4	1	1
+130	6	Elitism	1	2	4	1	1
+130	7	Elitism	1	2	4	1	1
+130	8	Old People	1	2	4	1	1
+130	9	Declining	1	2	4	1	1
+130	10	Tradition	1	2	4	1	1
+130	11	Abortion	1	2	4	1	1
+130	12	Outdated/Conservative	1	2	4	1	1
+130	13	Rural	1	2	4	1	1
+130	14	Corrupt/Materialistic	1	2	4	1	1
+130	15	Declining	1	2	4	1	1
+130	16	Scandal	1	2	4	1	1
+130	17	Abuse/Paedophilia	1	2	4	1	1
+130	18	Oppressive Institutions (Laundries. etc.)	1	2	4	1	1
+130	19	Authoritarian/Dominant	1	2	4	1	1
+130	20	Authoritarian/Dominant	1	2	4	1	1
+131	1	Authoritarian/Dominant	5	1	11	0	1
+131	2	Authoritarian/Dominant	5	1	11	0	1
+131	3	Education System	5	1	11	0	1
+131	4	Health Care	5	1	11	0	1
+131	5	Hypocrisy	5	1	11	0	1
+131	6	Corrupt/Materialistic	5	1	11	0	1
+131	7	Dishonest/Untrustworthy	5	1	11	0	1
+131	8	Abuse/Paedophilia	5	1	11	0	1
+131	9	State Influence	5	1	11	0	1
+131	10	A la carte	5	1	11	0	1
+131	11	Multinational Corporation	5	1	11	0	1
+131	12	Marcinkus 	5	1	11	0	1
+131	13	Corrupt/Materialistic	5	1	11	0	1
+131	14	Uncaring	5	1	11	0	1
+131	15	Bad/Immoral	5	1	11	0	1
+131	16	Property	5	1	11	0	1
+131	17	Cover-up/Secrecy	5	1	11	0	1
+131	18	Media	5	1	11	0	1
+131	19	Indoctrination	5	1	11	0	1
+131	20	Patriarchal/Misogynist	5	1	11	0	1
+132	1	God	4	1	5	1	0
+132	2	Communion	4	1	5	1	0
+132	3	Sacraments/Rites of Passage	4	1	5	1	0
+132	4	Children	4	1	5	1	0
+132	5	Sacraments/Rites of Passage	4	1	5	1	0
+132	6	Communion	4	1	5	1	0
+132	7	Christmas/Other Religious Occasion	4	1	5	1	0
+132	8	The Cross	4	1	5	1	0
+132	9	Communion	4	1	5	1	0
+132	10	Confession	4	1	5	1	0
+132	11	Clergy	4	1	5	1	0
+132	12	Education System	4	1	5	1	0
+132	13	Mass	4	1	5	1	0
+132	14	Christmas/Other Religious Occasion	4	1	5	1	0
+132	15	Churches/Buildings	4	1	5	1	0
+132	16	Forgiveness	4	1	5	1	0
+132	17	Prayer	4	1	5	1	0
+132	18	Communion	4	1	5	1	0
+132	19	Communion	4	1	5	1	0
+132	20	Jesus	4	1	5	1	0
+132	21	Religious Artifacts	4	1	5	1	0
+132	22	Shrines	4	1	5	1	0
+132	23	Donations/Collections	4	1	5	1	0
+132	24	Communion	4	1	5	1	0
+132	25	Sacraments/Rites of Passage	4	1	5	1	0
+132	26	Candles	4	1	5	1	0
+132	27	Choir/Music	4	1	5	1	0
+132	28	Choir/Music	4	1	5	1	0
+132	29	Other Rituals	4	1	5	1	0
+132	30	Mary	4	1	5	1	0
+133	1	Sacraments/Rites of Passage	1	2	5	1	1
+133	2	God	1	2	5	1	1
+133	3	Clergy	1	2	5	1	1
+133	4	Clergy	1	2	5	1	1
+133	5	Sacraments/Rites of Passage	1	2	5	1	1
+133	6	Clergy	1	2	5	1	1
+133	7	Churches/Buildings	1	2	5	1	1
+133	8	Jesus	1	2	5	1	1
+133	9	Mary	1	2	5	1	1
+133	10	Christmas/Other Religious Occasion	1	2	5	1	1
+133	11	Joseph	1	2	5	1	1
+133	12	Bible/Gospel	1	2	5	1	1
+133	13	Bible/Gospel	1	2	5	1	1
+133	14	Bible/Gospel	1	2	5	1	1
+133	15	Other Theological/Scriptural Association	1	2	5	1	1
+133	16	Other Theological/Scriptural Association	1	2	5	1	1
+133	17	Communion	1	2	5	1	1
+133	18	Communion	1	2	5	1	1
+133	19	Mass	1	2	5	1	1
+133	20	Christmas/Other Religious Occasion	1	2	5	1	1
+134	1	Outdated/Conservative	2	1	5	1	1
+134	2	Irrelevant	2	1	5	1	1
+134	3	Abuse/Paedophilia	2	1	5	1	1
+134	4	Declining	2	1	5	1	1
+134	5	Good/Holy	2	1	5	1	1
+134	6	Clergy	2	1	5	1	1
+134	7	Religion	2	1	5	1	1
+134	8	Churches/Buildings	2	1	5	1	1
+134	9	Nonsense/Fiction	2	1	5	1	1
+134	10	Irrelevant	2	1	5	1	1
+134	11	Small	2	1	5	1	1
+134	12	Declining	2	1	5	1	1
+134	13	Subscribe	2	1	5	1	1
+134	14	Incense	2	1	5	1	1
+134	15	Declining	2	1	5	1	1
+134	16	Mass	2	1	5	1	1
+134	17	Afterlife	2	1	5	1	1
+134	18	Outdated/Conservative	2	1	5	1	1
+134	19	Authoritarian/Dominant	2	1	5	1	1
+134	20	Sadness	2	1	5	1	1
+135	1	Clergy	5	1	11	1	1
+135	2	Communion	5	1	11	1	1
+135	3	Belief/Faith	5	1	11	1	1
+135	4	Afterlife	5	1	11	1	1
+135	5	Churches/Buildings	5	1	11	1	1
+135	6	Sacraments/Rites of Passage	5	1	11	1	1
+135	7	Confession	5	1	11	1	1
+135	8	Prayer	5	1	11	1	1
+135	9	Community	5	1	11	1	1
+135	10	Family	5	1	11	1	1
+135	11	Other Theological/Scriptural Association	5	1	11	1	1
+135	12	Sacraments/Rites of Passage	5	1	11	1	1
+135	13	Children	5	1	11	1	1
+135	14	Sacraments/Rites of Passage	5	1	11	1	1
+135	15	Clergy	5	1	11	1	1
+135	16	Clergy	5	1	11	1	1
+135	17	Pope	5	1	11	1	1
+135	18	Bible/Gospel	5	1	11	1	1
+135	19	Morality	5	1	11	1	1
+135	20	Sectarian	5	1	11	1	1
+136	1	Irish	6	1	11	1	0
+136	2	Pope	6	1	11	1	0
+136	3	Belief/Faith	6	1	11	1	0
+136	4	Clergy	6	1	11	1	0
+136	5	Scandal	6	1	11	1	0
+136	6	Clergy	6	1	11	1	0
+136	7	Churches/Buildings	6	1	11	1	0
+136	8	Communion	6	1	11	1	0
+136	9	Sacraments/Rites of Passage	6	1	11	1	0
+136	10	Sacraments/Rites of Passage	6	1	11	1	0
+136	11	Sacraments/Rites of Passage	6	1	11	1	0
+136	12	Sacraments/Rites of Passage	6	1	11	1	0
+136	13	Altar Boys	6	1	11	1	0
+136	14	Laity	6	1	11	1	0
+136	15	Nuns	6	1	11	1	0
+136	16	Confession	6	1	11	1	0
+136	17	Laity	6	1	11	1	0
+136	18	Clergy	6	1	11	1	0
+136	19	Christmas/Other Religious Occasion	6	1	11	1	0
+136	20	Religious Artifacts	6	1	11	1	0
+137	1	Good/Holy	6	1	11	1	0
+137	2	Comforting/Caring	6	1	11	1	0
+137	3	Love	6	1	11	1	0
+137	4	Comforting/Caring	6	1	11	1	0
+137	5	Comforting/Caring	6	1	11	1	0
+137	6	Loyalty	6	1	11	1	0
+138	1	God	3	2	5	0	0
+138	2	Clergy	3	2	5	0	0
+138	3	Corrupt/Materialistic	3	2	5	0	0
+138	4	Abuse/Paedophilia	3	2	5	0	0
+138	5	Wealth	3	2	5	0	0
+138	6	Authoritarian/Dominant	3	2	5	0	0
+138	7	Forgiveness	3	2	5	0	0
+138	8	Pope	3	2	5	0	0
+138	9	Jesus	3	2	5	0	0
+138	10	Mass	3	2	5	0	0
+138	11	Homosexuality	3	2	5	0	0
+138	12	Good/Holy	3	2	5	0	0
+138	13	Cover-up/Secrecy	3	2	5	0	0
+138	14	Vatican/Overall Structure	3	2	5	0	0
+138	15	Corrupt/Materialistic	3	2	5	0	0
+138	16	Corrupt/Materialistic	3	2	5	0	0
+138	17	Abuse/Paedophilia	3	2	5	0	0
+138	18	Bad/Immoral	3	2	5	0	0
+139	1	Clergy	3	1	5	1	0
+139	2	Nuns	3	1	5	1	0
+139	3	Churches/Buildings	3	1	5	1	0
+139	4	Mass	3	1	5	1	0
+139	5	Sacraments/Rites of Passage	3	1	5	1	0
+139	6	Pope	3	1	5	1	0
+139	7	Sacraments/Rites of Passage	3	1	5	1	0
+139	8	Sacraments/Rites of Passage	3	1	5	1	0
+139	9	Clergy	3	1	5	1	0
+139	10	Parish/Diocese	3	1	5	1	0
+139	11	Scandal	3	1	5	1	0
+139	12	Clergy	3	1	5	1	0
+139	13	Vatican/Overall Structure	3	1	5	1	0
+139	14	Sin	3	1	5	1	0
+139	15	Confession	3	1	5	1	0
+139	16	Other Rituals	3	1	5	1	0
+139	17	Authoritarian/Dominant	3	1	5	1	0
+139	18	Wealth	3	1	5	1	0
+139	19	Corrupt/Materialistic	3	1	5	1	0
+139	20	Clergy	3	1	5	1	0
+140	1	Vatican/Overall Structure	4	1	9	1	0
+140	2	Mass	4	1	9	1	0
+140	3	Mary	4	1	9	1	0
+140	4	Jesus	4	1	9	1	0
+140	5	Communion	4	1	9	1	0
+140	6	Sacraments/Rites of Passage	4	1	9	1	0
+140	7	Sacraments/Rites of Passage	4	1	9	1	0
+140	8	Abuse/Paedophilia	4	1	9	1	0
+140	9	Scandal	4	1	9	1	0
+140	10	Maynooth	4	1	9	1	0
+140	11	Churches/Buildings	4	1	9	1	0
+140	12	Pope	4	1	9	1	0
+140	13	Clergy	4	1	9	1	0
+140	14	Clergy	4	1	9	1	0
+140	15	Clergy	4	1	9	1	0
+140	16	Sacraments/Rites of Passage	4	1	9	1	0
+140	17	Saints	4	1	9	1	0
+140	18	Afterlife	4	1	9	1	0
+140	19	Afterlife	4	1	9	1	0
+140	20	Afterlife	4	1	9	1	0
+141	1	Mary	3	1	9	1	0
+141	2	God	3	1	9	1	0
+141	3	Jesus	3	1	9	1	0
+141	4	Communion	3	1	9	1	0
+141	5	Mass	3	1	9	1	0
+141	6	Bible/Gospel	3	1	9	1	0
+141	7	Clergy	3	1	9	1	0
+141	8	Baptism	3	1	9	1	0
+141	9	Church	3	1	9	1	0
+141	10	Prayer	3	1	9	1	0
+141	11	Prayer	3	1	9	1	0
+141	12	Churches/Buildings	3	1	9	1	0
+141	13	Clergy	3	1	9	1	0
+141	14	Prayer	3	1	9	1	0
+141	15	Woman Clergy	3	1	9	1	0
+141	16	Blessings	3	1	9	1	0
+141	17	Love	3	1	9	1	0
+141	18	Confession	3	1	9	1	0
+141	19	Good/Holy	3	1	9	1	0
+141	20	Other Theological/Scriptural Association	3	1	9	1	0
+141	21	Comforting/Caring	3	1	9	1	0
+141	22	Good/Holy	3	1	9	1	0
+141	23	Pope	3	1	9	1	0
+141	24	Vatican/Overall Structure	3	1	9	1	0
+141	25	Vatican/Overall Structure	3	1	9	1	0
+141	26	Jesus	3	1	9	1	0
+141	27	Good/Holy	3	1	9	1	0
+141	28	Sincerity/Honesty	3	1	9	1	0
+141	29	Preaching/Sermons	3	1	9	1	0
+141	30	Bible/Gospel	3	1	9	1	0
+142	1	Abuse/Paedophilia	5	1	2	0	0
+142	2	Pope	5	1	2	0	0
+142	3	Community	5	1	2	0	0
+142	4	Education System	5	1	2	0	0
+142	5	Scandal	5	1	2	0	0
+142	6	Death	5	1	2	0	0
+142	7	Celibacy	5	1	2	0	0
+142	8	Patriarchal/Misogynist	5	1	2	0	0
+142	9	Celibacy	5	1	2	0	0
+142	10	Declining	5	1	2	0	0
+142	11	Declining	5	1	2	0	0
+142	12	Father Ted	5	1	2	0	0
+142	13	Father DArcy	5	1	2	0	0
+142	14	Hypocrisy	5	1	2	0	0
+142	15	Confession	5	1	2	0	0
+142	16	Communion	5	1	2	0	0
+142	17	Sacraments/Rites of Passage	5	1	2	0	0
+142	18	Prayer	5	1	2	0	0
+142	19	Bible/Gospel	5	1	2	0	0
+142	20	Sectarian	5	1	2	0	0
+143	1	Boring	4	1	9	1	0
+143	2	Declining	4	1	9	1	0
+143	3	Abuse/Paedophilia	4	1	9	1	0
+143	4	Pope	4	1	9	1	0
+143	5	Wealth	4	1	9	1	0
+143	6	Declining	4	1	9	1	0
+143	7	Outdated/Conservative	4	1	9	1	0
+143	8	Other Rituals	4	1	9	1	0
+143	9	Christmas/Other Religious Occasion	4	1	9	1	0
+143	10	Preaching/Sermons	4	1	9	1	0
+143	11	Declining	4	1	9	1	0
+143	12	Confession	4	1	9	1	0
+143	13	Communion	4	1	9	1	0
+143	14	Sacraments/Rites of Passage	4	1	9	1	0
+143	15	Pub after sunday Mass	4	1	9	1	0
+143	16	Forced attendance	4	1	9	1	0
+143	17	Candles	4	1	9	1	0
+143	18	Death	4	1	9	1	0
+143	19	Graveyard	4	1	9	1	0
+144	1	Multinational	5	2	1	1	1
+144	2	Dishonest/Untrustworthy	5	2	1	1	1
+144	3	Nonsense/Fiction	5	2	1	1	1
+144	4	Corrupt/Materialistic	5	2	1	1	1
+144	5	Scandal	5	2	1	1	1
+144	6	Hypocrisy	5	2	1	1	1
+144	7	Nonsense/Fiction	5	2	1	1	1
+144	8	Nonsense/Fiction	5	2	1	1	1
+144	9	Corrupt/Materialistic	5	2	1	1	1
+145	1	Corrupt/Materialistic	2	2	4	1	1
+145	2	Dishonest/Untrustworthy	2	2	4	1	1
+145	3	Boring	2	2	4	1	1
+145	4	Morality	2	2	4	1	1
+145	5	Outdated/Conservative	2	2	4	1	1
+145	6	Elitism	2	2	4	1	1
+145	7	unknown	2	2	4	1	1
+145	8	Outdated/Conservative	2	2	4	1	1
+145	9	Hypocrisy	2	2	4	1	1
+145	10	Insular/Detached	2	2	4	1	1
+145	11	Corrupt/Materialistic	2	2	4	1	1
+145	12	Boring	2	2	4	1	1
+145	13	Declining	2	2	4	1	1
+145	14	Abuse/Paedophilia	2	2	4	1	1
+145	15	Dishonest/Untrustworthy	2	2	4	1	1
+145	16	Cover-up/Secrecy	2	2	4	1	1
+145	17	Hypocrisy	2	2	4	1	1
+145	18	Outdated/Conservative	2	2	4	1	1
+145	19	Boring	2	2	4	1	1
+145	20	Comforting/Caring	2	2	4	1	1
+146	1	Abuse/Paedophilia	1	2	9	1	1
+146	2	Guilt	1	2	9	1	1
+146	3	Father Ted	1	2	9	1	1
+146	4	Corrupt/Materialistic	1	2	9	1	1
+146	5	Authoritarian/Dominant	1	2	9	1	1
+146	6	Authoritarian/Dominant	1	2	9	1	1
+146	7	Confession	1	2	9	1	1
+146	8	Bigotry	1	2	9	1	1
+146	9	Not reading the Bible	1	2	9	1	1
+146	10	Prayer	1	2	9	1	1
+146	11	Sin	1	2	9	1	1
+146	12	Jesus	1	2	9	1	1
+146	13	Nativity	1	2	9	1	1
+146	14	Education System	1	2	9	1	1
+146	15	Nuns	1	2	9	1	1
+146	16	Clergy	1	2	9	1	1
+146	17	Charity	1	2	9	1	1
+146	18	Charity	1	2	9	1	1
+146	19	Charity	1	2	9	1	1
+146	20	Anger	1	2	9	1	1
+147	1	Community	6	2	11	1	0
+147	2	Mass	6	2	11	1	0
+147	3	Confession	6	2	11	1	0
+147	4	Clergy	6	2	11	1	0
+147	5	Churches/Buildings	6	2	11	1	0
+147	6	Belief/Faith	6	2	11	1	0
+147	7	Prayer	6	2	11	1	0
+147	8	Sacraments/Rites of Passage	6	2	11	1	0
+147	9	Mass	6	2	11	1	0
+147	10	Sacraments/Rites of Passage	6	2	11	1	0
+147	11	Morality	6	2	11	1	0
+147	12	Donations/Collections	6	2	11	1	0
+147	13	Morality	6	2	11	1	0
+147	14	Prayer	6	2	11	1	0
+147	15	Other Rituals	6	2	11	1	0
+147	16	Religious Artifacts	6	2	11	1	0
+147	17	Other Rituals	6	2	11	1	0
+147	18	Morality	6	2	11	1	0
+147	19	Community	6	2	11	1	0
+147	20	Religious Artifacts	6	2	11	1	0
+147	21	Mary	6	2	11	1	0
+147	22	Mass	6	2	11	1	0
+147	23	Other Rituals	6	2	11	1	0
+147	24	Christmas/Other Religious Occasion	6	2	11	1	0
+147	25	Christmas/Other Religious Occasion	6	2	11	1	0
+147	26	Religious Artifacts	6	2	11	1	0
+147	27	Comforting/Caring	6	2	11	1	0
+147	28	Comforting/Caring	6	2	11	1	0
+147	29	Pope	6	2	11	1	0
+148	1	Abuse/Paedophilia	3	1	2	0	1
+148	2	Abuse/Paedophilia	3	1	2	0	1
+148	3	Corrupt/Materialistic	3	1	2	0	1
+148	4	Education System	3	1	2	0	1
+148	5	Health Care	3	1	2	0	1
+148	6	Pain	3	1	2	0	1
+148	7	Sadness	3	1	2	0	1
+148	8	Abuse/Paedophilia	3	1	2	0	1
+148	9	State Influence	3	1	2	0	1
+149	1	Abuse/Paedophilia	2	1	5	0	1
+149	2	Bigotry	2	1	5	0	1
+149	3	Dishonest/Untrustworthy	2	1	5	0	1
+149	4	Nonsense/Fiction	2	1	5	0	1
+149	5	Shame/Disgust	2	1	5	0	1
+149	6	Disbelieve	2	1	5	0	1
+149	7	Shame/Disgust	2	1	5	0	1
+149	8	Old People	2	1	5	0	1
+150	1	Dishonest/Untrustworthy	4	1	11	0	1
+150	2	Outdated/Conservative	4	1	11	0	1
+150	3	State Influence	4	1	11	0	1
+150	4	Shame/Disgust	4	1	11	0	1
+150	5	Vocation for some	4	1	11	0	1
+150	6	Cover-up/Secrecy	4	1	11	0	1
+150	7	Corrupt/Materialistic	4	1	11	0	1
+150	8	Authoritarian/Dominant	4	1	11	0	1
+150	9	Fear	4	1	11	0	1
+150	10	Nonsense/Fiction	4	1	11	0	1
+150	11	State Influence	4	1	11	0	1
+150	12	Authoritarian/Dominant	4	1	11	0	1
+150	13	Oppressive Institutions (Laundries. etc.)	4	1	11	0	1
+150	14	Bad/Immoral	4	1	11	0	1
+150	15	Bad/Immoral	4	1	11	0	1
+150	16	Cover-up/Secrecy	4	1	11	0	1
+150	17	Sin	4	1	11	0	1
+150	18	Cover-up/Secrecy	4	1	11	0	1
+150	19	State Influence	4	1	11	0	1
+150	20	Authoritarian/Dominant	4	1	11	0	1
+152	1	Clergy	3	1	4	1	0
+152	2	Churches/Buildings	3	1	4	1	0
+152	3	God	3	1	4	1	0
+152	4	Prayer	3	1	4	1	0
+152	5	Mass	3	1	4	1	0
+152	6	Money	3	1	4	1	0
+152	7	Parish/Diocese	3	1	4	1	0
+152	8	Sin	3	1	4	1	0
+152	9	Communion	3	1	4	1	0
+152	10	Sacraments/Rites of Passage	3	1	4	1	0
+152	11	Sacraments/Rites of Passage	3	1	4	1	0
+152	12	Black	3	1	4	1	0
+152	13	Pope	3	1	4	1	0
+152	14	The Cross	3	1	4	1	0
+152	15	Jesus	3	1	4	1	0
+152	16	Mary	3	1	4	1	0
+152	17	Joseph	3	1	4	1	0
+152	18	Christmas/Other Religious Occasion	3	1	4	1	0
+152	19	Christmas/Other Religious Occasion	3	1	4	1	0
+152	20	Confession	3	1	4	1	0
+154	1	Tradition	6	1	11	1	0
+154	2	Education System	6	1	11	1	0
+154	3	Mass	6	1	11	1	0
+154	4	Morality	6	1	11	1	0
+154	5	Communion	6	1	11	1	0
+154	6	Confession	6	1	11	1	0
+154	7	Scandal	6	1	11	1	0
+154	8	Pope	6	1	11	1	0
+154	9	Saints	6	1	11	1	0
+154	10	Mary	6	1	11	1	0
+154	11	Jesus	6	1	11	1	0
+154	12	Christmas/Other Religious Occasion	6	1	11	1	0
+154	13	Christmas/Other Religious Occasion	6	1	11	1	0
+154	14	Christmas/Other Religious Occasion	6	1	11	1	0
+154	15	Christmas/Other Religious Occasion	6	1	11	1	0
+154	16	Prayer	6	1	11	1	0
+154	17	Clergy	6	1	11	1	0
+154	18	Miracles	6	1	11	1	0
+154	19	Forgiveness	6	1	11	1	0
+154	20	Celibacy	6	1	11	1	0
+155	1	Clergy	5	2	11	1	0
+155	2	Vatican/Overall Structure	5	2	11	1	0
+155	3	Mass	5	2	11	1	0
+155	4	Confession	5	2	11	1	0
+155	5	Prayer	5	2	11	1	0
+155	6	Churches/Buildings	5	2	11	1	0
+155	7	Pilgrim Site	5	2	11	1	0
+155	8	Communion	5	2	11	1	0
+155	9	God	5	2	11	1	0
+155	10	Christmas/Other Religious Occasion	5	2	11	1	0
+155	11	Abuse/Paedophilia	5	2	11	1	0
+155	12	Good/Holy	5	2	11	1	0
+155	13	Pope	5	2	11	1	0
+155	14	Vatican/Overall Structure	5	2	11	1	0
+155	15	Religious Artifacts	5	2	11	1	0
+155	16	Religion	5	2	11	1	0
+155	17	Comforting/Caring	5	2	11	1	0
+155	18	Petitions	5	2	11	1	0
+155	19	Other Rituals	5	2	11	1	0
+155	20	Nuns	5	2	11	1	0
+156	1	Abuse/Paedophilia	5	1	2	0	1
+156	2	Dishonest/Untrustworthy	5	1	2	0	1
+156	3	Bigotry	5	1	2	0	1
+156	4	Patriarchal/Misogynist	5	1	2	0	1
+156	5	Dishonest/Untrustworthy	5	1	2	0	1
+156	6	Indoctrination	5	1	2	0	1
+156	7	Dishonest/Untrustworthy	5	1	2	0	1
+156	8	Hypocrisy	5	1	2	0	1
+156	9	Corrupt/Materialistic	5	1	2	0	1
+156	10	Authoritarian/Dominant	5	1	2	0	1
+156	11	Declining	5	1	2	0	1
+156	12	Declining	5	1	2	0	1
+156	13	Declining	5	1	2	0	1
+156	14	Hypocrisy	5	1	2	0	1
+156	15	Corrupt/Materialistic	5	1	2	0	1
+156	16	Corrupt/Materialistic	5	1	2	0	1
+156	17	Nonsense/Fiction	5	1	2	0	1
+156	18	Sectarian	5	1	2	0	1
+156	19	Corrupt/Materialistic	5	1	2	0	1
+156	20	Patriarchal/Misogynist	5	1	2	0	1
+157	1	Religion	6	1	3	0	1
+157	2	Clergy	6	1	3	0	1
+157	3	Churches/Buildings	6	1	3	0	1
+157	4	Abuse/Paedophilia	6	1	3	0	1
+157	5	Children	6	1	3	0	1
+157	6	Mass	6	1	3	0	1
+157	7	Clergy	6	1	3	0	1
+157	8	Corrupt/Materialistic	6	1	3	0	1
+157	9	Authoritarian/Dominant	6	1	3	0	1
+157	10	Contraception	6	1	3	0	1
+157	11	Divorce	6	1	3	0	1
+157	12	Sacraments/Rites of Passage	6	1	3	0	1
+157	13	Pope	6	1	3	0	1
+157	14	Vatican/Overall Structure	6	1	3	0	1
+157	15	Clergy	6	1	3	0	1
+157	16	Authoritarian/Dominant	6	1	3	0	1
+157	17	Confession	6	1	3	0	1
+157	18	Confession	6	1	3	0	1
+157	19	Sin	6	1	3	0	1
+157	20	Donations/Collections	6	1	3	0	1
+158	1	Outdated/Conservative	5	2	5	1	1
+158	2	Authoritarian/Dominant	5	2	5	1	1
+158	3	Authoritarian/Dominant	5	2	5	1	1
+158	4	Authoritarian/Dominant	5	2	5	1	1
+158	5	Corrupt/Materialistic	5	2	5	1	1
+158	6	Hypocrisy	5	2	5	1	1
+158	7	Hypocrisy	5	2	5	1	1
+158	8	Dishonest/Untrustworthy	5	2	5	1	1
+158	9	Nonsense/Fiction	5	2	5	1	1
+158	10	Authoritarian/Dominant	5	2	5	1	1
+158	11	Authoritarian/Dominant	5	2	5	1	1
+159	1	Abuse/Paedophilia	1	1	1	0	1
+159	2	Guilt	1	1	1	0	1
+159	3	Fear	1	1	1	0	1
+159	4	Jesus	1	1	1	0	1
+159	5	Churches/Buildings	1	1	1	0	1
+159	6	Scandal	1	1	1	0	1
+159	7	Clergy	1	1	1	0	1
+159	8	Children	1	1	1	0	1
+159	9	Oppressive Institutions (Laundries. etc.)	1	1	1	0	1
+159	10	Adoption	1	1	1	0	1
+159	11	Old People	1	1	1	0	1
+159	12	Outdated/Conservative	1	1	1	0	1
+159	13	Tradition	1	1	1	0	1
+159	14	Blessings	1	1	1	0	1
+159	15	Prayer	1	1	1	0	1
+159	16	Choir/Music	1	1	1	0	1
+159	17	Choir/Music	1	1	1	0	1
+159	18	Communion	1	1	1	0	1
+159	19	Communion	1	1	1	0	1
+159	20	Communion	1	1	1	0	1
+160	1	Tradition	6	1	11	0	1
+160	2	Authoritarian/Dominant	6	1	11	0	1
+160	3	Troubled	6	1	11	0	1
+160	4	Sectarian	6	1	11	0	1
+160	5	Hypocrisy	6	1	11	0	1
+160	6	Parochialism	6	1	11	0	1
+160	7	Declining	6	1	11	0	1
+160	8	Old People	6	1	11	0	1
+160	9	Declining	6	1	11	0	1
+160	10	Abuse/Paedophilia	6	1	11	0	1
+160	11	Fear	6	1	11	0	1
+160	12	Bad/Immoral	6	1	11	0	1
+160	13	Nonsense/Fiction	6	1	11	0	1
+160	14	Patriarchal/Misogynist	6	1	11	0	1
+160	15	Authoritarian/Dominant	6	1	11	0	1
+160	16	Declining	6	1	11	0	1
+160	17	Bad/Immoral	6	1	11	0	1
+160	18	Sadness	6	1	11	0	1
+160	19	Declining	6	1	11	0	1
+160	20	Authoritarian/Dominant	6	1	11	0	1
+161	1	Saints	3	2	3	0	1
+161	2	Saints	3	2	3	0	1
+161	3	Saints	3	2	3	0	1
+161	4	Religion	3	2	3	0	1
+161	5	Big	3	2	3	0	1
+161	6	Community	3	2	3	0	1
+161	7	Nuns	3	2	3	0	1
+161	8	Clergy	3	2	3	0	1
+161	9	Religious Artifacts	3	2	3	0	1
+161	10	Altar Boys	3	2	3	0	1
+161	11	Sacraments/Rites of Passage	3	2	3	0	1
+161	12	Communion	3	2	3	0	1
+161	13	God	3	2	3	0	1
+161	14	Belief/Faith	3	2	3	0	1
+161	15	Communion	3	2	3	0	1
+161	16	Saints	3	2	3	0	1
+161	17	Saints	3	2	3	0	1
+161	18	Vatican/Overall Structure	3	2	3	0	1
+161	19	Pope	3	2	3	0	1
+161	20	Churches/Buildings	3	2	3	0	1
+162	1	Corrupt/Materialistic	6	1	7	1	1
+162	2	Dishonest/Untrustworthy	6	1	7	1	1
+162	3	Stigma	6	1	7	1	1
+162	4	Hypocrisy	6	1	7	1	1
+162	5	Insular/Detached	6	1	7	1	1
+162	6	Death	6	1	7	1	1
+162	7	Laity	6	1	7	1	1
+162	8	Declining	6	1	7	1	1
+162	9	Declining	6	1	7	1	1
+162	10	Declining	6	1	7	1	1
+162	11	Celibacy	6	1	7	1	1
+162	12	Hypocrisy	6	1	7	1	1
+162	13	Pope	6	1	7	1	1
+162	14	Diarmuid Martin	6	1	7	1	1
+162	15	Charity	6	1	7	1	1
+162	16	Charity	6	1	7	1	1
+162	17	Charity	6	1	7	1	1
+162	18	Charity	6	1	7	1	1
+162	19	Health Care	6	1	7	1	1
+162	20	Education System	6	1	7	1	1
+163	1	Old People	1	2	4	1	1
+163	2	Outdated/Conservative	1	2	4	1	1
+163	3	Outdated/Conservative	1	2	4	1	1
+163	4	Nonsense/Fiction	1	2	4	1	1
+163	5	Boring	1	2	4	1	1
+163	6	Troubled	1	2	4	1	1
+163	7	Boring	1	2	4	1	1
+163	8	Boring	1	2	4	1	1
+163	9	Declining	1	2	4	1	1
+163	10	Declining	1	2	4	1	1
+163	11	Arrogance	1	2	4	1	1
+163	12	Outdated/Conservative	1	2	4	1	1
+163	13	Scandal	1	2	4	1	1
+163	14	Declining	1	2	4	1	1
+163	15	Declining	1	2	4	1	1
+163	16	Anger	1	2	4	1	1
+163	17	Pain	1	2	4	1	1
+163	18	Fear	1	2	4	1	1
+163	19	Troubled	1	2	4	1	1
+163	20	Declining	1	2	4	1	1
+164	1	Abuse/Paedophilia	3	1	4	0	1
+164	2	Oppressive Institutions (Laundries. etc.)	3	1	4	0	1
+164	3	Nonsense/Fiction	3	1	4	0	1
+164	4	Corrupt/Materialistic	3	1	4	0	1
+164	5	Nonsense/Fiction	3	1	4	0	1
+164	6	Bad/Immoral	3	1	4	0	1
+164	7	Cover-up/Secrecy	3	1	4	0	1
+164	8	Cover-up/Secrecy	3	1	4	0	1
+164	9	Corprocratic	3	1	4	0	1
+164	10	Abortion	3	1	4	0	1
+164	11	Homosexuality	3	1	4	0	1
+164	12	Patriarchal/Misogynist	3	1	4	0	1
+164	13	Celibacy	3	1	4	0	1
+164	14	Good/Holy	3	1	4	0	1
+164	15	Charity	3	1	4	0	1
+164	16	Charity	3	1	4	0	1
+164	17	Charity	3	1	4	0	1
+164	18	Belief/faith	3	1	4	0	1
+164	19	Change	3	1	4	0	1
+164	20	Charity	3	1	4	0	1
+164	21	Charity	3	1	4	0	1
+164	22	Charity	3	1	4	0	1
+165	1	Good/Holy	1	1	3	1	0
+165	2	Indoctrination	1	1	3	1	0
+165	3	Catholic	1	1	3	1	0
+165	4	Protestant	1	1	3	1	0
+165	5	British Rule	1	1	3	1	0
+165	6	Comforting/Caring	1	1	3	1	0
+165	7	Comforting/Caring	1	1	3	1	0
+165	8	Love	1	1	3	1	0
+165	9	Comforting/Caring	1	1	3	1	0
+165	10	Jesus	1	1	3	1	0
+165	11	Mary	1	1	3	1	0
+165	12	Joseph	1	1	3	1	0
+165	13	God	1	1	3	1	0
+165	14	Pilgrim Site	1	1	3	1	0
+165	15	Irish	1	1	3	1	0
+165	16	Saints	1	1	3	1	0
+165	17	Tradition	1	1	3	1	0
+165	18	Tradition	1	1	3	1	0
+165	19	Future	1	1	3	1	0
+165	20	Atheists	1	1	3	1	0
+165	21	Father Ted	1	1	3	1	0
+165	22	Father DArcy 	1	1	3	1	0
+165	23	Pope	1	1	3	1	0
+165	24	Hypocrisy	1	1	3	1	0
+165	25	Scandal	1	1	3	1	0
+166	1	Education System	6	2	11	1	1
+166	2	Education System	6	2	11	1	1
+166	3	Family	6	2	11	1	1
+166	4	Mass	6	2	11	1	1
+166	5	Sacraments/Rites of Passage	6	2	11	1	1
+166	6	Clergy	6	2	11	1	1
+166	7	Morality	6	2	11	1	1
+166	8	Good/Holy	6	2	11	1	1
+166	9	Morality	6	2	11	1	1
+166	10	Nonsense/Fiction	6	2	11	1	1
+166	11	Oppressive Institutions (Laundries. etc.)	6	2	11	1	1
+166	12	Patriarchal/Misogynist	6	2	11	1	1
+166	13	Vatican/Overall Structure	6	2	11	1	1
+166	14	Divorce	6	2	11	1	1
+166	15	Contraception	6	2	11	1	1
+166	16	Contraception	6	2	11	1	1
+166	17	Patriarchal/Misogynist	6	2	11	1	1
+166	18	Patriarchal/Misogynist	6	2	11	1	1
+166	19	Black	6	2	11	1	1
+166	20	Nonsense/Fiction	6	2	11	1	1
+166	21	Choir/Music	6	2	11	1	1
+166	22	Donations/Collections	6	2	11	1	1
+166	23	Bible/Gospel	6	2	11	1	1
+166	24	Preaching/Sermons	6	2	11	1	1
+166	25	Education System	6	2	11	1	1
+166	26	Africa	6	2	11	1	1
+166	27	Charity	6	2	11	1	1
+166	28	Charity	6	2	11	1	1
+166	29	Clergy	6	2	11	1	1
+166	30	Clergy	6	2	11	1	1
+167	1	Corrupt/Materialistic	3	2	11	1	0
+167	2	Hypocrisy	3	2	11	1	0
+167	3	Uncaring	3	2	11	1	0
+167	4	Authoritarian/Dominant	3	2	11	1	0
+167	5	Authoritarian/Dominant	3	2	11	1	0
+167	6	Large	3	2	11	1	0
+167	7	Declining	3	2	11	1	0
+168	1	Vatican/Overall Structure	2	1	3	0	1
+168	2	Popular	2	1	3	0	1
+168	3	Tradition	2	1	3	0	1
+168	4	Belief/Faith	2	1	3	0	1
+168	5	Charity	2	1	3	0	1
+168	6	Declining	2	1	3	0	1
+168	7	Comforting/Caring	2	1	3	0	1
+168	8	Community	2	1	3	0	1
+168	9	Morality	2	1	3	0	1
+168	10	Old People	2	1	3	0	1
+168	11	Scandal	2	1	3	0	1
+168	12	Abuse/Paedophilia	2	1	3	0	1
+168	13	Education System	2	1	3	0	1
+168	14	Morality	2	1	3	0	1
+168	15	Morality	2	1	3	0	1
+168	16	Authoritarian/Dominant	2	1	3	0	1
+168	17	Bigotry	2	1	3	0	1
+168	18	State Influence	2	1	3	0	1
+168	19	Social Reform	2	1	3	0	1
+169	1	Education System	2	1	2	0	1
+169	2	Catholic	2	1	2	0	1
+169	3	Christian Brothers	2	1	2	0	1
+169	4	Irish	2	1	2	0	1
+169	5	Everywhere	2	1	2	0	1
+169	6	Religion	2	1	2	0	1
+169	7	Dishonest/Untrustworthy	2	1	2	0	1
+169	8	Abuse/Paedophilia	2	1	2	0	1
+170	1	Gender	5	1	3	1	1
+170	2	Patriarchal/Misogynist	5	1	3	1	1
+170	3	Abuse/Paedophilia	5	1	3	1	1
+170	4	Corrupt/Materialistic	5	1	3	1	1
+170	5	Outdated/Conservative	5	1	3	1	1
+170	6	Cover-up/Secrecy	5	1	3	1	1
+170	7	Cover-up/Secrecy	5	1	3	1	1
+170	8	Unappealing	5	1	3	1	1
+170	9	Bigotry	5	1	3	1	1
+170	10	Sacraments/Rites of Passage	5	1	3	1	1
+170	11	Sadness	5	1	3	1	1
+170	12	No retirement	5	1	3	1	1
+170	13	Community	5	1	3	1	1
+170	14	Education System	5	1	3	1	1
+170	15	Arrogance	5	1	3	1	1
+170	16	Outdated/Conservative	5	1	3	1	1
+170	17	Authoritarian/Dominant	5	1	3	1	1
+170	18	Declining	5	1	3	1	1
+170	19	Corrupt/Materialistic	5	1	3	1	1
+170	20	Declining	5	1	3	1	1
+171	1	Corrupt/Materialistic	2	1	3	1	1
+171	2	Nonsense/Fiction	2	1	3	1	1
+171	3	Insular/Detached	2	1	3	1	1
+171	4	Cover-up/Secrecy	2	1	3	1	1
+171	5	Corrupt/Materialistic	2	1	3	1	1
+171	6	Cover-up/Secrecy	2	1	3	1	1
+171	7	Abuse/Paedophilia	2	1	3	1	1
+171	8	Irrelevant	2	1	3	1	1
+171	9	Authoritarian/Dominant	2	1	3	1	1
+171	10	Outdated/Conservative	2	1	3	1	1
+171	11	Old People	2	1	3	1	1
+171	12	Cover-up/Secrecy	2	1	3	1	1
+171	13	Declining	2	1	3	1	1
+171	14	Boring	2	1	3	1	1
+171	15	Hypocrisy	2	1	3	1	1
+171	16	Hypocrisy	2	1	3	1	1
+171	17	Authoritarian/Dominant	2	1	3	1	1
+171	18	Abortion	2	1	3	1	1
+171	19	Clericalism	2	1	3	1	1
+171	20	Patriarchal/Misogynist	2	1	3	1	1
+172	1	Clergy	6	1	11	0	1
+172	2	Nuns	6	1	11	0	1
+172	3	Bigotry	6	1	11	0	1
+172	4	Sin	6	1	11	0	1
+172	5	Communion	6	1	11	0	1
+172	6	Kneeling	6	1	11	0	1
+172	7	Choir/Music	6	1	11	0	1
+172	8	Flowers	6	1	11	0	1
+172	9	Brass	6	1	11	0	1
+172	10	Religious Artifacts	6	1	11	0	1
+172	11	Candles	6	1	11	0	1
+172	12	Religious Artifacts	6	1	11	0	1
+172	13	The Cross	6	1	11	0	1
+172	14	Religious Artifacts	6	1	11	0	1
+172	15	Incense	6	1	11	0	1
+172	16	Churches/Buildings	6	1	11	0	1
+172	17	Churches/Buildings	6	1	11	0	1
+172	18	Religious Artifacts	6	1	11	0	1
+172	19	Churches/Buildings	6	1	11	0	1
+172	20	Churches/Buildings	6	1	11	0	1
+173	1	Corrupt/Materialistic	5	2	3	0	1
+173	2	Clergy	5	2	3	0	1
+173	3	Nonsense/Fiction	5	2	3	0	1
+173	4	Cold	5	2	3	0	1
+173	5	Uncaring	5	2	3	0	1
+173	6	Patriarchal/Misogynist	5	2	3	0	1
+173	7	Abuse/Paedophilia	5	2	3	0	1
+173	8	Dishonest/Untrustworthy	5	2	3	0	1
+173	9	Pope	5	2	3	0	1
+173	10	Vatican/Overall Structure	5	2	3	0	1
+173	11	Robes	5	2	3	0	1
+173	12	Clergy	5	2	3	0	1
+173	13	Adoption	5	2	3	0	1
+173	14	Abroad	5	2	3	0	1
+173	15	Oppressive Institutions (Laundries. etc.)	5	2	3	0	1
+173	16	Oppressive Institutions (Laundries. etc.)	5	2	3	0	1
+173	17	Missionaries	5	2	3	0	1
+173	18	Charity	5	2	3	0	1
+173	19	Homosexuality	5	2	3	0	1
+173	20	Afterlife	5	2	3	0	1
+174	1	Outdated/Conservative	2	1	3	0	1
+174	2	Outdated/Conservative	2	1	3	0	1
+174	3	Declining	2	1	3	0	1
+174	4	Boring	2	1	3	0	1
+174	5	Nonsense/Fiction	2	1	3	0	1
+174	6	Pope	2	1	3	0	1
+174	7	Education System	2	1	3	0	1
+174	8	Churches/Buildings	2	1	3	0	1
+174	9	Insular/Detached	2	1	3	0	1
+174	10	Bad/Immoral	2	1	3	0	1
+174	11	Patriarchal/Misogynist	2	1	3	0	1
+174	12	Outdated/Conservative	2	1	3	0	1
+174	13	Bad/Immoral	2	1	3	0	1
+174	14	Abuse/Paedophilia	2	1	3	0	1
+174	15	Cover-up/Secrecy	2	1	3	0	1
+174	16	moving past	2	1	3	0	1
+174	17	Declining	2	1	3	0	1
+175	1	Scandal	2	1	3	0	1
+175	2	Belief/Faith	2	1	3	0	1
+175	3	Belief/Faith	2	1	3	0	1
+175	4	Comforting/Caring	2	1	3	0	1
+175	5	Morality	2	1	3	0	1
+175	6	Sin	2	1	3	0	1
+175	7	God	2	1	3	0	1
+175	8	Clergy	2	1	3	0	1
+175	9	Education System	2	1	3	0	1
+175	10	Sacraments/Rites of Passage	2	1	3	0	1
+175	11	Sacraments/Rites of Passage	2	1	3	0	1
+175	12	Sacraments/Rites of Passage	2	1	3	0	1
+175	13	Clergy	2	1	3	0	1
+175	14	Vatican/Overall Structure	2	1	3	0	1
+175	15	Pope	2	1	3	0	1
+175	16	Tolerant	2	1	3	0	1
+175	17	Vatican/Overall Structure	2	1	3	0	1
+175	18	Children	2	1	3	0	1
+175	19	Churches/Buildings	2	1	3	0	1
+175	20	Religious Orders	2	1	3	0	1
+176	1	Authoritarian/Dominant	1	1	4	0	1
+177	1	Communion	6	1	11	1	0
+177	2	Mass	6	1	11	1	0
+177	3	Sacraments/Rites of Passage	6	1	11	1	0
+177	4	Clergy	6	1	11	1	0
+177	5	Abuse/Paedophilia	6	1	11	1	0
+177	6	Hypocrisy	6	1	11	1	0
+177	7	Clergy	6	1	11	1	0
+177	8	Clergy	6	1	11	1	0
+177	9	Churches/Buildings	6	1	11	1	0
+177	10	Sacraments/Rites of Passage	6	1	11	1	0
+177	11	Sacraments/Rites of Passage	6	1	11	1	0
+177	12	Vatican/Overall Structure	6	1	11	1	0
+177	13	Maynooth	6	1	11	1	0
+177	14	Abuse/Paedophilia	6	1	11	1	0
+177	15	Abortion	6	1	11	1	0
+177	16	Sex	6	1	11	1	0
+177	17	Outdated/Conservative	6	1	11	1	0
+177	18	Authoritarian/Dominant	6	1	11	1	0
+177	19	Outdated/Conservative	6	1	11	1	0
+177	20	Religious Artifacts	6	1	11	1	0
+178	1	Belief/Faith	2	1	3	1	1
+178	2	Education System	2	1	3	1	1
+178	3	Sacraments/Rites of Passage	2	1	3	1	1
+178	4	Scandal	2	1	3	1	1
+179	1	Clergy	5	1	2	1	0
+179	2	Churches/Buildings	5	1	2	1	0
+179	3	Education System	5	1	2	1	0
+179	4	Mass	5	1	2	1	0
+179	5	Religion	5	1	2	1	0
+179	6	Nuns	5	1	2	1	0
+179	7	Sacraments/Rites of Passage	5	1	2	1	0
+179	8	Sacraments/Rites of Passage	5	1	2	1	0
+179	9	Sacraments/Rites of Passage	5	1	2	1	0
+179	10	Children	5	1	2	1	0
+179	11	Abuse/Paedophilia	5	1	2	1	0
+179	12	Clergy	5	1	2	1	0
+179	13	Other Religion	5	1	2	1	0
+179	14	Education System	5	1	2	1	0
+179	15	Money	5	1	2	1	0
+179	16	Death	5	1	2	1	0
+179	17	Bigotry	5	1	2	1	0
+179	18	Declining	5	1	2	1	0
+179	19	Sacraments/Rites of Passage	5	1	2	1	0
+179	20	Declining	5	1	2	1	0
+180	1	Belief/Faith	6	1	11	1	0
+180	2	Good/Holy	6	1	11	1	0
+180	3	Belief/Faith	6	1	11	1	0
+180	4	Authoritarian/Dominant	6	1	11	1	0
+180	5	Spiritual	6	1	11	1	0
+180	6	Community	6	1	11	1	0
+180	7	Good/Holy	6	1	11	1	0
+180	8	Sacraments/Rites of Passage	6	1	11	1	0
+180	9	Spiritual	6	1	11	1	0
+180	10	Charity	6	1	11	1	0
+180	11	Community	6	1	11	1	0
+180	12	God	6	1	11	1	0
+180	13	Love	6	1	11	1	0
+180	14	Community	6	1	11	1	0
+180	15	Good/Holy	6	1	11	1	0
+180	16	Forgiveness	6	1	11	1	0
+180	17	Good/Holy	6	1	11	1	0
+180	18	Stigma	6	1	11	1	0
+180	19	Stigma	6	1	11	1	0
+180	20	Insular/Detached	6	1	11	1	0
+180	21	Outdated/Conservative	6	1	11	1	0
+180	22	Tolerant	6	1	11	1	0
+180	23	Celibacy	6	1	11	1	0
+180	24	Knowledge	6	1	11	1	0
+180	25	Good/Holy	6	1	11	1	0
+180	26	Knowledge	6	1	11	1	0
+180	27	Reform needed	6	1	11	1	0
+180	28	Cover-up/Secrecy	6	1	11	1	0
+180	29	Reform needed	6	1	11	1	0
+180	30	Celibacy	6	1	11	1	0
+181	1	Outdated/Conservative	6	1	2	1	1
+181	2	Insular/Detached	6	1	2	1	1
+181	3	Outdated/Conservative	6	1	2	1	1
+181	4	Insular/Detached	6	1	2	1	1
+181	5	Irrelevant	6	1	2	1	1
+181	6	Parochialism	6	1	2	1	1
+181	7	Corrupt/Materialistic	6	1	2	1	1
+181	8	Corrupt/Materialistic	6	1	2	1	1
+181	9	Elitism	6	1	2	1	1
+181	10	Authoritarian/Dominant	6	1	2	1	1
+181	11	Elitism	6	1	2	1	1
+181	12	Outdated/Conservative	6	1	2	1	1
+181	13	Insular/Detached	6	1	2	1	1
+181	14	Declining	6	1	2	1	1
+181	15	Outdated/Conservative	6	1	2	1	1
+181	16	Old People	6	1	2	1	1
+181	17	Authoritarian/Dominant	6	1	2	1	1
+181	18	Outdated/Conservative	6	1	2	1	1
+181	19	Outdated/Conservative	6	1	2	1	1
+181	20	Reform needed	6	1	2	1	1
+182	1	Clergy	1	1	10	0	1
+182	2	Religion	1	1	10	0	1
+182	3	God	1	1	10	0	1
+182	4	Jesus	1	1	10	0	1
+182	5	Abuse/Paedophilia	1	1	10	0	1
+182	6	Scandal	1	1	10	0	1
+182	7	Corrupt/Materialistic	1	1	10	0	1
+182	8	Comforting/Caring	1	1	10	0	1
+182	9	Sincerity/Honesty	1	1	10	0	1
+182	10	Afterlife	1	1	10	0	1
+182	11	Deed 	1	1	10	0	1
+182	12	Happiness	1	1	10	0	1
+182	13	Sadness	1	1	10	0	1
+182	14	Knowledge	1	1	10	0	1
+182	15	Tradition	1	1	10	0	1
+182	16	Religious Art	1	1	10	0	1
+182	17	Community	1	1	10	0	1
+182	18	Community	1	1	10	0	1
+182	19	Pastime	1	1	10	0	1
+182	20	The Cross	1	1	10	0	1
+182	21	Good/Holy	1	1	10	0	1
+182	22	Bible/Gospel	1	1	10	0	1
+183	1	Abuse/Paedophilia	6	1	11	1	1
+183	2	Celibacy	6	1	11	1	1
+183	3	Sacraments/Rites of Passage	6	1	11	1	1
+183	4	Reforming/Changing	6	1	11	1	1
+183	5	Children	6	1	11	1	1
+183	6	Sin	6	1	11	1	1
+183	7	Confession	6	1	11	1	1
+183	8	Vatican/Overall Structure	6	1	11	1	1
+183	9	Pope	6	1	11	1	1
+183	10	Abuse/Paedophilia	6	1	11	1	1
+183	11	Homosexuality	6	1	11	1	1
+183	12	Patriarchal/Misogynist	6	1	11	1	1
+183	13	Clergy	6	1	11	1	1
+183	14	Homosexuality	6	1	11	1	1
+183	15	Preaching/Sermons	6	1	11	1	1
+183	16	Property	6	1	11	1	1
+183	17	Outdated/Conservative	6	1	11	1	1
+183	18	Uncaring	6	1	11	1	1
+183	19	Nonsense/Fiction	6	1	11	1	1
+183	20	Corrupt/Materialistic	6	1	11	1	1
+184	1	Tradition	5	1	3	0	1
+184	2	Declining	5	1	3	0	1
+184	3	Mass	5	1	3	0	1
+184	4	Clergy	5	1	3	0	1
+184	5	Nuns	5	1	3	0	1
+184	6	Churches	5	1	3	0	1
+184	7	Confession	5	1	3	0	1
+184	8	Communion	5	1	3	0	1
+184	9	Sunday	5	1	3	0	1
+184	10	Sacraments/Rites of Passage	5	1	3	0	1
+184	11	Sacraments/Rites of Passage	5	1	3	0	1
+184	12	Baptism	5	1	3	0	1
+184	13	Outdated/Conservative	5	1	3	0	1
+184	14	Sacraments/Rites of Passage	5	1	3	0	1
+184	15	Hypocrisy	5	1	3	0	1
+184	16	Corrupt/Materialistic	5	1	3	0	1
+184	17	Missionaries	5	1	3	0	1
+184	18	Celibacy	5	1	3	0	1
+184	19	Religious Artifacts	5	1	3	0	1
+184	20	Religious Artifacts	5	1	3	0	1
+185	1	Outdated/Conservative	1	1	1	0	1
+185	2	Irrelevant	1	1	1	0	1
+185	3	Bad/Immoral	1	1	1	0	1
+185	4	Authoritarian/Dominant	1	1	1	0	1
+185	5	Irrelevant	1	1	1	0	1
+186	1	Declining	5	1	11	1	0
+186	2	Abuse/Paedophilia	5	1	11	1	0
+186	3	Vatican/Overall Structure	5	1	11	1	0
+186	4	Divorce	5	1	11	1	0
+186	5	Contraception	5	1	11	1	0
+186	6	Celibacy	5	1	11	1	0
+186	7	Abuse/Paedophilia	5	1	11	1	0
+186	8	Authoritarian/Dominant	5	1	11	1	0
+186	9	Arrogance	5	1	11	1	0
+186	10	Tradition	5	1	11	1	0
+186	11	Outdated/Conservative	5	1	11	1	0
+186	12	Outdated/Conservative	5	1	11	1	0
+186	13	Ecumenism	5	1	11	1	0
+186	14	Ecumenism	5	1	11	1	0
+186	15	Ecumenism	5	1	11	1	0
+186	16	Confession	5	1	11	1	0
+186	17	Reform needed	5	1	11	1	0
+186	18	Patriarchal/Misogynist	5	1	11	1	0
+186	19	Reform needed	5	1	11	1	0
+186	20	Abuse/Paedophilia	5	1	11	1	0
+187	1	Clergy	2	2	4	1	0
+187	2	Nuns	2	2	4	1	0
+187	3	Mass	2	2	4	1	0
+187	4	Religion	2	2	4	1	0
+187	5	Communion	2	2	4	1	0
+187	6	Sacraments/Rites of Passage	2	2	4	1	0
+187	7	Sacraments/Rites of Passage	2	2	4	1	0
+187	8	Prayer	2	2	4	1	0
+187	9	Community	2	2	4	1	0
+187	10	Church	2	2	4	1	0
+187	11	Clergy	2	2	4	1	0
+187	12	Pope	2	2	4	1	0
+187	13	Altar boys	2	2	4	1	0
+187	14	Saints	2	2	4	1	0
+187	15	Communion	2	2	4	1	0
+187	16	Religious Artifacts	2	2	4	1	0
+187	17	Bible/Gospel	2	2	4	1	0
+187	18	The Cross	2	2	4	1	0
+187	19	Religious Artifacts	2	2	4	1	0
+187	20	Confession	2	2	4	1	0
+188	1	Corrupt/Materialistic	1	2	2	0	1
+188	2	Realistic	1	2	2	0	1
+188	3	Irrelevant	1	2	2	0	1
+188	4	Outdated/Conservative	1	2	2	0	1
+188	5	Tradition	1	2	2	0	1
+188	6	Celibacy	1	2	2	0	1
+188	7	Nunsshould be able to marry	1	2	2	0	1
+188	8	should be able to have kids	1	2	2	0	1
+189	1	Belief/Faith	5	2	11	1	0
+189	2	Community	5	2	11	1	0
+189	3	Excuses	5	2	11	1	0
+189	4	Convienent	5	2	11	1	0
+189	5	Comforting/Caring	5	2	11	1	0
+189	6	Comforting/Caring	5	2	11	1	0
+189	7	Family	5	2	11	1	0
+189	8	Belief/Faith	5	2	11	1	0
+189	9	God	5	2	11	1	0
+189	10	Good/Holy	5	2	11	1	0
+189	11	Comforting/Caring	5	2	11	1	0
+189	12	Mass	5	2	11	1	0
+189	13	Sin	5	2	11	1	0
+189	14	Meaning	5	2	11	1	0
+189	15	Life	5	2	11	1	0
+189	16	Death	5	2	11	1	0
+189	17	Prayer	5	2	11	1	0
+189	18	Comforting/Caring	5	2	11	1	0
+189	19	Community	5	2	11	1	0
+189	20	Knowledge	5	2	11	1	0
+189	21	Charity	5	2	11	1	0
+190	1	Clergy	1	2	4	1	1
+190	2	Prayer	1	2	4	1	1
+190	3	Mass	1	2	4	1	1
+190	4	Religious Artifacts	1	2	4	1	1
+190	5	Religion	1	2	4	1	1
+190	6	Sacraments/Rites of Passage	1	2	4	1	1
+190	7	Communion	1	2	4	1	1
+190	8	Sacraments/Rites of Passage	1	2	4	1	1
+190	9	Morality	1	2	4	1	1
+190	10	Jesus	1	2	4	1	1
+190	11	Christmas/Other Religious Occasion	1	2	4	1	1
+190	12	Communion	1	2	4	1	1
+190	13	Communion	1	2	4	1	1
+190	14	God	1	2	4	1	1
+190	15	Christmas/Other Religious Occasion	1	2	4	1	1
+190	16	Mary	1	2	4	1	1
+190	17	The Cross	1	2	4	1	1
+190	18	Blessing	1	2	4	1	1
+190	19	Good/Holy	1	2	4	1	1
+190	20	Catholic	1	2	4	1	1
+191	1	Clergy	6	2	4	1	1
+191	2	Clergy	6	2	4	1	1
+191	3	Churches/Buildings	6	2	4	1	1
+191	4	Belief/Faith	6	2	4	1	1
+191	5	Mass	6	2	4	1	1
+191	6	Belief/Faith	6	2	4	1	1
+191	7	Religion	6	2	4	1	1
+191	8	Sacraments/Rites of Passage	6	2	4	1	1
+191	9	Tradition	6	2	4	1	1
+191	10	Family	6	2	4	1	1
+191	11	Comforting/Caring	6	2	4	1	1
+191	12	Community	6	2	4	1	1
+191	13	Laity	6	2	4	1	1
+191	14	Choir/Music	6	2	4	1	1
+191	15	Children	6	2	4	1	1
+191	16	Comforting/Caring	6	2	4	1	1
+191	17	Morality	6	2	4	1	1
+191	18	Charity	6	2	4	1	1
+191	19	Death	6	2	4	1	1
+191	20	Sacraments/Rites of Passage	6	2	4	1	1
+192	1	Jesus	6	2	3	1	0
+192	2	Morality	6	2	3	1	0
+192	3	Belief/Faith	6	2	3	1	0
+192	4	Good/Holy	6	2	3	1	0
+192	5	Important	6	2	3	1	0
+192	6	Good/Holy	6	2	3	1	0
+192	7	Love	6	2	3	1	0
+192	8	Comforting/Caring	6	2	3	1	0
+192	9	Love	6	2	3	1	0
+192	10	Preaching/Sermons	6	2	3	1	0
+192	11	Silence	6	2	3	1	0
+192	12	Sadness	6	2	3	1	0
+192	13	Bible/Gospel	6	2	3	1	0
+192	14	Comforting/Caring	6	2	3	1	0
+192	15	Good/Holy	6	2	3	1	0
+192	16	Prayer	6	2	3	1	0
+192	17	Good/Holy	6	2	3	1	0
+192	18	Sincerity/Honesty	6	2	3	1	0
+192	19	Knowledge	6	2	3	1	0
+192	20	Sacraments/Rites of Passage	6	2	3	1	0
+193	1	Pope	1	2	2	0	1
+193	2	Nonsense/Fiction	1	2	2	0	1
+193	3	Irrelevant	1	2	2	0	1
+193	4	Hypocrisy	1	2	2	0	1
+194	1	Authoritarian/Dominant	2	2	3	0	1
+194	2	Dishonest/Untrustworthy	2	2	3	0	1
+194	3	Dishonest/Untrustworthy	2	2	3	0	1
+194	4	Abuse/Paedophilia	2	2	3	0	1
+194	5	Reforming/Changing	2	2	3	0	1
+194	6	Irish	2	2	3	0	1
+194	7	Guilt	2	2	3	0	1
+194	8	Sacraments/Rites of Passage	2	2	3	0	1
+194	9	Sacraments/Rites of Passage	2	2	3	0	1
+194	10	Communion	2	2	3	0	1
+194	11	Confession	2	2	3	0	1
+194	12	Declining	2	2	3	0	1
+194	13	Insular/Detached	2	2	3	0	1
+194	14	Sacraments/Rites of Passage	2	2	3	0	1
+194	15	Outdated/Conservative	2	2	3	0	1
+194	16	Contraception	2	2	3	0	1
+194	17	Mass	2	2	3	0	1
+194	18	Christmas/Other Religious Occasion	2	2	3	0	1
+194	19	Christmas/Other Religious Occasion	2	2	3	0	1
+194	20	Choir/Music	2	2	3	0	1
+195	1	Clergy	2	2	3	1	0
+195	2	Scandal	2	2	3	1	0
+195	3	Sacraments/Rites of Passage	2	2	3	1	0
+195	4	Communion	2	2	3	1	0
+195	5	Sacraments/Rites of Passage	2	2	3	1	0
+195	6	Outdated/Conservative	2	2	3	1	0
+196	1	God	2	2	5	1	1
+196	2	Jesus	2	2	5	1	1
+196	3	Mary	2	2	5	1	1
+196	4	Bible/Gospel	2	2	5	1	1
+196	5	Bible/Gospel	2	2	5	1	1
+196	6	Mass	2	2	5	1	1
+196	7	Prayer	2	2	5	1	1
+196	8	Sacraments/Rites of Passage	2	2	5	1	1
+196	9	Communion	2	2	5	1	1
+196	10	Sacraments/Rites of Passage	2	2	5	1	1
+196	11	Sacraments/Rites of Passage	2	2	5	1	1
+196	12	Choir/Music	2	2	5	1	1
+196	13	Clergy	2	2	5	1	1
+196	14	Sacraments/Rites of Passage	2	2	5	1	1
+196	15	Christmas/Other Religious Occasion	2	2	5	1	1
+196	16	Christmas/Other Religious Occasion	2	2	5	1	1
+196	17	Christmas/Other Religious Occasion	2	2	5	1	1
+196	18	Christmas/Other Religious Occasion	2	2	5	1	1
+196	19	Christmas/Other Religious Occasion	2	2	5	1	1
+196	20	Other Rituals	2	2	5	1	1
+196	21	Other Rituals	2	2	5	1	1
+197	1	Corrupt/Materialistic	2	2	5	1	1
+197	2	Outdated/Conservative	2	2	5	1	1
+197	3	Authoritarian/Dominant	2	2	5	1	1
+197	4	Cover-up/Secrecy	2	2	5	1	1
+197	5	Authoritarian/Dominant	2	2	5	1	1
+197	6	Communion	2	2	5	1	1
+197	7	Sacraments/Rites of Passage	2	2	5	1	1
+197	8	Sacraments/Rites of Passage	2	2	5	1	1
+197	9	Awkward	2	2	5	1	1
+198	1	Belief/Faith	2	2	5	1	0
+198	2	Jesus	2	2	5	1	0
+198	3	Loyalty	2	2	5	1	0
+198	4	Good/Holy	2	2	5	1	0
+198	5	Comforting/Caring	2	2	5	1	0
+198	6	Community	2	2	5	1	0
+198	7	Good/Holy	2	2	5	1	0
+198	8	Sin	2	2	5	1	0
+198	9	Afterlife	2	2	5	1	0
+198	10	Vatican/Overall Structure	2	2	5	1	0
+198	11	Knowledge	2	2	5	1	0
+198	12	Wealth	2	2	5	1	0
+198	13	Nuns	2	2	5	1	0
+198	14	Clergy	2	2	5	1	0
+198	15	The Cross	2	2	5	1	0
+198	16	Confession	2	2	5	1	0
+198	17	Death	2	2	5	1	0
+198	18	Life	2	2	5	1	0
+198	19	Mass	2	2	5	1	0
+198	20	Choir/Music	2	2	5	1	0
+198	21	Prayer	2	2	5	1	0
+199	1	Belief/Faith	2	2	4	1	1
+199	2	God	2	2	4	1	1
+199	3	Religion	2	2	4	1	1
+199	4	Mary	2	2	4	1	1
+199	5	Authoritarian/Dominant	2	2	4	1	1
+199	6	Dishonest/Untrustworthy	2	2	4	1	1
+199	7	Pope	2	2	4	1	1
+199	8	Sectarian	2	2	4	1	1
+199	9	Tolerant	2	2	4	1	1
+199	10	Scandal	2	2	4	1	1
+199	11	Communion	2	2	4	1	1
+199	12	Mass	2	2	4	1	1
+199	13	Prayer	2	2	4	1	1
+199	14	God	2	2	4	1	1
+199	15	Clergy	2	2	4	1	1
+199	16	Bible/Gospel	2	2	4	1	1
+199	17	Confession	2	2	4	1	1
+199	18	Forgiveness	2	2	4	1	1
+199	19	Anger	2	2	4	1	1
+200	1	Communion	1	2	10	0	1
+200	2	God	1	2	10	0	1
+200	3	Clergy	1	2	10	0	1
+200	4	Mass	1	2	10	0	1
+200	5	Nuns	1	2	10	0	1
+200	6	Prayer	1	2	10	0	1
+200	7	Bigotry	1	2	10	0	1
+200	8	Abuse/Paedophilia	1	2	10	0	1
+200	9	Altar Boys	1	2	10	0	1
+200	10	Sacraments/Rites of Passage	1	2	10	0	1
+200	11	Religious Artifacts	1	2	10	0	1
+200	12	Jesus	1	2	10	0	1
+200	13	God	1	2	10	0	1
+200	14	Other Theological/Scriptural Association	1	2	10	0	1
+200	15	Other Theological/Scriptural Association	1	2	10	0	1
+200	16	Other Theological/Scriptural Association	1	2	10	0	1
+200	17	Other Theological/Scriptural Association	1	2	10	0	1
+200	18	Other Theological/Scriptural Association	1	2	10	0	1
+200	19	Sacraments/Rites of Passage	1	2	10	0	1
+200	20	Communion	1	2	10	0	1
+201	1	Mass	2	2	10	1	1
+201	2	Communion	2	2	10	1	1
+201	3	Confession	2	2	10	1	1
+201	4	Mass	2	2	10	1	1
+201	5	Christmas/Other Religious Occasion	2	2	10	1	1
+201	6	Sacraments/Rites of Passage	2	2	10	1	1
+202	1	Arrogance	1	2	5	0	1
+202	2	Dishonest/Untrustworthy	1	2	5	0	1
+202	3	Dishonest/Untrustworthy	1	2	5	0	1
+202	4	Outdated/Conservative	1	2	5	0	1
+202	5	Dishonest/Untrustworthy	1	2	5	0	1
+202	6	Bigotry	1	2	5	0	1
+202	7	Unconvential	1	2	5	0	1
+202	8	Arrogance	1	2	5	0	1
+202	9	Insular/Detached	1	2	5	0	1
+202	10	Bigotry	1	2	5	0	1
+202	11	Dishonest/Untrustworthy	1	2	5	0	1
+202	12	Cover-up/Secrecy	1	2	5	0	1
+202	13	Shame/Disgust	1	2	5	0	1
+202	14	Declining	1	2	5	0	1
+202	15	Authoritarian/Dominant	1	2	5	0	1
+202	16	Outdated/Conservative	1	2	5	0	1
+202	17	Uncaring	1	2	5	0	1
+202	18	Nonsense/Fiction	1	2	5	0	1
+202	19	Declining	1	2	5	0	1
+202	20	Outdated/Conservative	1	2	5	0	1
+203	1	Boring	2	2	4	0	1
+203	2	Authoritarian/Dominant	2	2	4	0	1
+203	3	Old People	2	2	4	0	1
+203	4	Outdated/Conservative	2	2	4	0	1
+203	5	Outdated/Conservative	2	2	4	0	1
+203	6	Education System	2	2	4	0	1
+203	7	Choir/Music	2	2	4	0	1
+203	8	Communion	2	2	4	0	1
+203	9	Confession	2	2	4	0	1
+203	10	Scandal	2	2	4	0	1
+203	11	Clergy	2	2	4	0	1
+203	12	Abuse/Paedophilia	2	2	4	0	1
+203	13	Altar boys	2	2	4	0	1
+203	14	Altar Boys	2	2	4	0	1
+203	15	Sacraments/Rites of Passage	2	2	4	0	1
+203	16	Tradition	2	2	4	0	1
+203	17	Sacraments/Rites of Passage	2	2	4	0	1
+203	18	Sacraments/Rites of Passage	2	2	4	0	1
+203	19	Sacraments/Rites of Passage	2	2	4	0	1
+203	20	Other Rituals	2	2	4	0	1
+204	1	Sacraments/Rites of Passage	1	2	5	1	1
+204	2	Churches/Buildings	1	2	5	1	1
+204	3	Clergy	1	2	5	1	1
+204	4	Scandal	1	2	5	1	1
+204	5	Communion	1	2	5	1	1
+204	6	Sacraments/Rites of Passage	1	2	5	1	1
+204	7	Confession	1	2	5	1	1
+204	8	Altar Boys	1	2	5	1	1
+204	9	God	1	2	5	1	1
+204	10	Afterlife	1	2	5	1	1
+204	11	Choir/Music	1	2	5	1	1
+204	12	Choir/Music	1	2	5	1	1
+204	13	Mass	1	2	5	1	1
+204	14	Community	1	2	5	1	1
+204	15	Prayer	1	2	5	1	1
+204	16	Good/Holy	1	2	5	1	1
+204	17	Mass	1	2	5	1	1
+204	18	Belief/Faith	1	2	5	1	1
+204	19	Religion	1	2	5	1	1
+204	20	The Cross	1	2	5	1	1
+205	1	Mass	1	2	8	1	1
+205	2	Mass	1	2	8	1	1
+205	3	Communion	1	2	8	1	1
+205	4	Jesus	1	2	8	1	1
+205	5	Morality	1	2	8	1	1
+205	6	Religious Artifacts	1	2	8	1	1
+205	7	Sacraments/Rites of Passage	1	2	8	1	1
+205	8	Sacraments/Rites of Passage	1	2	8	1	1
+205	9	Sacraments/Rites of Passage	1	2	8	1	1
+205	10	Sacraments/Rites of Passage	1	2	8	1	1
+205	11	Belief/Faith	1	2	8	1	1
+205	12	Prayer	1	2	8	1	1
+205	13	Prayer	1	2	8	1	1
+205	14	God	1	2	8	1	1
+205	15	Mary	1	2	8	1	1
+205	16	Religion	1	2	8	1	1
+205	17	Clergy	1	2	8	1	1
+205	18	Nuns	1	2	8	1	1
+205	19	Mass	1	2	8	1	1
+205	20	Churches/Buildings	1	2	8	1	1
+207	1	Mass	6	2	11	1	0
+207	2	Sacraments/Rites of Passage	6	2	11	1	0
+207	3	Sacraments/Rites of Passage	6	2	11	1	0
+207	4	Christmas/Other Religious Occasion	6	2	11	1	0
+207	5	Christmas/Other Religious Occasion	6	2	11	1	0
+207	6	Sacraments/Rites of Passage	6	2	11	1	0
+207	7	Prayer	6	2	11	1	0
+207	8	Prayer	6	2	11	1	0
+207	9	Pilgrim Site	6	2	11	1	0
+207	10	Clergy	6	2	11	1	0
+207	11	Nuns	6	2	11	1	0
+207	12	Graveyard	6	2	11	1	0
+207	13	Churches/Buildings	6	2	11	1	0
+207	14	Education System	6	2	11	1	0
+207	15	Sacraments/Rites of Passage	6	2	11	1	0
+207	16	Communion	6	2	11	1	0
+207	17	Sacraments/Rites of Passage	6	2	11	1	0
+207	18	Shrines	6	2	11	1	0
+207	19	Religious Artifacts	6	2	11	1	0
+207	20	Religious Artifacts	6	2	11	1	0
+208	1	Clergy	6	2	6	0	1
+208	2	Mass	6	2	6	0	1
+208	3	Communion	6	2	6	0	1
+208	4	Abuse/Paedophilia	6	2	6	0	1
+208	5	Sacraments/Rites of Passage	6	2	6	0	1
+208	6	Declining	6	2	6	0	1
+208	7	Vatican/Overall Structure	6	2	6	0	1
+208	8	Pope	6	2	6	0	1
+208	9	Nuns	6	2	6	0	1
+208	10	Education System	6	2	6	0	1
+208	11	Pain	6	2	6	0	1
+208	12	Fear	6	2	6	0	1
+208	13	Education System	6	2	6	0	1
+208	14	Sacraments/Rites of Passage	6	2	6	0	1
+208	15	Sacraments/Rites of Passage	6	2	6	0	1
+208	16	Christmas/Other Religious Occasion	6	2	6	0	1
+208	17	Christmas/Other Religious Occasion	6	2	6	0	1
+208	18	The Cross	6	2	6	0	1
+208	19	Money	6	2	6	0	1
+208	20	Mass	6	2	6	0	1
+209	1	Religion	6	2	11	1	0
+209	2	Clergy	6	2	11	1	0
+209	3	Patriarchal/Misogynist	6	2	11	1	0
+209	4	Communion	6	2	11	1	0
+209	5	Sacraments/Rites of Passage	6	2	11	1	0
+209	6	Sacraments/Rites of Passage	6	2	11	1	0
+209	7	Sacraments/Rites of Passage	6	2	11	1	0
+209	8	Mass	6	2	11	1	0
+209	9	Confession	6	2	11	1	0
+209	10	Prayer	6	2	11	1	0
+209	11	Pope	6	2	11	1	0
+209	12	Clergy	6	2	11	1	0
+209	13	Vatican/Overall Structure	6	2	11	1	0
+209	14	Community	6	2	11	1	0
+209	15	Churches/Buildings	6	2	11	1	0
+209	16	Scandal	6	2	11	1	0
+209	17	Choir/Music	6	2	11	1	0
+209	18	Altar Boys	6	2	11	1	0
+209	19	Churches/Buildings 	6	2	11	1	0
+209	20	Outdated/Conservative	6	2	11	1	0
+210	1	Authoritarian/Dominant	6	2	3	1	1
+210	2	Sin	6	2	3	1	1
+210	3	Abuse/Paedophilia	6	2	3	1	1
+210	4	Good/Holy	6	2	3	1	1
+210	5	Mass	6	2	3	1	1
+210	6	Confession	6	2	3	1	1
+210	7	Education System	6	2	3	1	1
+210	8	Churches/Buildings	6	2	3	1	1
+210	9	Clergy	6	2	3	1	1
+210	10	Nuns	6	2	3	1	1
+210	11	Money	6	2	3	1	1
+210	12	Pope	6	2	3	1	1
+210	13	Clergy	6	2	3	1	1
+210	14	Property	6	2	3	1	1
+210	15	House	6	2	3	1	1
+210	16	Vatican/Overall Structure	6	2	3	1	1
+210	17	Jesus	6	2	3	1	1
+210	18	Saints	6	2	3	1	1
+210	19	Other Theological/Scriptural Association	6	2	3	1	1
+210	20	Mary	6	2	3	1	1
+212	1	Authoritarian/Dominant	4	1	4	1	
+212	2	Education System	4	1	4	1	
+212	3	Abuse/Paedophilia	4	1	4	1	
+212	4	Authoritarian/Dominant	4	1	4	1	
+212	5	State Influence	4	1	4	1	
+212	6	Declining	4	1	4	1	
+212	7	Irish	4	1	4	1	
+212	8	Community	4	1	4	1	
+214	1	Abuse/Paedophilia	4	1	3	0	
+214	2	Corrupt/Materialistic	4	1	3	0	
+214	3	Bad/Immoral	4	1	3	0	
+214	4	Nonsense/Fiction	4	1	3	0	
+216	1	Stigma	4	2	2	1	
+216	2	Abuse/Paedophilia	4	2	2	1	
+216	3	Declining	4	2	2	1	
+229	1	Comforting/Caring	4	2	2	1	
+229	2	Scandal	4	2	2	1	
+229	3	Abuse/Paedophilia	4	2	2	1	
+229	4	Clergy	4	2	2	1	
+229	5	Hypocrisy	4	2	2	1	
+229	6	Outdated/Conservative	4	2	2	1	
+229	7	Outdated/Conservative	4	2	2	1	
+231	1	Jesus	4	2	5	1	
+231	2	Mary	4	2	5	1	
+231	3	Saints	4	2	5	1	
+231	4	Prayer	4	2	5	1	
+231	5	Mass	4	2	5	1	
+231	6	Communion	4	2	5	1	
+234	1	Clergy	6	2	4	1	
+234	2	Clergy	6	2	4	1	
+234	3	Laity	6	2	4	1	
+234	4	Education System	6	2	4	1	
+234	5	Charity	6	2	4	1	
+234	6	Authoritarian/Dominant	6	2	4	1	
+234	7	Abuse/Paedophilia	6	2	4	1	
+234	8	Missionaries	6	2	4	1	
+234	9	Maynooth	6	2	4	1	
+234	10	Christian	6	2	4	1	
+234	11	Ecumenism	6	2	4	1	
+234	12	Ecumenism	6	2	4	1	
+236	1	Clergy	4	2	2	1	
+236	2	Mass	4	2	2	1	
+236	3	Sacraments/Rites of Passage	4	2	2	1	
+236	4	Family	4	2	2	1	
+240	1	Clergy	3	2	2	1	
+240	2	Mass	3	2	2	1	
+240	3	Sacraments/Rites of Passage	3	2	2	1	
+240	4	Sacraments/Rites of Passage	3	2	2	1	
+240	5	Pope	3	2	2	1	
+240	6	Prayer	3	2	2	1	
+240	7	Communion	3	2	2	1	
+240	8	Confession	3	2	2	1	
+240	9	Christian	3	2	2	1	
+240	10	Sacraments/Rites of Passage	3	2	2	1	
+240	11	Sacraments/Rites of Passage	3	2	2	1	
+240	12	Communion	3	2	2	1	
+240	13	Communion	3	2	2	1	
+240	14	Bible/Gospel	3	2	2	1	
+240	15	Bible/Gospel	3	2	2	1	
+240	16	Clergy	3	2	2	1	
+240	17	Churches/Buidlings	3	2	2	1	
+240	18	Churches/Buidlings	3	2	2	1	
+240	19	Laity	3	2	2	1	
+240	20	Comforting/Caring	3	2	2	1	
+243	1	Outdated/Conservative	3	1	2	0	
+243	2	Abuse/Paedophilia	3	1	2	0	
+243	3	Declining	3	1	2	0	
+243	4	Hypocrisy	3	1	2	0	
+243	5	Corrupt/Materialistic	3	1	2	0	
+243	6	Declining	3	1	2	0	
+243	7	Oppressive Institutions (Laundries. etc.)	3	1	2	0	
+243	8	Elitism	3	1	2	0	
+243	9	Education System	3	1	2	0	
+243	10	Corrupt/Materialistic	3	1	2	0	
+243	11	Authoritarian/Dominant	3	1	2	0	
+243	12	Declining	3	1	2	0	
+243	13	Old People	3	1	2	0	
+243	14	Homosexuality	3	1	2	0	
+243	15	Scandal	3	1	2	0	
+243	16	Donations/Collections	3	1	2	0	
+243	17	Preaching/Sermons	3	1	2	0	
+243	18	Fear	3	1	2	0	
+243	19	Other rituals	3	1	2	0	
+243	20	Prayer	3	1	2	0	
+251	1	Abuse/Paedophilia	4	2	4	1	
+251	2	Clergy	4	2	4	1	
+251	3	Abuse/Paedophilia	4	2	4	1	
+251	4	The Vatican/Overall Structure	4	2	4	1	
+251	5	Christian Brothers	4	2	4	1	
+251	6	Preaching/Sermons	4	2	4	1	
+251	7	Cover-up/Secrecy	4	2	4	1	
+251	8	Sacraments/Rites of Passage	4	2	4	1	
+251	9	Communion	4	2	4	1	
+251	10	Sacraments/Rites of Passage	4	2	4	1	
+251	11	Sacraments/Rites of Passage	4	2	4	1	
+251	12	Sacraments/Rites of Passage	4	2	4	1	
+251	13	Clergy	4	2	4	1	
+251	14	Clergy	4	2	4	1	
+251	15	Clergy	4	2	4	1	
+251	16	Preaching/Sermons	4	2	4	1	
+251	17	Sacraments/Rites of Passage	4	2	4	1	
+251	18	Jesus	4	2	4	1	
+251	19	Mary 	4	2	4	1	
+251	20	Joseph	4	2	4	1	
+258	1	The Vatican/Overall Structure	4	1	4	1	
+258	2	Pope	4	1	4	1	
+258	3	Communion	4	1	4	1	
+258	4	Clergy	4	1	4	1	
+258	5	Confession	4	1	4	1	
+258	6	Mass	4	1	4	1	
+258	7	Churches/Buildings	4	1	4	1	
+258	8	Protestant	4	1	4	1	
+258	9	Other Religion	4	1	4	1	
+258	10	Other Religion	4	1	4	1	
+258	11	War 	4	1	4	1	
+258	12	Belief/Faith	4	1	4	1	
+258	13	Religion	4	1	4	1	
+258	14	Persecution	4	1	4	1	
+258	15	Sectarian	4	1	4	1	
+258	16	Bigotry	4	1	4	1	
+258	17	Bigotry	4	1	4	1	
+258	18	Sectarian	4	1	4	1	
+258	19	Kneeling	4	1	4	1	
+258	20	Prayer	4	1	4	1	
+259	1	Tradition	3	1	3	1	
+259	2	Education System	3	1	3	1	
+259	3	Mass	3	1	3	1	
+259	4	Other rituals	3	1	3	1	
+259	5	Christmas/Other Religious Occasion	3	1	3	1	
+259	6	Forgiveness	3	1	3	1	
+259	7	Forgiveness	3	1	3	1	
+259	8	Communion	3	1	3	1	
+259	9	Other Theological/Scriptural Association	3	1	3	1	
+259	10	Sacraments/Rites of Passage	3	1	3	1	
+259	11	Other Theological/Scriptural Association	3	1	3	1	
+259	12	State Influence	3	1	3	1	
+259	13	Celibacy	3	1	3	1	
+259	14	Preaching/Sermons	3	1	3	1	
+259	15	Sacraments/Rites of Passage	3	1	3	1	
+259	16	Sacraments/Rites of Passage	3	1	3	1	
+259	17	Corrupt/Materialistic	3	1	3	1	
+259	18	Dishonest/Untrustworthy	3	1	3	1	
+259	19	Cover-up/Secrecy	3	1	3	1	
+259	20	Uncaring	3	1	3	1	
+262	1	Clergy	4	2	3	1	
+262	2	Pope	4	2	3	1	
+262	3	Clergy	4	2	3	1	
+262	4	Churches/Buildings	4	2	3	1	
+262	5	Churches/Buildings	4	2	3	1	
+262	6	Clergy	4	2	3	1	
+262	7	Media	4	2	3	1	
+262	8	Old People	4	2	3	1	
+262	9	Sacraments/Rites of Passage	4	2	3	1	
+268	1	Old People	4	2	8	0	
+268	2	Outdated/Conservative	4	2	8	0	
+268	3	Patriarchal/Misogynist	4	2	8	0	
+268	4	Declining	4	2	8	0	
+268	5	Authoritarian/Dominant	4	2	8	0	
+268	6	Insular/Detached	4	2	8	0	
+268	7	Declining	4	2	8	0	
+268	8	Patriarchal/Misogynist	4	2	8	0	
+268	9	Outdated/Conservative	4	2	8	0	
+268	10	rigid structure	4	2	8	0	
+268	11	The Vatican/Overall Structure	4	2	8	0	
+268	12	Scandal	4	2	8	0	
+268	13	Cover-up/Secrecy	4	2	8	0	
+268	14	Declining	4	2	8	0	
+268	15	Declining	4	2	8	0	
+268	16	Patriarchal/Misogynist	4	2	8	0	
+268	17	Boring	4	2	8	0	
+268	18	Irrelevant	4	2	8	0	
+268	19	Community	4	2	8	0	
+268	20	Silence	4	2	8	0	
+269	1	State Influence	6	1	11	0	
+269	2	Authoritarian/Dominant	6	1	11	0	
+269	3	Authoritarian/Dominant	6	1	11	0	
+269	4	Arrogance	6	1	11	0	
+269	5	Arrogance	6	1	11	0	
+269	6	Authoritarian/Dominant	6	1	11	0	
+269	7	Canon Law	6	1	11	0	
+269	8	Outdated/Conservative	6	1	11	0	
+269	9	Authoritarian/Dominant	6	1	11	0	
+269	10	Bigotry	6	1	11	0	
+269	11	Let down/Betrayed	6	1	11	0	
+269	12	Dishonest/Untrustworthy	6	1	11	0	
+269	13	Corrupt/Materialistic	6	1	11	0	
+269	14	Cover-up/Secrecy	6	1	11	0	
+269	15	Bad/Immoral	6	1	11	0	
+269	16	Dishonest/Untrustworthy	6	1	11	0	
+269	17	Dishonest/Untrustworthy	6	1	11	0	
+269	18	Uncaring	6	1	11	0	
+269	19	Abuse/Paedophilia	6	1	11	0	
+269	20	Arrogance	6	1	11	0	
+275	1	Belief/Faith	4	2	4	1	
+275	2	Good/Holy	4	2	4	1	
+275	3	Religion	4	2	4	1	
+275	4	Clergy	4	2	4	1	
+275	5	Pope	4	2	4	1	
+275	6	Sacraments/Rites of Passage	4	2	4	1	
+275	7	Communion	4	2	4	1	
+275	8	Mass	4	2	4	1	
+275	9	The Vatican/Overall Structure	4	2	4	1	
+275	10	Jesus 	4	2	4	1	
+275	11	Confession	4	2	4	1	
+275	12	Mass	4	2	4	1	
+275	13	Christmas/Other Religious Occasions	4	2	4	1	
+275	14	Mary	4	2	4	1	
+275	15	Sacraments/Rites of Passage	4	2	4	1	
+275	16	Prayer	4	2	4	1	
+275	17	Christmas/Other Religious Occasions	4	2	4	1	
+275	18	Declining	4	2	4	1	
+275	19	Charity	4	2	4	1	
+275	20	Nuns	4	2	4	1	
+276	1	Clergy	5	1	5	1	
+276	2	Religion	5	1	5	1	
+276	3	Declining	5	1	5	1	
+276	4	Churches/Buildings	5	1	5	1	
+276	5	Sacraments/Rites of Passage	5	1	5	1	
+276	6	Communion	5	1	5	1	
+276	7	Sacraments/Rites of Passage	5	1	5	1	
+276	8	Sacraments/Rites of Passage	5	1	5	1	
+276	9	Pope	5	1	5	1	
+276	10	Clergy	5	1	5	1	
+276	11	Clergy	5	1	5	1	
+276	12	Prayer	5	1	5	1	
+276	13	Prayer	5	1	5	1	
+276	14	Bible/Gospel	5	1	5	1	
+276	15	Outdated/Conservative	5	1	5	1	
+276	16	State Influence	5	1	5	1	
+276	17	Mass	5	1	5	1	
+276	18	Death	5	1	5	1	
+276	19	Sacraments/Rites of Passage	5	1	5	1	
+276	20	Corrupt/Materialistic	5	1	5	1	
+281	1	Clergy	3	2	4	1	
+281	2	Clergy	3	2	4	1	
+281	3	Sacraments/Rites of Passage	3	2	4	1	
+281	4	Communion	3	2	4	1	
+281	5	Sacraments/Rites of Passage	3	2	4	1	
+281	6	Saints	3	2	4	1	
+281	7	Sacraments/Rites of Passage	3	2	4	1	
+281	8	Nuns	3	2	4	1	
+281	9	Pope	3	2	4	1	
+281	10	The Vatican/Overall Structure	3	2	4	1	
+281	11	Missionaries	3	2	4	1	
+281	12	Religious Artifacts	3	2	4	1	
+281	13	Religious Artifacts	3	2	4	1	
+281	14	Morality	3	2	4	1	
+281	15	Scandal	3	2	4	1	
+281	16	Oppressive Institutions (Laundries. etc.)	3	2	4	1	
+281	17	Other Rituals	3	2	4	1	
+281	18	Fear	3	2	4	1	
+281	19	Afterlife	3	2	4	1	
+281	20	Afterlife	3	2	4	1	
+283	1	God	6	1	11	1	
+283	2	Bible/Gospel	6	1	11	1	
+283	3	Mass	6	1	11	1	
+283	4	Clergy	6	1	11	1	
+283	5	Clergy	6	1	11	1	
+283	6	Education System	6	1	11	1	
+283	7	life	6	1	11	1	
+283	8	Sacraments/Rites of Passage	6	1	11	1	
+283	9	Sacraments/Rites of Passage	6	1	11	1	
+283	10	Education System	6	1	11	1	
+283	11	Education System	6	1	11	1	
+283	12	Churches/Buildings	6	1	11	1	
+283	13	Reflection	6	1	11	1	
+283	14	Confession	6	1	11	1	
+283	15	Pope	6	1	11	1	
+283	16	The Vatican/Overall Structure	6	1	11	1	
+283	17	Churches/Buildings	6	1	11	1	
+283	18	Churches/Buildings	6	1	11	1	
+283	19	Monks	6	1	11	1	
+283	20	Sodalities	6	1	11	1	
+283	21	Communion	6	1	11	1	
+283	22	Sacraments/Rites of Passage	6	1	11	1	
+283	23	Morality	6	1	11	1	
+283	24	Other Theological/Scriptural Association	6	1	11	1	
+283	25	Jesus	6	1	11	1	
+283	26	God	6	1	11	1	
+283	27	Bible/Gospel	6	1	11	1	
+283	28	Afterlife	6	1	11	1	
+283	29	Afterlife	6	1	11	1	
+283	30	Morality	6	1	11	1	
+285	1	God	6	2	11	1	
+285	2	Comforting/Caring	6	2	11	1	
+285	3	God	6	2	11	1	
+285	4	Prayer	6	2	11	1	
+285	5	Comforting/Caring	6	2	11	1	
+285	6	Comforting/Caring	6	2	11	1	
+285	7	Community	6	2	11	1	
+285	8	Charity	6	2	11	1	
+285	9	Clergy	6	2	11	1	
+285	10	Pope	6	2	11	1	
+285	11	Missionaries	6	2	11	1	
+285	12	Stigma	6	2	11	1	
+285	13	Abuse/Paedophilia	6	2	11	1	
+285	14	Stigma	6	2	11	1	
+285	15	Beseiged	6	2	11	1	
+285	16	Community	6	2	11	1	
+285	17	Beseiged	6	2	11	1	
+285	18	Beseiged	6	2	11	1	
+285	19	Mary	6	2	11	1	
+285	20	Good/Holy	6	2	11	1	
+286	1	Mass	6	2	11	1	
+286	2	Confession	6	2	11	1	
+286	3	Belief/Faith	6	2	11	1	
+286	4	Prayer	6	2	11	1	
+286	5	The Cross	6	2	11	1	
+286	6	Comforting/Caring	6	2	11	1	
+286	7	Scandal	6	2	11	1	
+286	8	Declining	6	2	11	1	
+286	9	The Vatican/Overall Structure	6	2	11	1	
+286	10	Pope	6	2	11	1	
+286	11	Nuns	6	2	11	1	
+286	12	Preaching/Sermons	6	2	11	1	
+286	13	Sacraments/Rites of Passage	6	2	11	1	
+286	14	Missionaries	6	2	11	1	
+286	15	The Vatican/Overall Structure	6	2	11	1	
+286	16	Celibacy	6	2	11	1	
+286	17	Preaching/Sermons	6	2	11	1	
+286	18	Other Rituals	6	2	11	1	
+286	19	Churches/Buildings	6	2	11	1	
+286	20	Indulgences	6	2	11	1	
+286	21	Afterlife	6	2	11	1	
+286	22	Afterlife	6	2	11	1	
+287	1	Abuse/Paedophilia	6	1	11	0	
+287	2	Cover-up/Secrecy	6	1	11	0	
+287	3	Education System	6	1	11	0	
+287	4	State Influence	6	1	11	0	
+287	5	Patriarchal/Misogynist	6	1	11	0	
+287	6	Declining	6	1	11	0	
+292	1	Clergy	5	1	1	1	
+292	2	Churches/Buildings	5	1	1	1	
+292	3	Mass	5	1	1	1	
+292	4	Pope	5	1	1	1	
+292	5	The Vatican/Overall Structure	5	1	1	1	
+292	6	Nuns	5	1	1	1	
+292	7	Clergy	5	1	1	1	
+292	8	Education System	5	1	1	1	
+292	9	Religion	5	1	1	1	
+292	10	Oppressive Institutions (Laundries. etc.)	5	1	1	1	
+292	11	Oppressive Institutions (Laundries. etc.)	5	1	1	1	
+292	12	Sacraments/Rites of Passage	5	1	1	1	
+292	13	Sacraments/Rites of Passage	5	1	1	1	
+292	14	Cover-up/Secrecy	5	1	1	1	
+292	15	Bad/Immoral	5	1	1	1	
+292	16	Authoritarian/Dominant	5	1	1	1	
+292	17	Authoritarian/Dominant	5	1	1	1	
+292	18	Hypocrisy	5	1	1	1	
+292	19	Elitism	5	1	1	1	
+292	20	Bad/Immoral	5	1	1	1	
+292	21	Let down/Betrayed	5	1	1	1	
+292	22	Influence	5	1	1	1	
+304	1	Clergy	6	1	11	1	
+304	2	Education System	6	1	11	1	
+304	3	Authoritarian/Dominant	6	1	11	1	
+304	4	Bad/Immoral	6	1	11	1	
+304	5	Authoritarian/Dominant	6	1	11	1	
+304	6	Sacraments/Rites of Passage	6	1	11	1	
+304	7	Sacraments/Rites of Passage	6	1	11	1	
+304	8	Divorce	6	1	11	1	
+304	9	Abuse/Paedophilia	6	1	11	1	
+304	10	Clergy	6	1	11	1	
+304	11	Cover-up/Secrecy	6	1	11	1	
+304	12	Comforting/Caring	6	1	11	1	
+304	13	Comforting/Caring	6	1	11	1	
+304	14	Bigotry	6	1	11	1	
+304	15	Property	6	1	11	1	
+304	16	Celibacy	6	1	11	1	
+304	17	Homosexuality	6	1	11	1	
+304	18	Sadness	6	1	11	1	
+304	19	Indoctrination	6	1	11	1	
+304	20	Outdated/Conservative	6	1	11	1	
+305	1	Saints	4	2	4	1	
+305	2	Outdated/Conservative	4	2	4	1	
+305	3	Scandal	4	2	4	1	
+305	4	Corrupt/Materialistic	4	2	4	1	
+305	5	Bigotry	4	2	4	1	
+305	6	Parochialism	4	2	4	1	
+305	7	Corrupt/Materialistic	4	2	4	1	
+305	8	Uncaring	4	2	4	1	
+305	9	under law	4	2	4	1	
+305	10	Bad/Immoral	4	2	4	1	
+306	1	Stigma	4	1	5	1	
+306	2	Belief/Faith	4	1	5	1	
+306	3	Beseiged	4	1	5	1	
+306	4	Abuse/Paedophilia	4	1	5	1	
+306	5	Stigma	4	1	5	1	
+306	6	Beseiged	4	1	5	1	
+306	7	Beseiged	4	1	5	1	
+306	8	Beseiged	4	1	5	1	
+306	9	Good/Holy	4	1	5	1	
+306	10	Jesus 	4	1	5	1	
+306	11	Charity	4	1	5	1	
+306	12	Comforting/Caring	4	1	5	1	
+306	13	Education System	4	1	5	1	
+306	14	will survive current attacks	4	1	5	1	
+306	15	Tolerant	4	1	5	1	
+306	16	Tolerant	4	1	5	1	
+306	17	Life	4	1	5	1	
+306	18	Sacraments/Rites of Passage	4	1	5	1	
+306	19	Morality	4	1	5	1	
+306	20	Comforting/Caring	4	1	5	1	
+308	1	Sadness	4	1	4	1	
+308	2	Outdated/Conservative	4	1	4	1	
+308	3	Declining	4	1	4	1	
+311	1	Mass	5	1	4	1	
+311	2	Authoritarian/Dominant	5	1	4	1	
+311	3	Community	5	1	4	1	
+311	4	Old People	5	1	4	1	
+311	5	Declining	5	1	4	1	
+311	6	Corrupt/Materialistic	5	1	4	1	
+311	7	Uncaring	5	1	4	1	
+311	8	Declining	5	1	4	1	
+311	9	Christmas/Other Religious Occasions	5	1	4	1	
+311	10	Christmas/Other Religious Occasions	5	1	4	1	
+311	11	Abuse/Paedophilia	5	1	4	1	
+311	12	Abuse/Paedophilia	5	1	4	1	
+311	13	Hypocrisy	5	1	4	1	
+311	14	Hypocrisy	5	1	4	1	
+311	15	Dishonest/Untrustworthy	5	1	4	1	
+311	16	Cover-up/Secrecy	5	1	4	1	
+311	17	Declining	5	1	4	1	
+311	18	Celibacy	5	1	4	1	
+317	1	Pope	6	2	11	1	
+317	2	Mass	6	2	11	1	
+317	3	Clergy	6	2	11	1	
+317	4	Communion	6	2	11	1	
+317	5	Sacraments/Rites of Passage	6	2	11	1	
+317	6	Sacraments/Rites of Passage	6	2	11	1	
+317	7	Sacraments/Rites of Passage	6	2	11	1	
+317	8	Sacraments/Rites of Passage	6	2	11	1	
+317	9	Afterlife	6	2	11	1	
+317	10	Afterlife	6	2	11	1	
+317	11	Other Theological/Scriptural Association	6	2	11	1	
+317	12	Other Theological/Scriptural Association	6	2	11	1	
+317	13	Jesus	6	2	11	1	
+317	14	Sin	6	2	11	1	
+317	15	Confession	6	2	11	1	
+317	16	Jesus	6	2	11	1	
+317	17	Jesus	6	2	11	1	
+317	18	Christmas/Other Religious Occasions	6	2	11	1	
+317	19	Saints	6	2	11	1	
+317	20	Bible/Gospel	6	2	11	1	
+317	21	Mary	6	2	11	1	
+317	22	Joseph	6	2	11	1	
+317	23	Morality	6	2	11	1	
+317	24	Morality	6	2	11	1	
+317	25	Mass	6	2	11	1	
+317	26	Mass	6	2	11	1	
+317	27	Religious Artifacts	6	2	11	1	
+317	28	Candles	6	2	11	1	
+317	29	Sacraments/Rites of Passage	6	2	11	1	
+317	30	Saints	6	2	11	1	
+321	1	Cardinal  Fiaich	6	1	1	1	
+321	2	Education System	6	1	1	1	
+321	3	Mass	6	1	1	1	
+321	4	Sacraments/Rites of Passage	6	1	1	1	
+321	5	Bible/Gospel	6	1	1	1	
+321	6	Sacraments/Rites of Passage	6	1	1	1	
+321	7	Clergy	6	1	1	1	
+321	8	Nuns	6	1	1	1	
+321	9	Religious Artifacts	6	1	1	1	
+321	10	Candles	6	1	1	1	
+321	11	Love	6	1	1	1	
+321	12	Prayer	6	1	1	1	
+321	13	Community	6	1	1	1	
+321	14	Charity	6	1	1	1	
+321	15	Pope	6	1	1	1	
+321	16	Collections/Donations	6	1	1	1	
+321	17	Sacraments/Rites of Passage	6	1	1	1	
+321	18	Sacraments/Rites of Passage	6	1	1	1	
+321	19	Charity	6	1	1	1	
+321	20	Charity	6	1	1	1	
+321	21	Charity	6	1	1	1	
+325	1	Troubled	5	1	3	1	
+325	2	Outdated/Conservative	5	1	3	1	
+325	3	Community	5	1	3	1	
+325	4	Scandal	5	1	3	1	
+325	5	Reforming/Changing	5	1	3	1	
+325	6	Declining	5	1	3	1	
+325	7	Declining	5	1	3	1	
+325	8	Outdated/Conservative	5	1	3	1	
+325	9	Troubled	5	1	3	1	
+325	10	Corrupt/Materialistic	5	1	3	1	
+325	11	Corrupt/Materialistic	5	1	3	1	
+325	12	Women	5	1	3	1	
+325	13	Belief/Faith	5	1	3	1	
+325	14	Pope	5	1	3	1	
+325	15	Tradition	5	1	3	1	
+325	16	Nuns	5	1	3	1	
+325	17	Education System	5	1	3	1	
+325	18	Propaganda	5	1	3	1	
+325	19	Homosexuality	5	1	3	1	
+325	20	Abortion	5	1	3	1	
+325	21	Morality	5	1	3	1	
+325	22	Community	5	1	3	1	
+325	23	Sacraments/Rites of Passage	5	1	3	1	
+325	24	Pilgrim Site	5	1	3	1	
+325	25	Belief/Faith	5	1	3	1	
+325	26	Missionaries	5	1	3	1	
+325	27	Scandal	5	1	3	1	
+325	28	Money	5	1	3	1	
+325	29	Prayer	5	1	3	1	
+325	30	Resurgance	5	1	3	1	
+327	1	Mass	5	2	3	1	
+327	2	Communion	5	2	3	1	
+327	3	Bible/Gospel	5	2	3	1	
+327	4	Clergy	5	2	3	1	
+327	5	Comforting/Caring	5	2	3	1	
+327	6	Prayer	5	2	3	1	
+327	7	Comforting/Caring	5	2	3	1	
+327	8	Other Rituals	5	2	3	1	
+327	9	Confession 	5	2	3	1	
+327	10	Sacraments/Rites of Passage	5	2	3	1	
+327	11	Status	5	2	3	1	
+327	12	The Cross	5	2	3	1	
+327	13	Jesus	5	2	3	1	
+327	14	Mary	5	2	3	1	
+327	15	Saints	5	2	3	1	
+327	16	Saints	5	2	3	1	
+327	17	Choir/Music	5	2	3	1	
+327	18	Prayer	5	2	3	1	
+327	19	Choir/Music	5	2	3	1	
+327	20	Community	5	2	3	1	
+333	1	Outdated/Conservative	2	1	5	1	
+333	2	Outdated/Conservative	2	1	5	1	
+333	3	Corrupt/Materialistic	2	1	5	1	
+333	4	Cover-up/Secrecy	2	1	5	1	
+333	5	Authoritarian/Dominant	2	1	5	1	
+333	6	Corrupt/Materialistic	2	1	5	1	
+335	1	Belief/Faith	5	1	8	1	
+335	2	Dishonest/Untrustworthy	5	1	8	1	
+335	3	Education System	5	1	8	1	
+335	4	Education System	5	1	8	1	
+335	5	Charity	5	1	8	1	
+335	6	Stigma	5	1	8	1	
+335	7	Outdated/Conservative	5	1	8	1	
+335	8	Comforting/Caring	5	1	8	1	
+335	9	Abuse/Paedophilia	5	1	8	1	
+335	10	Sacraments/Rites of Passage	5	1	8	1	
+335	11	Confession	5	1	8	1	
+335	12	Community	5	1	8	1	
+335	13	Comforting/Caring	5	1	8	1	
+335	14	Stigma	5	1	8	1	
+335	15	Declining	5	1	8	1	
+335	16	Declining	5	1	8	1	
+335	17	Outdated/Conservative	5	1	8	1	
+335	18	Insular/Detached	5	1	8	1	
+335	19	Patriarchal/Misogynist	5	1	8	1	
+335	20	Reforming/Changing	5	1	8	1	
+337	1	Prayer	5	2	3	1	
+337	2	Pope	5	2	3	1	
+337	3	Clergy	5	2	3	1	
+337	4	Churches/Buildings	5	2	3	1	
+337	5	Mass	5	2	3	1	
+337	6	Communion	5	2	3	1	
+337	7	Mass	5	2	3	1	
+337	8	Preaching/Sermons	5	2	3	1	
+337	9	Religious Artifacts	5	2	3	1	
+337	10	Religious Artifacts	5	2	3	1	
+337	11	Religious Artifacts	5	2	3	1	
+337	12	Laity	5	2	3	1	
+337	13	Laity	5	2	3	1	
+337	14	Religious Artifacts	5	2	3	1	
+337	15	Sacraments/Rites of Passage	5	2	3	1	
+337	16	Sacraments/Rites of Passage	5	2	3	1	
+337	17	Religious Artifacts	5	2	3	1	
+337	18	Communion	5	2	3	1	
+337	19	Kneeling	5	2	3	1	
+337	20	Prayer	5	2	3	1	
+343	1	Morality	6	2	11	1	
+343	2	Comforting/Caring	6	2	11	1	
+343	3	Comforting/Caring	6	2	11	1	
+343	4	Community	6	2	11	1	
+343	5	Diocese/Parish	6	2	11	1	
+343	6	Community	6	2	11	1	
+343	7	Comforting/Caring	6	2	11	1	
+343	8	Comforting/Caring	6	2	11	1	
+343	9	Property	6	2	11	1	
+343	10	Churches/Buildings	6	2	11	1	
+343	11	Churches/Buildings	6	2	11	1	
+343	12	Education System	6	2	11	1	
+343	13	Preaching/Sermons	6	2	11	1	
+343	14	Clergy	6	2	11	1	
+343	15	Clergy	6	2	11	1	
+343	16	Nuns	6	2	11	1	
+343	17	Monks	6	2	11	1	
+343	18	Prayer	6	2	11	1	
+343	19	Prayer	6	2	11	1	
+343	20	Christmas/Other Religious Occasions	6	2	11	1	
+343	21	Christmas/Other Religious Occasions	6	2	11	1	
+343	22	Mass	6	2	11	1	
+344	1	Comforting/Caring	6	2	11	1	
+344	2	Comforting/Caring	6	2	11	1	
+344	3	Happiness	6	2	11	1	
+344	4	Comforting/Caring	6	2	11	1	
+344	5	Mass	6	2	11	1	
+344	6	Jesus	6	2	11	1	
+344	7	Sacraments/Rites of Passage	6	2	11	1	
+353	1	Jesus	6	2	11	1	
+353	2	Mass	6	2	11	1	
+353	3	Communion	6	2	11	1	
+353	4	Sacraments/Rites of Passage	6	2	11	1	
+353	5	Forgiveness 	6	2	11	1	
+353	6	Clergy	6	2	11	1	
+353	7	Nuns	6	2	11	1	
+353	8	Clergy	6	2	11	1	
+353	9	Churches/Buildings	6	2	11	1	
+353	10	Missionaries	6	2	11	1	
+353	11	Christmas/Other Religious Occasions	6	2	11	1	
+353	12	Christmas/Other Religious Occasions	6	2	11	1	
+353	13	Education System	6	2	11	1	
+353	14	Morality	6	2	11	1	
+353	15	Afterlife	6	2	11	1	
+353	16	Afterlife	6	2	11	1	
+353	17	Afterlife	6	2	11	1	
+353	18	Mary	6	2	11	1	
+353	19	Other Theological/Scriptural Association	6	2	11	1	
+353	20	Other Theological/Scriptural Association	6	2	11	1	
+354	1	Religion	6	2	7	1	
+354	2	Morality	6	2	7	1	
+354	3	Sacraments/Rites of Passage	6	2	7	1	
+354	4	Sacraments/Rites of Passage	6	2	7	1	
+354	5	Divorce	6	2	7	1	
+354	6	Abortion	6	2	7	1	
+354	7	Homosexuality	6	2	7	1	
+354	8	Contraception	6	2	7	1	
+354	9	Divorce	6	2	7	1	
+354	10	Children	6	2	7	1	
+354	11	Preaching/Sermons	6	2	7	1	
+354	12	Clergy	6	2	7	1	
+354	13	Community	6	2	7	1	
+354	14	Death	6	2	7	1	
+354	15	Religious Artifacts	6	2	7	1	
+354	16	Choir/Music	6	2	7	1	
+354	17	Donations/Collections	6	2	7	1	
+354	18	Donations/Collections	6	2	7	1	
+354	19	Laity	6	2	7	1	
+354	20	Clergy	6	2	7	1	
+355	1	Jesus	6	2	11	1	
+355	2	Prayer	6	2	11	1	
+355	3	Mass	6	2	11	1	
+355	4	Hypocrisy	6	2	11	1	
+355	5	Declining	6	2	11	1	
+355	6	Scandal	6	2	11	1	
+355	7	Arrogance	6	2	11	1	
+355	8	Community	6	2	11	1	
+355	9	Children	6	2	11	1	
+355	10	Sacraments/Rites of Passage	6	2	11	1	
+355	11	Sacraments/Rites of Passage	6	2	11	1	
+355	12	Women	6	2	11	1	
+355	13	Laity	6	2	11	1	
+355	14	Money	6	2	11	1	
+358	1	Clergy	6	2	5	1	
+358	2	Community	6	2	5	1	
+358	3	Altar Boys	6	2	5	1	
+358	4	Sacraments/Rites of Passage	6	2	5	1	
+358	5	Sacraments/Rites of Passage	6	2	5	1	
+358	6	Communion	6	2	5	1	
+358	7	Prayer	6	2	5	1	
+358	8	Comforting/Caring	6	2	5	1	
+358	9	Family	6	2	5	1	
+358	10	Comforting/Caring	6	2	5	1	
+358	11	Love	6	2	5	1	
+358	12	Children	6	2	5	1	
+358	13	Death	6	2	5	1	
+358	14	Sacraments/Rites of Passage	6	2	5	1	
+358	15	Love 	6	2	5	1	
+358	16	God	6	2	5	1	
+359	1	Abuse/Paedophilia	6	1	11	1	
+359	2	Declining	6	1	11	1	
+359	3	Declining	6	1	11	1	
+359	4	Irrelevant	6	1	11	1	
+359	5	Declining	6	1	11	1	
+359	6	Declining	6	1	11	1	
+359	7	Declining	6	1	11	1	
+359	8	Pope	6	1	11	1	
+359	9	Confession	6	1	11	1	
+359	10	Sacraments/Rites of Passage	6	1	11	1	
+359	11	Corrupt/Materialistic	6	1	11	1	
+359	12	Altar Boys	6	1	11	1	
+359	13	Religious Artifacts	6	1	11	1	
+359	14	Religious Artifacts	6	1	11	1	
+359	15	Prayer	6	1	11	1	
+359	16	Pilgrim Site	6	1	11	1	
+359	17	Pilgrim Site	6	1	11	1	
+359	18	Religious Artifacts	6	1	11	1	
+359	19	Mass	6	1	11	1	
+359	20	Prayer	6	1	11	1	
+361	1	Pope	6	1	11	1	
+361	2	Churches/Buildings	6	1	11	1	
+361	3	Community	6	1	11	1	
+361	4	Clergy	6	1	11	1	
+361	5	Laity	6	1	11	1	
+361	6	Jesus	6	1	11	1	
+361	7	God	6	1	11	1	
+361	8	Other Theological/Scriptural Association	6	1	11	1	
+361	9	Christian	6	1	11	1	
+361	10	Communion	6	1	11	1	
+361	11	Sacraments/Rites of Passage	6	1	11	1	
+361	12	Ministeries	6	1	11	1	
+361	13	Other Rituals	6	1	11	1	
+361	14	Nuns	6	1	11	1	
+361	15	Monks	6	1	11	1	
+361	16	Confession	6	1	11	1	
+361	17	Sacraments/Rites of Passage	6	1	11	1	
+361	18	Bible/Gospel	6	1	11	1	
+361	19	Other Theological/Scriptural Association	6	1	11	1	
+361	20	Mary	6	1	11	1	
+361	21	Joseph	6	1	11	1	
+361	22	Christmas/Other Religious Occasions	6	1	11	1	
+361	23	Christmas/Other Religious Occasions	6	1	11	1	
+361	24	Christmas/Other Religious Occasions	6	1	11	1	
+361	25	Clergy	6	1	11	1	
+361	26	Martyrs	6	1	11	1	
+361	27	Beseiged	6	1	11	1	
+361	28	Belief/Faith	6	1	11	1	
+361	29	Afterlife	6	1	11	1	
+361	30	Afterlife	6	1	11	1	
