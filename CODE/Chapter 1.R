@@ -2,7 +2,7 @@
 ### Ethnographic Free-List Data
 ### Chapter 1: Introduction
 ### Benjamin Grant Purzycki
-### Last Updated: September 25, 2023
+### Last Updated: October 13, 2023
 ##############################################
 
 ### Preliminaries
