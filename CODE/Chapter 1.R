@@ -6,7 +6,7 @@
 ##############################################
 
 ### Preliminaries
-setwd("C:/Users/au624473/Dropbox/2. In Progress/Articles and Books/Books/Methods with Free-List Data/3. Workflow/Data")
+setwd("")
 
 install.packages("devtools")
 library("devtools")
