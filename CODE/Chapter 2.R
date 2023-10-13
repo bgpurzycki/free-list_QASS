@@ -2,7 +2,7 @@
 ### Ethnographic Free-List Data
 ### Chapter 2: Content Analysis
 ### Benjamin Grant Purzycki
-### Last Updated: September 29, 2023
+### Last Updated: October 13, 2023
 ##############################################
 
 ### Preliminaries
@@ -393,3 +393,7 @@ alpha.fun(dran, 0.95)
 library(xtable)
 crontab <- data.frame(d, dran)
 xtable(crontab, digits = 0)
+
+###############################################################################################
+# If using the data, please read, refer, and cite the following:
+# Tyva Republic_Virtues_2010.txt: Purzycki, B. G., & Bendixen, T. (2020). Examining Values, Virtues, and Tradition in the Republic of Tuva with Free-List and Demographic Data. Новые исследования Тувы, (4), 6-18.
