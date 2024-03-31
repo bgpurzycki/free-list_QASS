@@ -5,7 +5,8 @@ This page includes all of the data and supplementary code for the **Ethnographic
 ## Software
 One of the R packages used in this volume is the `AnthroTools` package. You can install that using the following code:
 
-```install.packages("devtools")
+```
+install.packages("devtools")
 library("devtools")
 install_github('alastair-JL/AnthroTools')
 library(AnthroTools)
