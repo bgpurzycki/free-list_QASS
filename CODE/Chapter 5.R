@@ -1,10 +1,11 @@
 #############################
-### Ethnographic Free-List Data: Chapter 5
-### SAGE
+### Ethnographic Free-List Data
+### Chapter 5: Models, Prediction, and Uncertainty
 ### Benjamin Grant Purzycki
-### Last Updated: October 6, 2023
+### Last Updated: March 26, 2024
 ################################
 
+##############################################
 ### Preliminaries
 rm(list = ls())
 setwd()
@@ -13,10 +14,16 @@ mycol1 <- rgb(224, 224, 224, max = 255, alpha = 100, names = "lightgray")
 mycol2 <- rgb(255, 255, 255, max = 255, alpha = 100, names = "white")
 mycol3 <- rgb(0, 0, 0, max = 255, alpha = 100, names = "darkgray")
 
-### Packages used in this chapter
 library(AnthroTools)
 library(xtable)
 library(rethinking)
+
+# Installing rethinking (and other packages that require stan) is a little
+# more involved. Go here: https://github.com/rmcelreath/rethinking for
+# instructions.
+
+##############################################
+### Table 5.1: Picking apart the mean
 
 ## The Mean as Model
 obs <- c(2, 5, 5, 6, 10, 10, 12, 18, 29, 29)
@@ -38,7 +45,9 @@ sd(d$obs)
 ## z-scores
 d$z <- (d$obs - mean(d$obs))/sd(d$obs) # (observation - mean)/sd(variable)
 
-### Figure 5.1: Deviance
+##############################################
+### Figure 5.1: Accounting for deviance from the mean
+
 par(mar = c(1, 4, 1, 1))
 plot(obs, ylim = c(0, 30),
      ylab = "value", xlab = NA, axes = F, frame.plot = T, pch = 16)
@@ -55,9 +64,12 @@ arrows(8, 18, 8, mean(obs), length = 0) # x0, y0, x1, y1
 arrows(9, 29, 9, mean(obs), length = 0) # x0, y0, x1, y1
 arrows(10, 29, 10, mean(obs), length = 0) # x0, y0, x1, y1
 
-### Figure 5.2: Simple shading of 95% of the area under the curve
+##############################################
+### Figure 5.2: z-distribution curve
+
+par(mar = c(4, 4, 1, 1))
 curve(dnorm(x, 0, 1), xlim = c(-4, 4), 
-      main = NULL, xlab = "z score", ylab = "Probability")
+      main = NULL, xlab = expression(italic(z)-score), ylab = "Probability")
 cord.x <- c(-1.96, seq(-1.96, 1.96, 0.01), 1.96) # +/-1.96 on a z-distribution
 cord.y <- c(0, dnorm(seq(-1.96, 1.96, 0.01)), 0) 
 polygon(cord.x, cord.y, col = 'gray') 
@@ -73,8 +85,8 @@ lines(c(0, 0), c(0, dnorm(0, 0, 1)), lty = 3) # the mean!
 
 # M = 12.6, 95% CI = [6.57, 18.63] 
 
-#################################
 ## Confidence interval of the mean function
+
 CI.mean <- function(variable){
   mean <- mean(variable, na.rm = T)
   stdev <- sd(variable, na.rm = T)
@@ -131,8 +143,28 @@ hist(simdat2, xlab = NA, ylab = NA, prob = TRUE,
 curve(dnorm(x, 12.6, 1), xlim = c(-20, 50), 
       main = NULL, add = TRUE) 
 
-## Primer on Regression
+##############################################
+### Footnote 2 Reference: Poisson Model
+
+n <- 500
+plot(density(rpois(n, lambda = 0.5)))
+plot(density(rpois(n, lambda = 5)))
+plot(density(rpois(n, lambda = 10)))
+
+n <- 500
+alpha <- 5
+beta <- 0.7
+x <- runif(n, min = 0, max = 1)
+lambda <- exp(alpha + beta * x)
+y <- rpois(n, lambda = lambda) 
+plot(log(y) ~ x, log = "y", pch = 16)
+mpoisson <- glm(y ~ x, family = "poisson")
+confint(mpoisson)
+
+##############################################
 ### R Code Box 5.1: Simple OLS regression
+### Table 5.2: Fictitious data of participant age and number of items listed
+
 PARTID <- paste0("ID", seq(1:20))
 x <- c(1, 28, 16, 40, 42, 30, 4, 25, 7, 19, 33, 35, 40, 10, 43, 10, 45, 19, 18, 28)
 y <- c(9, 20, 17, 26, 33, 24, 10, 23, 10, 15, 23, 25, 21, 12, 35, 15, 32, 15, 18, 23)
@@ -166,14 +198,26 @@ alpha.se <- resstderr * sqrt((1/nrow(d)) + ((mean(x)^2) / sum(d$xdsq)))
 # Std. error of slope
 beta.se <- sqrt(var.e / sum(d$xdsq))
 
+# t-statistics
+t.alpha <- alpha/alpha.se
+t.beta <- beta/beta.se
+
 # 95% CIs
 beta.up <- beta + qt(0.975, nrow(d) - 2)*beta.se
 beta.lo <- beta - qt(0.975, nrow(d) - 2)*beta.se
 alpha.up <- alpha + qt(0.975, nrow(d) - 2)*alpha.se
 alpha.lo <- alpha - qt(0.975, nrow(d) - 2)*alpha.se
 
+# Table 5.3: Regression output
+outtab <- round(data.frame(est = c(alpha, beta), se = c(alpha.se, beta.se), 
+                           tstat = c(t.alpha, t.beta), lower = c(alpha.lo, beta.lo),
+           upper = c(alpha.up, beta.up), row.names = c("alpha", "beta_age")), 2)
+xtable(outtab) # for LaTeX users
+
+##############################################
 ### Figure 5.3: Regression of fake data from Table 5.1
-par(mar = c(4, 4, 1, 1))
+
+par(mar = c(4, 4, 1, 1), mfrow = c(1, 1))
 plot(y ~ x, data = d,
      ylab = "# of items listed", xlab = "age",
      xlim = c(0, 50), ylim = c(0, 40),
@@ -190,7 +234,9 @@ polygon(c(rev(newxs), newxs),
 
 points(0, alpha)
 
+##############################################
 ### Figure 5.4: Uncertainty interval demo
+
 mycol <- rgb(128, 128, 128, max = 255, alpha = 25, names = "vapor")
 
 par(mfrow = c(1, 2), mar = c(4, 4, 1, 1))
@@ -221,7 +267,9 @@ plot(NA, xlim = c(-30, 30), ylim = c(-30, 30),
 replicate(500, regsim(100, 0, 10, 0.5))
 text(-25, 25, "(b)")
 
+##############################################
 ### Figure 5.5: Anscombe's Quartet
+
 d <- datasets::anscombe
 
 m1 <- lm(y1 ~ x1, data = d)
@@ -266,7 +314,9 @@ polygon(c(rev(newxs), newxs),
           preds[ ,2]), col = rgb(0, 0, 0, 0.3), border = NA) # rgb: 0's for grey, 0.3 for transparency
 abline(m4)
 
+##############################################
 ### Figure 5.6. Examples of Priors
+
 par(mfrow = c(2, 2), mar = c(4.5, 2, 1, 1))
 curve(dnorm(x, 10, 1), from = -5, to = 20, 
       ylab = NA, lwd = 1.5, xlab = "")
@@ -292,13 +342,15 @@ legend(3.8, .9, lty = c(1, 2, 3), legend = c("= 0.25", "= 0.5", "= 1"),
        title = expression(lambda), cex = 1.2, lwd = 1.5)
 mtext(expression(paste("Exponential", (lambda))), 1, padj = 2.2)
 
+##############################################
 ### Figure 5.7. Simulated posteriors
+
 set.seed(777)
 
 n <- 150
 x <- rnorm(n, 5, 1)
-alpha <- rnorm(n, 10, .5)
-b <- .7
+alpha <- rnorm(n, 10, 0.5)
+b <- 0.7
 y <- alpha + b*x + rnorm(n, 0, 1)
 
 dat <- data.frame(y, x)
@@ -455,4 +507,3 @@ polygon(density(postbmm$bx), col = mycol1)
 abline(v = b, lty = 2)
 mtext(expression(paste(beta, "= (10, 10), ", alpha, "= (10, 10)")), side = 1, padj = 2.5, cex = .8)
 text(-0.4, 2.7, "(h)")
-

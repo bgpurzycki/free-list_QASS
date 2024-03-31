@@ -2,18 +2,21 @@
 ### Ethnographic Free-List Data
 ### Chapter 4: Sharedness and Overlap
 ### Benjamin Grant Purzycki
-### Last Updated: October 13, 2023
+### Last Updated: March 14, 2024
 ##############################################
 
+##############################################
 ### Preliminaries
+
 setwd()
+setwd("C:/Users/au624473/Dropbox/2. In Progress/Articles and Books/Books/Methods with Free-List Data/3. Workflow/Data")
 
-### Packages used in this chapter
 library(AnthroTools)
-library(euler)
+library(eulerr)
 
-#######################################################
-### Footnote 1 Code Reference: Pearson's r function
+##############################################
+### Footnote 1: Pearson's r function
+
 corfun <- function(x, y){
   devx <- x - mean(x)
   devy <- y - mean(y)
@@ -36,7 +39,6 @@ corfun <- function(x, y){
   rlower <- (exp(2*lower) - 1)/(exp(2*lower) + 1)
   return(data.frame(n = n, r = r, z = z, lower = rlower, upper = rupper))
 }
-#######################################################
 
 # Tyva Example of Domain Overlap
 tyva <- read.delim("Beliefs_Tyva_2013.txt", sep = "\t", header = T)
@@ -73,7 +75,9 @@ corfun(uber$Morality.bu, uber$Morality.po)
 corfun(uber$Morality.sp, uber$Morality.po)
 corfun(uber$Morality.bu, uber$Morality.sp)
 
+##############################################
 ### R Code Box 4.1: Jaccard's similarity index
+
 # a/(a + b + c)
 # a: number of rows where both columns are 1
 # b: number of rows where this and not the other column is 1
@@ -86,30 +90,34 @@ jaccard <- function(var1, var2) {
   similarity/total
 }
 
-M <- data.frame(cbind(c(1,0,0,0,1,1), # individual x category
-                      c(0,1,0,1,0,1),
-                      c(0,1,1,1,0,1)))
+M <- data.frame(cbind(c(1, 0, 0, 0, 1, 1), # individual x category
+                      c(0, 1, 0, 1, 0, 1),
+                      c(0, 1, 1, 1, 0, 1)))
 colnames(M) <- c("A", "B", "C")
 
 jaccard(M$A, M$B)
 jaccard(M$A, M$C)
 jaccard(M$B, M$C)
 
-jaccmat <- matrix(NA, ncol = ncol(M), nrow = ncol(M)) 
-
-for(i in seq_along(M)) {
+jaccmat <- function(M){
+  newmat <- matrix(NA, ncol = ncol(M), 
+                   nrow = ncol(M))
+  for(i in seq_along(M)) {
   for(j in seq_along(M)) {
-    jaccmat[i, j] <- jaccard(M[, i], M[, j]) 
-    colnames(jaccmat) <- colnames(M)
-    rownames(jaccmat) <- colnames(M)
+    newmat[i, j] <- jaccard(M[, i], M[, j]) 
+    colnames(newmat) <- colnames(M)
+    rownames(newmat) <- colnames(M)
   }
 }
+return(data.frame(newmat))
+}
 
-jaccmat
+jaccmat(M)
 
-### Figure. 4.1. Comparing agents
-## Prelims
-library(AnthroTools)
+##############################################
+### Figure. 4.1. Overlap of "moral" content between agents
+
+# Prelims
 
 jaccard <- function(var1, var2) {
   sums <- rowSums(cbind(var1, var2), na.rm = T)
@@ -184,19 +192,21 @@ jaccard(moralmerge$BGDmor, moralmerge$LGDmor)
 jaccard(moralmerge$BGDmor, moralmerge$PODmor)
 jaccard(moralmerge$LGDmor, moralmerge$PODmor)
 
-# Figure 4.1. Overlap of "moral" content
-library(eulerr)
+#Plot
+
 fit <- euler(c(Buddha = 1, Spirits = 1, Police = 1, 
                "Buddha&Police" = .69, "Spirits&Police" = .13, "Buddha&Spirits" = .15))
 fit$original.values # need to remove #'s we don't want in plot
 valuestoplot <- c(NA, NA, NA, .15, .69, .13, NA)
 plot(fit, fills = c("white", "darkgray", "lightgray"), quantities = valuestoplot)
 
+##############################################
 ### R Code Box 4.2: Cognitive Sharing and Diversity
-# M: # total # of all possible listed items (i.e., wordbank)
-# T: # total # of items listed by sample (NOTE: REPEATS)
+
+# MM: # total # of all possible listed items (i.e., wordbank)
+# TT: # total # of items listed by sample (NOTE: REPEATS)
 # N: # sample size
-# C: # ratio of distinct items by sample M/N
+# CC: # ratio of distinct items by sample M/N
 
 CSD <- function(MM, TT, N){ 
   numerator <- MM - TT
@@ -208,6 +218,7 @@ CSD <- function(MM, TT, N){
 
 CSD(8, 15, 5)
 
+# Toy Simulation (i.e., Play!)
 MM <- 1:50
 N <- 50
 TT <- 1000
@@ -219,7 +230,7 @@ lines(CSD(MM, TT, 100)$CSD ~ MM, lty = 2)
 lines(CSD(MM, TT, 50)$CSD ~ MM, lty = 3)
 lines(CSD(MM, TT, 25)$CSD ~ MM, lty = 4)
 
-## Real examples
+# Real examples
 FL10 <- read.delim("Tyva Republic_Virtues_2010.txt") # Pull up Tyvan Virtue/Morality data
 MM <- length(table(FL10$BC)) # total # of all possible listed items (i.e., word-bank)
 TT <- sum(table(FL10$BC)) # total # of items listed by sample (NOTE: REPEATS)
@@ -241,7 +252,12 @@ N2 <- length(unique(duplkin$PARTID))# sample size
 C2 <- MM2/N2 # ratio of distinct items by sample
 CSD(MM2, TT2, N2)
 
-# Figure 4.2: Relationship between length of M, n, and CSD
+##############################################
+### Figure 4.2: Relationship between length of M, n, and CSD
+
+MM <- 20:100
+TT <- 500
+
 par(mar = c(4, 4, 1, 1))
 plot(CSD(MM, TT, 200)$CSD ~ MM, 
      type = "l", xlab = expression(italic(M)), ylab = "CSD",
@@ -252,8 +268,9 @@ lines(CSD(MM, TT, 25)$CSD ~ MM, lty = 4, lwd = 2)
 legend(70, .9, title = expression(italic(n)*" = "), c("200", "100", "50", "25"), lty = c(1:4),
        cex = .8, lwd = 2)
 
-### Comparing Groups
-## Figure 4.3. Fasting in India
+##############################################
+### Figure 4.3. Fasting in India
+
 fasting <- read.csv("Fasting_Mysore.csv")
 fasting.s <- CalculateSalience(fasting, Order = "Order", Subj = "Subj", CODE = "CODE",
                                GROUPING = "Religion", Salience = "Salience")
@@ -271,13 +288,16 @@ d$CODE <- NULL
 colnames(d) <- c("Muslim", "Hindu")
 d <- d[order(-d$Muslim),]
 d <- as.matrix(t(d))
+
 par(mar = c(7, 4, 1, 1))
 barplot(height = d, beside = T, ylim = c(0, .5), las = 2,
         ylab = expression("Smith's "*italic(S)))
 legend(20, .4, legend = c("Muslims", "Hindus"), fill = c("black", "lightgray"))
 box()
 
-## Figure 4.4. Salience of Church Free-List in R. of Ireland
+##############################################
+### Figure 4.4. Salience of Church Free-List in R. of Ireland
+
 d <- read.delim("Church_Ireland.txt")
 d2 <- read.delim("Full_Ireland.txt")
 
@@ -304,10 +324,10 @@ FLfaith <- SalienceByCode(GenFL, Subj = "Subj",
                           CODE = "Code", GROUPING = "God_Always_Never", 
                           Salience = "Salience", dealWithDoubles = "MAX")
 
-#We order the Smith's S for each groups, starting with the highest Smith's S
+# We order the Smith's S for each groups, starting with the highest Smith's S
 grandcath <- FLfaith[order(-FLfaith$SmithsS),]
 
-#splitting the groups
+# splitting the groups
 G1 <- subset(grandcath, GROUPING == 1) # 1: Always believed
 G2 <- subset(grandcath, GROUPING == 2) # 2: Believe now but not before
 G3 <- subset(grandcath, GROUPING == 3) # 3: Don't believe now but did before
@@ -343,7 +363,9 @@ text(1:5-.3, par("usr")[3] - 0.05, labels = labs,
      srt = 45, xpd = NA, adj = c(.55, 2))
 legend(3, .5, legend = c("Believers", "Apostates"), lty = c(1:2), lwd = 2)
 
+##############################################
 ### Figure 4.5. Informal consensus analysis of RoI data
+
 mycol1 <- rgb(255, 255, 255, max = 255, alpha = 100, names = "white")
 mycol2 <- rgb(224, 224, 224, max=255, alpha = 100, names = "lightgray") 
 mycol3 <- rgb(0, 0, 0, max = 255, alpha = 100, names = "darkgray")
@@ -351,14 +373,14 @@ mycol3 <- rgb(0, 0, 0, max = 255, alpha = 100, names = "darkgray")
 ireland <- read.delim("Church_Ireland.txt")
 ireland$Subj <- paste0("IRE", ireland$Subj) # add text to IDs
 
-## Salience Analysis
+# Salience Analysis
 ireland.s <- CalculateSalience(ireland, Order = "Order", Subj = "Subj",
                                CODE = "Code", Salience = "Salience")
 sal.ireland <- SalienceByCode(ireland.s, CODE = "Code", Salience = "Salience",
                               dealWithDoubles = "MAX")
 sal.ireland <- sal.ireland[order(-sal.ireland$SmithsS),, drop = F] # sort
 
-## Informal Consensus Analysis
+# Informal Consensus Analysis
 irebin <- FreeListTable(ireland, CODE = "Code", Order = "Order",
                         tableType = "PRESENCE", Subj = "Subj")
 iresal <- FreeListTable(ireland.s, CODE = "Code", Order = "Order",
@@ -402,7 +424,7 @@ chu <- data.frame(splitdat[1])
 densrej <- density(rej$X1.X1)
 denschu <- density(chu$X0.X1)
 
-### plot
+# Plot
 par(mfrow = c(1, 2), mar = c(2, 2, 0.5, 1))
 plot(xxx$X1, xxx$X2, xlab = "Dimension 1", ylab = "Dimension 2",
      main = NA, type = "n", xlim = c(-0.7, 0.7), ylim = c(-0.4, 0.7)) 
@@ -417,8 +439,9 @@ legend(-0.9, 2, title = "Reject the church?",
        legend = c("Yes", "No"), fill = c(mycol1, mycol3),
        cex = 1.2, bty = "n")
 
-## Cultural F_ST
+##############################################
 ### R Code Box 4.3: Cultural F_ST for two sites
+
 FST <- function(ni, nj, xi, xj){ 
   pi <- xi/ni
   pj <- xj/nj
@@ -429,8 +452,10 @@ FST <- function(ni, nj, xi, xj){
   return(FST)
 }
 
+##############################################
 ### Figure 4.6: Values of CF_ST across levels of xj and xi.
-par(mar = c(4, 4, 1, 1))
+
+par(mar = c(4, 4, 1, 1), mfrow = c(1, 1))
 plot(NA, xlim = c(0, 100), ylim = c(0, 1),
      xlab = expression(italic('x'['j'])), ylab = expression(italic('CF'['ST'])))
 lines(FST(100, 100, 0, 1:100), lty = 1, lwd = 1.5)
@@ -457,10 +482,14 @@ mortab1 <- mortab[2,]
 size <- colSums(mortab)
 slab <- (as.data.frame((rbind(size, mortab1))))
 
+##############################################
 ### Table 4.3 (trunc.): Sample size, n, and number who listed "moral" items
+
 tslab <- as.data.frame(t(slab))
 
+##############################################
 ### R Code Box 4.4: Cultural F_ST matrix
+
 fstmatrix <- function(tslab, matrixtype = NULL) {
   m <- matrix(NA, nrow = nrow(tslab), ncol = nrow(tslab))
   rownames(m) <- colnames(m) <- rownames(tslab)
@@ -484,15 +513,19 @@ fstmatrix(tslab)
 fstmatrix(tslab, matrixtype = "lower") 
 fstmatrix(tslab, matrixtype = "upper")
 
+##############################################
 ### Figure 4.7: Dendogram of CFST scores for "moral" items
+
 fstdist <- as.dist(fstmatrix(tslab, matrixtype = "lower"))
 round(fstdist, 2) ### Table 4.3
-plot(hclust(fstdist))
+plot(hclust(fstdist), ylab = NA, xlab = NA, main = NA)
 
-########################################################################
+##############################################
+# If using the data, please be sure to read, refer, and cite the following:
 
-# If using the data, please read, refer, and cite the following:
-
-# Bendixen, T., Apicella, C., Atkinson, Q., Cohen, E., Henrich, J., McNamara, R. A., ... & Purzycki, B. G. (2023). Appealing to the minds of gods: Religious beliefs and appeals correspond to features of local social ecologies. Religion, Brain & Behavior, 1-23.
-# Purzycki, B. G., & Kulundary, V. (2018). Buddhism, identity, and class: fairness and favoritism in the Tyva Republic. Religion, Brain & Behavior, 8(2), 205-226.
-# Turpin, H. (2022). Unholy Catholic Ireland: Religious hypocrisy, secular morality, and Irish irreligion. Stanford University Press.
+# Beliefs_Tyva_2013.txt: Purzycki, B. G., & Kulundary, V. (2018). Buddhism, identity, and class: fairness and favoritism in the Tyva Republic. Religion, Brain & Behavior, 8(2), 205-226.
+# Cross-cultural_ERM1.csv: Purzycki, B. G., Lang, M., Henrich, J., & Norenzayan, A. (2022). The Evolution of Religion and Morality project: reflections and looking ahead. Religion, Brain & Behavior, 12(1-2), 190-211.
+# Tyva Republic_Virtues_2010.txt: Purzycki, B. G., & Bendixen, T. (2020). Examining Values, Virtues, and Tradition in the Republic of Tuva with Free-List and Demographic Data. New Research of Tuva, (4), 6-18.
+# Kinship_Lithuania.txt: De Munck, V. C., & Dapkunaite, R. (2018). The modern Lithuanian kinship system: a descriptive analysis of generational differences in reckoning the saliency of kin terms. Journal of Baltic Studies, 49(1), 63-86.
+# Fasting_Mysore.csv: Placek, C., Mohanty, S., Bhoi, G. K., Joshi, A., & Rollins, L. (2022). Religion, Fetal Protection, and Fasting during Pregnancy in Three Subcultures. Human Nature, 33(3), 329-348.
+# Church_Ireland.txt and Full_Ireland.txt: Turpin, H. (2022). Unholy Catholic Ireland: Religious hypocrisy, secular morality, and Irish irreligion. Stanford: Stanford University Press.

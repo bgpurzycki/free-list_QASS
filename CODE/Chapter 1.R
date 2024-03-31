@@ -2,23 +2,56 @@
 ### Ethnographic Free-List Data
 ### Chapter 1: Introduction
 ### Benjamin Grant Purzycki
-### Last Updated: October 13, 2023
+### Last Updated: March 22, 2024
 ##############################################
 
+##############################################
 ### Preliminaries
-setwd("")
+
+setwd() # set to where your data are
+library(AnthroTools) # load packages (to install, see below)
+
+##############################################
+### R Code Box 1.1: R Basics
+
+x <- 46.2 # create an object called "x" and put 46.2 in it
+ezg <- c("ha", "HA", "Ha", "hA")
+getwd() # see where your working directory is
+setwd("C:") # set your working directory to the C: drive
+str(x) # see structure of x
+summary(x) # summarize x
+View(x)
+plot(x)
+install.packages("psych") # install "psych" package
+library(psych) # load "psych" package
+y <- 4 # create "y"
+merge(x, y)
+tolower(ezg)
+toupper(ezg)
+z <- merge(x, y)
+read.csv()
+read.delim()
+write.table(z, "z.txt", sep = "\t")
+z[1,2]
+z$x
+z <- as.data.frame(z)
+
+##############################################
+### R Code Box 1.2: Installing AnthroTools
 
 install.packages("devtools")
 library("devtools")
 install_github('alastair-JL/AnthroTools')
 library(AnthroTools)
 
-################################################################
-### Footnote 1 Code Reference:  Convert from FLAME format. First:
+##############################################
+### Footnote 1:  Convert from FLAME format.
+
 # 1. Manually delete all rows and columns that aren't data.
 # 2. Insert NA into all empty cells in the data frame.
 # 3. Save as .csv.
 FLa <- read.csv("Taboos_Mongolia.csv") # see citation below
+View(FLa) # View data set in original state
 FLT <- data.frame(t(FLa))
 FLT$SUBJ <- NA
 FLT$SUBJ <- rownames(FLT)
@@ -34,35 +67,33 @@ model <- SalienceByCode(FL.S, CODE = "values",
 par(mar = c(0, 0, 0, 0)) # for margins
 FlowerPlot(model, "taboos") # unpleasant, but you get the idea
 
-################################################################
-
-### R Code Box 1.2: Installing AnthroTools
-install.packages("devtools")
-library("devtools")
-install_github('alastair-JL/AnthroTools')
-library(AnthroTools)
-
+##############################################
 ### R Code Box 1.3: Loading and Saving Data
+
 FL <- read.delim("Tyva Republic_Virtues_2010.txt") # Load data
 str(FL) # structure of FL
 View(FL) # View it
 
-# write.table(FL, file = "tyvanvirtues2010.txt", sep = "\t", # Save data
-  # row.names = F, col.names = T)
+write.table(FL, file = "TVtest.txt", sep = "\t", # Save data
+  row.names = F, col.names = T)
+testset <- read.delim("TVtest.txt")
 
+##############################################
 ### R Code Box 1.4: Reshaping Data
+
 id <- c("Winston", "Egon", "Ray", "Peter")
 item1 <- c("librarian", "librarian", "slimer", "librarian")
 item2 <- c("gozer", "gozer", "zuul", "zuul")
 item3 <- c("slimer", "zuul", "marsh.man", "slimer")
 item4 <- c("zuul", "slimer", "librarian", "cab.driver")
 
-(Fwide <- data.frame(cbind(id, item1, item2, item3, item4)))
+(Fwide <- data.frame(cbind(id, item1, item2, item3, item4))) # notice the () around this code
 (Flong <- reshape(Fwide,
                   varying = c("item1", "item2", "item3", "item4"),
                   timevar = "order", idvar = "id",
                   direction = "long", sep = ""))
 row.names(Flong) <- NULL
+Flong
 
 (wide.again <- reshape(Flong, 
                        timevar = "order",
@@ -70,7 +101,9 @@ row.names(Flong) <- NULL
                        v.names = "item",
                        direction = "wide"))
 
+##############################################
 ### R Code Box 1.5: Merging Data
+
 FL1 <- data.frame(PARTID = c("FL001", "FL001", "FL001",
                              "FL002", "FL002", "FL002",
                              "FL003", "FL003"),
@@ -99,9 +132,41 @@ mr2 <- merge(mr1, FL3, by = c("PARTID", "Order"),
              all.x = T, all.y = T)
 collabs <- c("PARTID", "Order", "FL1", "FL2", "FL3")
 colnames(mr2) <- collabs
+mr2 # see the auto-NA's
 
-########################################################################
-### Footnote 3 Code Reference: Cohen's kappa of inter-rater agreement
+##############################################
+### Footnote 2: Automatically numbering pre-sorted data
+
+ID <- c("ID1", "ID1", "ID1", "ID1", "ID2", "ID2", "ID2", "ID3", "ID3", "ID3", "ID3", "ID3")
+items <- c("cereal", "apples", "oranges", "gruel", "apples", "fish.heads", "gruel", "cereal", "apples", "muesli", "fruit", "oranges")
+data <- data.frame(ID, items) 
+View(data)
+runs <- rle(data$ID)$lengths
+data$order <- sequence(runs)
+View(data)
+
+##############################################
+### Data Cleaning Function
+
+# Don't use this blindly, especially the "ejectBadSubj"
+# command!!!
+
+CleanData <- CleanFreeList(mydata, Order = "Order",
+                           Subj = "Subj", CODE = "CODE",
+                           ejectBadSubj = F, deleteDoubleCode = T,
+                           ConsolidateOrder = T, RemoveMissingData = T)
+
+data(UglyList)
+View(UglyList)
+View(CleanFreeList(UglyList))
+View(CleanFreeList(UglyList, deleteDoubleCode = T))
+View(CleanFreeList(UglyList, ejectBadSubj = F))
+
+##############################################
+### Footnote 3: Cohen's kappa of inter-rater agreement
+
+# kappa = (p_0 - p_c)/(1 - p_c)
+
 # For simple 2 x 2 category agreement
 
 cohensk <- function(d){
@@ -144,10 +209,19 @@ labs <- colnames(dtab)
 dimnames(agreements) <- list(coder1 = labs, coder2 = labs)
 agreements
 
-cohensk.m (agreements)
-########################################################################
+cohensk.m (agreements) 
 
-# If using the data, please read, refer, and cite the following:
+# See Landis and Koch (1977: 165)
+# Agreement Levels
+# < 0.00 Poor
+# 0.00-0.20 Slight
+# 0.21-0.40 Fair
+# 0.41-0.60 Moderate
+# 0.61-0.80 Substantial
+# 0.81-1.00 Almost Perfect
+
+##############################################
+# If using the data, please be sure to read, refer, and cite the following:
 
 # Taboos_Mongolia.csv: Berniūnas, R. (2020). Mongolian yos surtakhuun and WEIRD “morality”. Journal of Cultural Cognitive Science, 4(1), 59-71.
 # Tyva Republic_Virtues_2010.txt: Purzycki, B. G., & Bendixen, T. (2020). Examining Values, Virtues, and Tradition in the Republic of Tuva with Free-List and Demographic Data. Новые исследования Тувы, (4), 6-18.

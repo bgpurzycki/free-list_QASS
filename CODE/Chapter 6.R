@@ -1,14 +1,14 @@
-####################################################
-### Ethnographic Free-List Data: Chapter 6
-### SAGE
+################################
+### Ethnographic Free-List Data
+### Chapter 6: Free-list data in Regression
 ### Benjamin Grant Purzycki
-### Last Updated: October 6, 2023
-####################################################
+### Last Updated: March 31, 2024
+################################
 
+##############################################
 ### Preliminaries
 setwd()
 
-### Packages used in this chapter
 library(AnthroTools)
 library(xtable)
 library(rethinking)
@@ -21,9 +21,18 @@ library(tidyr)
 library(dplyr)
 library(tibble)
 library(rstanarm)
+library(bayesplot) 
+library(tidyverse)
+library(tidybayes) 
+library(modelr)
+library(RColorBrewer) 
+library(patchwork)
+library(finalfit) 
+library(rstan)  
 
-####################################################
+##############################################
 ### R Code Box 6.1: Simulating Data with a Gaussian Outcome
+
 set.seed(777)
 n <- 100 # sample size
 alpha <- 7 # intercept
@@ -37,7 +46,6 @@ noise <- rnorm(n, 3, 5) # extra realism
 fl <- alpha + b_age * age.c + b_sex * sex + noise # linear model
 d <- data.frame(fl, age.c, sex)
 
-### Figure 6.1: Plots from simulated data predicting list lengths
 m1 <- quap(
   alist(
     fl ~ dnorm(mu, sigma),
@@ -61,25 +69,27 @@ mu.mean <- apply(mu, 2, mean)
 mu.HPDI <- apply(mu, 2, HPDI, prob = 0.95)
 
 # To examine the differences between males and non-males
-#age.seq <- seq(-20, 20, by = 1)
-#mu.female <- link(m1, data = data.frame(sex = 0, age.c = age.seq), n = 100)
-#mu.female <- mu.female$mu
-#mu.male <- link(m1, data = data.frame(sex = 1, age.c = age.seq), n = 100)
-#mu.male <- mu.male$mu
+age.seq <- seq(-20, 20, by = 1)
+mu.female <- link(m1, data = data.frame(sex = 0, age.c = age.seq), n = 100)
+mu.female <- mu.female$mu
+mu.male <- link(m1, data = data.frame(sex = 1, age.c = age.seq), n = 100)
+mu.male <- mu.male$mu
 
-#mu.female.mean <- apply(mu.female, 2, mean)
-#mu.female.PI <- apply(mu.female, 2, PI, prob = 0.95)
+mu.female.mean <- apply(mu.female, 2, mean)
+mu.female.PI <- apply(mu.female, 2, PI, prob = 0.95)
 
-#mu.male.mean <- apply(mu.male, 2, mean)
-#mu.male.PI <- apply(mu.male, 2, PI, prob = 0.95)
+mu.male.mean <- apply(mu.male, 2, mean)
+mu.male.PI <- apply(mu.male, 2, PI, prob = 0.95)
 
-#plot(fl ~ age.c, data = d)
-#lines(age.seq, mu.female.mean)
-#lines(age.seq, mu.male.mean)
-#shade(mu.male.PI, age.seq)
-#shade(mu.female.PI, age.seq)
+plot(fl ~ age.c, data = d, pch = 16)
+lines(age.seq, mu.female.mean)
+lines(age.seq, mu.male.mean)
+shade(mu.male.PI, age.seq)
+shade(mu.female.PI, age.seq)
 
-# Plot
+################################
+### Figure 6.1: Plots from simulated data predicting list lengths
+
 plot.mat = matrix(c(1, 1, 1, 2, 2, 2,
                     3, 3, 3, 3, 3, 3),
                   nrow = 2, byrow = T)
@@ -121,26 +131,6 @@ abline(v = 0, lty = 2)
 axis(2, at = x, labels = labs, las = 2, cex = 0.8)
 mtext("estimate", 1, padj = 2.5, cex = 0.8)
 text(-3.7, 3.5, "(c)", adj = 2.5)
-
-#################################################
-# rstanarm version (not in text)
-betas <- normal(location = c(.5, -1), scale = c(1, 1), autoscale = F)
-alphas <- normal(location = 10, scale = 4, autoscale = F)
-sigmapri <- exponential(1, autoscale = FALSE)  
-
-m2 <- stan_glm(fl ~ age.c + sex, data = d,
-               prior = betas,
-               prior_intercept = alphas,
-               prior_aux = sigmapri)
-prior_summary(m2)
-
-print(m2)
-post2 <- as.matrix(m2)
-posterior_interval(m2, prob = 0.95)
-mean(post2[,1]) # intercept
-mean(post2[,2]) # age.c
-mean(post2[,3]) # sex
-mean(post2[,4]) # sigma
 
 # Simulating regression with Binomial Outcome (not in text)
 # Logistic regression simulation
@@ -218,7 +208,10 @@ lines(listed ~ agec, newdat,
       xlab = "age (centered at mean)")
 text(15.5, 0.01, "(b)")
 
-### Table 6.1 and Figure 6.2: Predicting listing "greed"
+##############################################
+### Table 6.1: Logistic regression estimates for listing "greed"
+### Figure 6.2: Predicting listing "greed"
+
 library(rethinking)
 d <- read.delim("Greed_Experiment1.txt") # predicting "greed"
 
@@ -232,8 +225,9 @@ b1 <- quap(
 precis(b1, prob = .95)
 plot(precis(b1, prob = .95))
 
-# Ordered categorical
+##############################################
 ### Figure 6.3: Reanalysis of Irish data
+
 Data <- read.delim("Pooled_Ireland.txt")
 labs <- c("Subj", "Order", "Code", "God_Always_Never")
 cathsub <- Data[labs]
@@ -286,6 +280,9 @@ par(fig = v, new = TRUE, mar = c(4, 4, 1, 1))
 plot(1:18, cum_pr_k, type = "b", xlab = "Order of Actual Items", 
      pch = 16, ylab = "Cum. Prop.", ylim = c(0, 1), cex = .7)
 
+##############################################
+### R Code Box 6.2: Simulating and plotting Beta-distributed data
+
 # Beta distribution
 mycol1 <- rgb(224, 224, 224, max=255, alpha = 100, names = "lightgray") 
 mycol2 <- rgb(255, 255, 255, max = 255, alpha = 100, names = "white")
@@ -298,15 +295,16 @@ p <- seq(0, 1, length = n)
 par(mar = c(4, 4, 1, 1))
 plot(NA, xlim = c(-.1, 1.1), ylim = c(0, 4.5),
      xlab = "Salience", ylab = "Density")
-polygon(p, dbeta(p, 2, 10), ylab=NA, col = mycol1)
+polygon(p, dbeta(p, 2, 10), ylab = NA, col = mycol1)
 polygon(p, dbeta(p, 2, 2), col = mycol2) 
 polygon(p, dbeta(p, 5, 2), col= mycol3)
 legend(.4, 4, c('Beta(2, 10)','Beta(2, 2)','Beta(5, 2)'),
        fill = c(mycol1, mycol2, mycol3),
        cex = .7)
 
-### R Code Box 6.2: Simulating and plotting beta-distribution
+##############################################
 ### Figure 6.4: Simulated Beta data (ha!)
+
 par(mar = c(4, 4, 1, 1))
 plot(NA, xlim = c(-.1, 1.1), ylim = c(0, 4.5), 
      xlab = "Salience",
@@ -333,7 +331,9 @@ legend(.4, 8, legend = c("(1, 1)", "(5, 1)", "(10, 1)",
        lty = c(1, 2, 3, 4, 5, 6),
        cex = .5)
 
+##############################################
 ### R Code Box 6.3: Simulating ZOIB-distributed data
+
 # Function for simulating zoib
 rzoib <- function(n, theta, gmma, mu, phi) { 
   a <- mu * phi
@@ -356,8 +356,8 @@ theta <-  0.5 # zero-one
 gmma <- 0.65 + b * x # conditional-one
 mu <- 0.25 + b * x # 
 phi <- 5
-dat <- data.frame(x = x, theta = theta, gmma = gmma, mu = mu, phi = phi)
-dat$y <- rzoib(n, dat$theta, dat$gmma, dat$mu, dat$phi)
+dat <- data.frame(x = x, zoi = theta, coi = gmma, mu = mu, phi = phi)
+dat$y <- rzoib(n, dat$zoi, dat$coi, dat$mu, dat$phi)
 sim_dat <- dat[c("x", "y")]
 sim_dat$x <- ifelse(sim_dat$x==0, "control", "treatment")
 sim_dat$x <- as.factor(sim_dat$x)
@@ -365,13 +365,15 @@ sim_dat$x <- as.factor(sim_dat$x)
 sim_mod <- brm(formula = bf(
   y ~ 1 + x,
   phi ~ 1 + x,
-  theta ~ 1 + x,
-  gmma ~ 1 + x),
+  zoi ~ 1 + x,
+  coi ~ 1 + x),
   data = sim_dat,
   seed = 666,
   family = zero_one_inflated_beta())
 
+##############################################
 ### Table 6.2: Output for analysis of simulated ZOIB-distributed data
+
 sim_mod_summary <- as_draws_df(sim_mod, pars = c("b_")) %>%
   mutate_at(c("b_phi_Intercept", "b_phi_xtreatment"), exp) %>% 
   mutate_at(vars(-"b_phi_Intercept", "b_phi_xtreatment"), plogis) %>% 
@@ -381,7 +383,9 @@ sim_mod_summary <- as_draws_df(sim_mod, pars = c("b_")) %>%
 sim_mod_summary <- cbind(Parameter = sim_mod_summary[,1], round(sim_mod_summary[,2:5], 2))
 sim_mod_summary
 
+##############################################
 ### Figure 6.5: Simulated raw data for ZOIB
+
 set.seed(666)
 sim_ce <- conditional_effects(sim_mod)
 sim_est <- data.frame(x = c(1, 2), 
@@ -404,7 +408,9 @@ sim_p
 
 ggMarginal(sim_p, groupColour = TRUE, groupFill = TRUE, type = "density", margins = "y")
 
+##############################################
 ### Table 6.3 and Figure 6.6: Varying intercepts model
+
 d2 <- read.delim("Greed_Experiment2.txt") # predicting "greed set"
 dat <- list(
   listed = d2$listed,
@@ -428,7 +434,226 @@ plot(precis(b2, prob = .95))
 logistic(-1.18)
 logistic(-1.18 + 0.12)
 
+##############################################
+## Figure 6.7: Predicted relationship between moral interest scale and Smith's S
+
+rm(list = ls())
+
+# Functions
+gen_epred_plot <- function(data, model){ 
+  data %>%
+    group_by(culture) %>%
+    data_grid(scale = seq_range(0:1, n = 10)) %>%
+    add_epred_draws(model, ndraws = 100, scale = "response", re_formula = NULL, dpar = TRUE, allow_new_levels = TRUE, 
+                    sample_new_levels = "gaussian") %>% # see ?prepare_predictions for details
+    ggplot(aes(x = scale, y = y)) +
+    geom_line(aes(y = .epred, # possible parameters: mu, zoi, coi, .epred (the expected response)
+                  group = paste(culture, .draw)), alpha = 1/10, color = "black") +
+    geom_jitter(data = na.omit(data), size = 3, width = 0.01, alpha = .5, shape = 1, color = "black") +
+    facet_wrap(~na.omit(culture), nrow = 2, drop = FALSE) + 
+    scale_fill_brewer() +
+    theme_bw() +
+    theme(strip.background = element_blank(),
+          panel.grid.minor = element_blank(),
+          panel.grid.major = element_blank(),
+          strip.text.x = element_text(
+            size = 10, face = "bold"),
+          legend.position = "none") + 
+    scale_y_continuous(limits = c(-0.05, 1.05), breaks = c(0, 0.5, 1), name = expression("Smith's"~italic(S)~"of moral items")) + 
+    scale_x_continuous(limits = c(-0.05, 1.05), breaks = c(0, 0.5, 1), name = "Moral interest scale")
+}
+
+# RStan and loo global options
+options(mc.cores = parallel::detectCores())
+rstan_options(auto_write = TRUE)
+
+# Load data
+data <- read.csv("FreeList_CERC_V1.0.csv", sep = ";") # Free-list data
+cerc <- read.csv("CERC Dataset (Wave 1) Version 6.0.csv", sep = ";") # Demographic and scale data
+
+# Salience analyses
+BGD.FL <- CalculateSalience(data, Order = "Order", Subj = "CERCID",
+                            CODE = "BGD", GROUPING = "Culture", 
+                            Salience = "BGD.S")
+
+BGDsublabs <- c("Culture", "CERCID", "Order", "BGD", "BGD.S")
+BGDsub <- BGD.FL[BGDsublabs]
+BGDsub <- BGDsub[complete.cases(BGDsub), ]
+BGD.max <- FreeListTable(BGDsub, CODE = "BGD", Order = "Order", 
+                         Salience = "BGD.S", Subj = "CERCID", 
+                         tableType = "MAX_SALIENCE")
+BGD.max$CERCID <- rownames(BGD.max)
+BGDmergelabs <- c("CERCID", "Morality")
+BGDmerge1 <- BGD.max[BGDmergelabs]
+BGDcerclabs <- c("CERCID", "SITE", "MGMEAN")
+BGDcerc <- cerc[BGDcerclabs]
+BGDmerge <- merge(BGDmerge1, BGDcerc, by.x = "CERCID")
+BGDmerge <- BGDmerge[complete.cases(BGDmerge), ]
+BGDmerge <- setNames(BGDmerge, c("CERCID","BGD.max.S", "Culture", "MGMEAN"))
+bgd_gen_data <- BGDmerge
+cols <- c("id", "y", "culture", "scale")
+colnames(bgd_gen_data) <- cols
+str(bgd_gen_data)
+
+formula = bf(
+  y ~ 1 + scale + (1 + scale | culture),
+  phi ~ 1 + scale + (1 + scale | culture),
+  zoi ~ 1 + scale + (1 + scale | culture),
+  coi ~ 1 + scale + (1 + scale | culture))
+
+get_prior(formula = bf(
+  y ~ scale + (scale|culture),
+  phi ~ scale + (scale|culture),
+  zoi ~ scale + (scale|culture),
+  coi ~ scale + (scale|culture)),
+  data = bgd_gen_data,
+  family = zero_one_inflated_beta())
+
+priors_main <- set_prior("normal(0, 2.5)", class = "b") +
+  set_prior("normal(0, 1)", class = "Intercept") + 
+  set_prior("exponential(1)", class = "sd") +
+  set_prior("normal(0, 2.5)", class = "b", dpar = "coi") +
+  set_prior("normal(0, 1)", class = "Intercept", dpar = "coi") + 
+  set_prior("exponential(1)", class = "sd", dpar = "coi") +
+  set_prior("normal(-1, 1)", class = "b", dpar = "phi") +
+  set_prior("normal(2, 0.5)", class = "Intercept", dpar = "phi") +
+  set_prior("exponential(1)", class = "sd", dpar = "phi") +
+  set_prior("normal(0, 2.5)", class = "b", dpar = "zoi") +
+  set_prior("normal(0, 1)", class = "Intercept", dpar = "zoi") + 
+  set_prior("exponential(1)", class = "sd", dpar = "zoi") +
+  set_prior("lkj_corr_cholesky(4)", class = "cor")
+
+m1priorcheck <- brm(formula = bf(
+  y ~ 1 + scale + (1 + scale | culture),
+  phi ~ 1 + scale + (1 + scale | culture),
+  zoi ~ 1 + scale + (1 + scale | culture),
+  coi ~ 1 + scale + (1 + scale | culture)),
+  prior = priors_main,
+  data = bgd_gen_data,
+  family = zero_one_inflated_beta(),
+  sample_prior = "only", seed = 2021)
+
+m1 <- brm(formula = bf(
+  y ~ 1 + scale + (1 + scale | culture),
+  phi ~ 1 + scale + (1 + scale | culture),
+  zoi ~ 1 + scale + (1 + scale | culture),
+  coi ~ 1 + scale + (1 + scale | culture)),
+  data = bgd_gen_data,
+  prior = priors_main,
+  family = zero_one_inflated_beta(),
+  cores = 4, chains = 4, 
+  iter = 6000, control = list(adapt_delta = 0.99),
+  seed = 2021,
+  save_pars = save_pars(all = TRUE))
+
+set.seed(2021)
+ppc_top <- pp_check(m1priorcheck, ndraws = 30)
+pp_m1 <- pp_check(m1, ndraws = 30)
+set.seed(2021)
+ppc_bottom <- bgd_gen_data %>%
+  group_by(culture) %>%
+  data_grid(scale = seq_range(0:1, n = 10)) %>%
+  add_epred_draws(m1priorcheck, ndraws = 100, dpar = TRUE, scale = "response") %>%
+  ggplot(aes(x = scale, y = y)) +
+  geom_line(aes(y = .epred, group = paste(culture, .draw)), alpha = 1/10, color = "#08519C") +
+  facet_wrap(~culture, nrow = 2, drop = FALSE) +
+  theme_bw() +
+  theme(strip.background = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.grid.major = element_blank(),
+        strip.text.x = element_text(
+          size = 10, face = "bold"),
+        legend.position = "none") + 
+  scale_y_continuous(limits=c(-0.05,1.05), breaks=c(0,0.5,1), name = "Free-Listed Morality (Salience)") + 
+  scale_x_continuous(limits=c(-0.05,1.05), breaks=c(0,0.5,1), name = "Moral Interest Scale")
+
+(ppc_top + 
+    theme(legend.position="none", 
+          axis.text = element_text(size = 11, family = "sans"), 
+          axis.title = element_text(size = 11, family = "sans")) + 
+    scale_x_continuous(limits = c(0, 1), breaks = c(0, 1)) + 
+    ylim(0,2.75) +
+    xlab("Salience scores") + ylab("Density") +
+    annotate("text", x=0.2, y=2, label= "(A)") | 
+    pp_m1 + 
+    theme(legend.position="none", 
+          axis.text = element_text(size = 11, family = "sans"), 
+          axis.title = element_text(size = 11, family = "sans")) + 
+    scale_x_continuous(limits = c(0, 1), breaks = c(0, 1)) + 
+    ylim(0,2.75) +
+    xlab("Salience scores") +
+    annotate("text", x=0.2, y=2, label= "(B)") ) /
+  ppc_bottom
+
+set.seed(NULL)
+
+LGD.FL <- CalculateSalience(data, Order = "Order", Subj = "CERCID", 
+                            CODE = "LGD", GROUPING = "Culture", 
+                            Rescale = FALSE, Salience = "LGD.S")
+
+LGDsublabs <- c("Culture", "CERCID", "Order", "LGD", "LGD.S")
+LGDsub <- LGD.FL[LGDsublabs]
+LGDsub <- LGDsub[complete.cases(LGDsub), ] # Only complete cases in free-list data
+LGD.max <- FreeListTable(LGDsub, CODE = "LGD", Order = "Order", Salience = "LGD.S", # Calculate salience
+                         Subj = "CERCID", tableType = "MAX_SALIENCE")
+LGD.max$CERCID <- rownames(LGD.max)
+LGDmergelabs <- c("CERCID", "Morality") # Extract CERCID and MAX Salience for Morality
+LGDmerge1 <- LGD.max[LGDmergelabs]
+LGDcerclabs <- c("CERCID", "SITE", "LGMEAN") # Extract CERCID, Culture/SITE and LGMEAN from cerc
+LGDcerc <- cerc[LGDcerclabs]
+LGDmerge <- merge(LGDmerge1, LGDcerc, by.x = "CERCID")
+LGDmerge <- LGDmerge[complete.cases(LGDmerge), ]
+LGDmerge <- setNames(LGDmerge, c("CERCID","LGD.max.S", "Culture", "LGMEAN")) # set column names
+lgd_gen_data <- LGDmerge
+cols <- c("id", "y", "culture", "scale")
+colnames(lgd_gen_data) <- cols
+
+priors_main_null <- 
+  set_prior("normal(0,1)", class = "Intercept") + 
+  set_prior("exponential(1)", class = "sd") +
+  set_prior("normal(0,1)", class = "Intercept", dpar = "coi") + 
+  set_prior("exponential(1)", class = "sd", dpar = "coi") +
+  set_prior("normal(2, .5)", class = "Intercept", dpar = "phi") + 
+  set_prior("exponential(1)", class = "sd", dpar = "phi") +
+  set_prior("normal(0,1)", class = "Intercept", dpar = "zoi") + 
+  set_prior("exponential(1)", class = "sd", dpar = "zoi")
+
+m1_null <- brm(formula = bf(
+  y ~ (1|culture),
+  phi ~ (1|culture),
+  zoi ~ (1|culture),
+  coi ~ (1|culture)),
+  prior = priors_main_null,
+  data = bgd_gen_data,
+  family = zero_one_inflated_beta(),
+  cores = 4, chains = 4, iter = 6000, control = list(adapt_delta = 0.99),
+  seed = 2021, save_pars = save_pars(all = TRUE))
+
+# Model 2: general morality, local gods
+m2 <- stats::update(m1, newdata = lgd_gen_data)
+m2_null <- stats::update(m1_null, newdata = lgd_gen_data)
+
+# Plot
+
+set.seed(2021)
+bgd_fig <- gen_epred_plot(bgd_gen_data, m1) + 
+  ggtitle('Moralistic deities')
+set.seed(NULL)
+
+# Insert dummy row for Lovu with impossible values in LGD data frame (you'll get a warning)
+lgd_gen_data <- rbind(lgd_gen_data, data.frame(id = NA, y = NA, culture = "Lovu", scale = NA))
+
+set.seed(2021)
+lgd_fig <- gen_epred_plot(lgd_gen_data, m2) + 
+  ggtitle('Local deities')
+set.seed(NULL)
+
+(bgd_fig) + (lgd_fig) +
+  patchwork ::plot_layout(ncol = 1, nrow = 2)
+
+##############################################
 ## Figure 6.8: Free-list length as a predictor of nominations
+
 rm(list = ls())
 load("FishingAbilityWorkspace.RData")
 
@@ -481,7 +706,7 @@ set.seed(7)
 library(rethinking)
 load("MoralModelsWorkspace.RData")
 
-## Model code is here for inspection, but see 
+## Model code is here for inspection (no need to run if you load the workspace), but see 
 ## Purzycki, Pisor, et al. "The cognitive and cultural foundations of moral behavior"
 ## for deeper look.
 
@@ -490,9 +715,9 @@ m1 <- map2stan(
     ## coin model
     y ~ dbinom(30, p),
     logit(p) <- a + zi[id] * sigma_id + aj[group] + # z standardizes adaptive prior for varying effects on individuals
-      (bH+bHj[group]) * h + bHavg * inv_logit(Havg[group]) +
-      (bpun+bpunj[group]) * pun + bpunavg * Pavg[group] + 
-      (bomni+bomnij[group]) * omni + bomniavg * Oavg[group] +
+      (bH + bHj[group]) * h + bHavg * inv_logit(Havg[group]) +
+      (bpun + bpunj[group]) * pun + bpunavg * Pavg[group] + 
+      (bomni + bomnij[group]) * omni + bomniavg * Oavg[group] +
       bkids * kids + btreat * treat + 
       border * order + bgmcheck * gmcheck + bgame * game,
     ## honesty model
@@ -535,7 +760,7 @@ m1 <- map2stan(
     pun_sd ~ exponential(1),
     omni_sd ~ exponential(1)
   ),
-  start = list(Havg=rep(0, 8)),
+  start = list(Havg = rep(0, 8)),
   constraints = list(
     sigma_id = "lower = 0",
     phi_gmcheck = "lower = 0, upper = 1",
@@ -561,7 +786,9 @@ rowlabels <- row.names(table1)
 rownames(lemontwigs) <- rowlabels
 exp(lemontwigs)
 
+##############################################
 ### Figure 6.9: Individual and group-level prevalence of free-listing (dis)honesty
+
 punavgseq <- seq(from = 0, to = 1, length.out = 10)
 
 p_pred <- sapply(punavgseq, function(x) 
@@ -575,21 +802,22 @@ p_pred <- sapply(punavgseq, function(x)
 p_hon_avg <- apply(p_pred, 2, mean)
 p_hon_PI <- apply(p_pred, 2, PI, prob = 0.95)
 
-par(mfrow = c(1, 2), mar = (c(4.5, 4, 1, 1)))
-plot(precis(m1, prob = .95, pars = c("a", "bkids", "bH", "bpun", "bomni")), xlab = "estimates (individual)")
+par(mfrow = c(1, 2), mar = (c(4.5, 2, 1, 1)))
+relabtab <- precis(m1, prob = .95, pars = c("a", "bkids", "bH", "bpun", "bomni", "bHavg")) # subset table
+rownames(relabtab) <- c("a", "bkids", "bh", "bpun", "bomni", "bhgroup") # rename
+plot(relabtab, xlab = "estimates (individual)")
 plot(punavgseq, p_hon_avg, type = "l", ylim = c(0, 1), 
      ylab = "Prob. of Coin to Distant", 
-     xlab = "prevalence of 'honesty'", col = "black", cex.lab = 1)
+     xlab = "prevalence of '(dis)honesty'", col = "black", cex.lab = 1)
 shade(p_hon_PI, punavgseq, col = col.alpha("black", 0.2))
 abline(h = 0.5, lty = 2, lwd = 0.5)
 
-                 
-########################################################################
+##############################################
+# If using the data, please be sure to read, refer, and cite the following:
 
-# If using the data, please read, refer, and cite the following:
+# Greed_Experiment1.txt and Greed_Experiment2.txt: Purzycki, B. G., Stagnaro, M. N., & Sasaki, J. (2020). Breaches of trust change the content and structure of religious appeals. Journal for the Study of Religion, Nature and Culture, 14(1), 71-94.
+# Pooled_Ireland.txt: Turpin, H. (2022). Unholy Catholic Ireland: Religious hypocrisy, secular morality, and Irish irreligion. Stanford: Stanford University Press.
+# FreeList_CERC_V1.0.csv and CERC Dataset (Wave 1) Version 6.0.csv: Purzycki, B. G., Apicella, C., Atkinson, Q. D., Cohen, E., McNamara, R. A., Willard, A. K., ... & Henrich, J. (2016). Moralistic gods, supernatural punishment and the expansion of human sociality. Nature, 530(7590), 327-330.
+# FishingAbilityWorkspace.RData: Koster, J., Bruno, O., & Burns, J. L. (2016). Wisdom of the elders? Ethnobiological knowledge across the lifespan. Current Anthropology, 57(1), 113-121.
+# MoralModelsWorkspace.RData: Purzycki, B. G., Pisor, A. C., Apicella, C., Atkinson, Q., Cohen, E., Henrich, J., ... & Xygalatas, D. (2018). The cognitive and cultural foundations of moral behavior. Evolution and Human Behavior, 39(5), 490-501.
 
-# Bendixen, T., & Purzycki, B. G. (2023). Cognitive and cultural models in psychological science: A tutorial on modeling free-list data as a dependent variable in Bayesian regression. Psychological Methods.
-# Koster, J., Bruno, O., & Burns, J. L. (2016). Wisdom of the elders? Ethnobiological knowledge across the lifespan. Current Anthropology, 57(1), 113-121.
-# Purzycki, B. G., Pisor, A. C., Apicella, C., Atkinson, Q., Cohen, E., Henrich, J., ... & Xygalatas, D. (2018). The cognitive and cultural foundations of moral behavior. Evolution and Human Behavior, 39(5), 490-501.
-# Purzycki, B. G., Stagnaro, M. N., & Sasaki, J. (2020). Breaches of trust change the content and structure of religious appeals. Journal for the Study of Religion, Nature and Culture, 14(1), 71-94.
-# Turpin, H. (2022). Unholy Catholic Ireland: Religious hypocrisy, secular morality, and Irish irreligion. Stanford University Press.

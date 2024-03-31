@@ -1,10 +1,11 @@
-#############################
-### Ethnographic Free-List Data: Chapter 7
-### SAGE
+################################
+### Ethnographic Free-List Data
+### Chapter 7: Future Prospects
 ### Benjamin Grant Purzycki
-### Last Updated: October 13, 2023
+### Last Updated: March 15, 2024
 ################################
 
+##############################################
 ### Preliminaries
 
 library(dagitty)
@@ -13,6 +14,7 @@ mycol1 <- rgb(255, 255, 255, max = 255, alpha = 100, names = "white")
 mycol2 <- rgb(224, 224, 224, max=255, alpha = 100, names = "lightgray") 
 mycol3 <- rgb(0, 0, 0, max = 255, alpha = 100, names = "darkgray")
 
+##############################################
 ### Figure 7.3: Simulated effects and the consequences of "controls"
 
 par(mfrow = c(3, 2), mar = c(4, 1, 5, 1) + 0.5) #bottom, left, top, right
@@ -135,5 +137,3 @@ legend("topleft", legend = c("Z Open", "Z Controlled"),
        fill = c(mycol1, mycol3), cex = 1, 
        horiz = F, bty = T, inset = c(0.03, 0.15),
        border = T, box.col = "white")
-
-

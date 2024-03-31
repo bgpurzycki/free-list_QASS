@@ -2,24 +2,56 @@
 ### Ethnographic Free-List Data
 ### Chapter 3: Structure Analysis
 ### Benjamin Grant Purzycki
-### Last Updated: October 13, 2023
+### Last Updated: March 25, 2024
 ##############################################
 
+##############################################
 ### Preliminaries
+
 rm(list = ls()) # clear your workspace
 setwd()
+setwd("C:/Users/au624473/Dropbox/2. In Progress/Articles and Books/Books/Methods with Free-List Data/3. Workflow/Data")
 
 library(AnthroTools)
 library(igraph)
 library(xtable)
+library(readxl)
 
+##############################################
+### R Code Box 3.1: Transforming Free-List Data
+
+tuvani <- read.delim("Animals_SIM.txt")
+tv.min <- FreeListTable(tuvani, CODE = "CODE", tableType = "HIGHEST_RANK",
+                        Order = "ORDER", Subj = "PARTID")
+tv.min$Subject <- NULL 
+
+tv.bin <- FreeListTable(tuvani, CODE = "CODE", tableType = "PRESENCE",
+                        Order = "ORDER", Subj = "PARTID")
+tv.bin$Subject <- NULL
+
+tv.fre <- FreeListTable(tuvani, CODE = "CODE", tableType = "FREQUENCY",
+                        Order = "ORDER", Subj = "PARTID")
+tv.fre$Subject <- NULL 
+
+tv.maxs <- CalculateSalience(tuvani, CODE = "CODE", Order = "ORDER", Subj = "PARTID", Salience = "SAL")
+tv.max <- FreeListTable(tv.maxs, CODE = "CODE", tableType = "MAX_SALIENCE",
+                        Order = "ORDER", Subj = "PARTID", Salience = "SAL")
+tv.max$Subject <- NULL 
+
+tv.sum <- FreeListTable(tv.maxs, CODE = "CODE", tableType = "SUM_SALIENCE",
+                        Order = "ORDER", Subj = "PARTID", Salience = "SAL")
+tv.sum$Subject <- NULL 
+
+##############################################
 ### Figure 3.1: Absolute distance and logarithmic transformation
-x <- 1:50
+
+x <- 1:50 # define your distances
 plot(log(x) ~ x, type = "l",
      xlab = "Absolute difference", ylab = "log(Absolute difference)")
 
-#######################################################################
+##############################################
 ## Distance function for adjacency matrix
+
 UBdistance <- function(d) {
         dmain <- t(combn(colnames(d), 2))
         dout <- rep(0, nrow(dmain))
@@ -66,9 +98,24 @@ UBdistance <- function(d) {
         dat <- dat[complete.cases(dat),]
         return(dat)
 }
-#######################################################################
 
+## Euclidean distance by hand
+
+euclid <- function(x, y){
+        difference <- x - y
+        diff.sq <- difference^2
+        sumsqdiff <- sum(diff.sq)
+        rootsumsqdiff <- sqrt(sumsqdiff)
+        return(rootsumsqdiff)
+}
+
+sheep <- c(1, 2, 2, 2, 3, 1, 1, 2)
+goat <- c(2, 1, 3, 1, 2, 2, 2, 1)
+euclid(sheep, goat)
+
+##############################################
 ### R Code Box 3.2: Multi-dimensional scaling (MDS)
+
 ## Fake Example
 tuvani <- read.delim("Animals_SIM.txt")
 tv.min <- FreeListTable(tuvani, CODE = "CODE", tableType = "HIGHEST_RANK",
@@ -77,7 +124,7 @@ tv.min$Subject <- NULL ### Table 3.2. Minimum order matrix
 
 tv.bin <- FreeListTable(tuvani, CODE = "CODE", tableType = "PRESENCE",
                         Order = "ORDER", Subj = "PARTID")
-tv.bin$Subject <- NULL ### Table 3.2. Minimum order matrix
+tv.bin$Subject <- NULL ### Table 3.2. Presence matrix
 
 tv.dist1 <- dist(t(tv.min)) # euclidean distances between the rows 
 tv.dist2 <- dist(t(tv.bin)) # euclidean distances between the rows 
@@ -91,8 +138,18 @@ y1 <- fit.tv.dist1$points[,2]
 x2 <- fit.tv.dist2$points[,1] 
 y2 <- fit.tv.dist2$points[,2] 
 
+# Diagnostics
+plot(fit.tv.dist1$eig, type = "b", pch = 16) # how many dimensions?
+plot(fit.tv.dist2$eig, type = "b", pch = 16)
+
+fit.tv.dist1$GOF # closer to 1, the better (but at the risk of overfitting)
+fit.tv.dist2$GOF
+
+##############################################
 ### R Code Boxes 3.3-3.4: Multi-dimensional scaling
-### Figure 3.2: MDS plot and dendogram
+
+### Figure 3.2: MDS plot and dendrogram
+
 par(mfrow = c(1, 2))
 par(mar = c(4, 4, 1, 1))
 plot(x1, y1, xlab = "Dimension 1", ylab = "Dimension 2",
@@ -112,8 +169,9 @@ plot(hclust(tv.dist1), main = NULL, sub = NULL,
 plot(hclust(tv.dist2), main = NULL, sub = NULL, 
      xlab = NA, ylab = NA, axes = F)
 
+##############################################
 ### Table 3.1. Table in LaTeX
-library(xtable)
+
 df1 <- tuvani[row.names(tuvani) %in% 1:25, ]
 df2 <- tuvani[row.names(tuvani) %in% (26):nrow(tuvani), ]
 df2[nrow(df2) + 1,] <- NA
@@ -198,17 +256,18 @@ pemba.sal <- SalienceByCode(pemba.s, CODE = "response", Salience = "Salience", S
                             dealWithDoubles = "MAX")
 pemba.sal <- pemba.sal[order(-pemba.sal$SmithsS),, drop = F] # sort
 rownames(pemba.sal) <- NULL # reset row numbers
-par(mar = c(0, 0, 0, 0))
-AnthroTools:::FlowerPlot(pemba.sal, "Living things")
+par(mar = c(0, 0, 0, 0), mfrow = c(1, 1))
+FlowerPlot(pemba.sal, "Living things")
 pembatab <- pemba.sal[1:10,]
 pembatab$trans <- c("cow", "mango", "goat", "jackfruit", "coconut", 
                     "orange", "chicken", "guava", "dove", "lychee")
 pembatab$n <- pembatab$SumSalience/pembatab$MeanSalience
 colorder <- c("CODE", "trans", "n", "MeanSalience", "SumSalience", "SmithsS")
 pembatab <- pembatab[, colorder]
-
-### Table 3.5: Salience analyses in Pemba
 xtable(pembatab[1:10,])
+
+##############################################
+### Table 3.5: Salience analyses in Pemba
 
 ## Structure analysis
 top10labs <- pemba.sal$CODE[1:10] # names of top 10-most salient items
@@ -228,7 +287,9 @@ fit.tv.dist <- cmdscale(tv.dist, eig = TRUE, k = 2) # k is the number of dim
 x <- fit.tv.dist$points[,1] 
 y <- fit.tv.dist$points[,2] 
 
-### Figure 3.3: MDS of ten-most salient items in Pemba
+##############################################
+### Figure 3.4: MDS of ten-most salient items in Pemba
+
 fit.tv.dist3 <- cmdscale(tv.dist, eig = TRUE, k = 3) # k is the number of dim 
 
 x3 <- fit.tv.dist3$points[,1] 
@@ -257,13 +318,9 @@ par(mar = c(0, 1, 0, 0))
 plot(hclust(tv.dist), main = NULL, sub = NULL, 
      xlab = NA, ylab = NA, axes = F)
 
-## Conceptual cd.bin
-## Conceptual chunking
-
-## Conceptual Network
-
-library(AnthroTools)
-library(igraph)
+##############################################
+## R Code Box 3.5-3.6: Co-occurence Matrix and Plotting Conceptual Networks
+## Figure 3.5: Conceptual Network
 
 # Fruit example
 data("FruitList")
@@ -273,10 +330,12 @@ d <- dat[labs]
 d.tab <- table(d[1:2])
 d.bin <-  apply(d.tab, 2, 
                 function(x) ifelse(x > 0, 1, 0)) # turn all >0 into 1
-V <- crossprod(d.bin) # correspondence matrix
-diag(V) <- 0
+d.corr <- crossprod(d.bin) # correspondence matrix
+diag(d.corr) <- 0
 par(mar = c(0, 0, 0, 0))
-network1 <- graph_from_adjacency_matrix(V, mode = "undirected", diag = F)
+network1 <- graph_from_adjacency_matrix(d.corr, mode = "undirected", diag = F)
+par(mfrow = c(1, 1))
+plot(network1)
 
 # Tuvan virtues example
 tuva <- read.delim("Tyva Republic_Virtues_2010.txt")
@@ -293,12 +352,15 @@ par(mar = c(0, 0, 0, 0))
 network2 <- graph_from_adjacency_matrix(tV, mode = "undirected")
 plot(network2)
 
-par(mfrow = c(1, 2), mar = c(0, 0, 0, 0))
-plot(network1)
-plot(network2)
+par(mfrow = c(1, 2), mar = c(0, 2, 0, 0))
+plot(network1, vertex.label.cex = 1.2, vertex.label.color= "black",
+     edge.color = "darkgray", vertex.color = "darkgray", vertex.frame.color="black")
+plot(network2, vertex.label.cex = 1.2, vertex.label.color= "black",
+     edge.color = "darkgray", vertex.color = "darkgray", vertex.frame.color="black")
 
-# Conceptual Chunking
+##############################################
 ### Table 3.7: Table illustrating clustering
+
 d <- data.frame(
         ID1 = c("f", "f", "f", "f", "f", "n", "n", "n", "n", "n"),
         ID2 = c("f", "f", "f", "n", "n", "n", "n", "n", "f", "f"),
@@ -307,8 +369,11 @@ d <- data.frame(
         ID5 = c("f", "n", "n", "n", "n", "n", "n", "n", "n", "f"),
         ID6 = c("f", "f", "n", "n", "f", "f", "n", "n", "f", "f")
 )
+d
 
+##############################################
 ### R Code Box 3.7: Function for calculating clusters
+
 Cluster.fun <- function(var){
         varnums <- as.numeric(as.factor(var))
         y <- rle(varnums)
@@ -327,7 +392,9 @@ Cluster.fun <- function(var){
 
 lapply(d[, 1:6], Cluster.fun)
 
-### Figure 3.5: Conceptual networks of what eats what
+##############################################
+### Figure 3.6: Conceptual networks of what eats what
+
 FN <- data.frame(read_excel("Animals_VancouverIsland.xlsx", sheet = "First Nations"))
 NonFN <- data.frame(read_excel("Animals_VancouverIsland.xlsx", sheet = "Non-First Nations"))
 
@@ -358,12 +425,16 @@ pairs <- function(n){ # calculates how many pairs there will be
 items <- 3:20 # vector of different list lengths
 triads.required <- nitems(3:20) # run through function
 
-### Figure 3.6: Relationship between word-bank size and triads needed
-par(mar = c(4, 4, 1, 1)) # plot
+##############################################
+### Figure 3.7: Relationship between word-bank size and triads needed
+
+par(mar = c(4, 4, 1, 1), mfrow = c(1, 1)) # plot
 plot(items, triads.required, pch = 16, xlab = "Number of items in bank", ylab = "Number of triads required")
 lines(items, triads.required)
 
+##############################################
 ### R Code Box 3.8: Triad Test Workflow
+
 ## 1. Create instrument
 # Items to use
 RVS <- c("Ben", "Uffe", "Jesper", 
@@ -378,7 +449,7 @@ triadlist$NUM <- seq(1, nrow(triadlist), 1) # assign triad a number
 triadlist <- triadlist[, c(4, 1, 2, 3)] # rearrange variable order
 triadlist$rand <- sample(1:nrow(triadlist), nrow(triadlist), replace = F)
 triadlist <- triadlist[order(triadlist$rand),] # randomize!
-#write.csv(triadlist, "facultytriadtask.csv", row.names = F) # make a .csv of instrument to print out and administer
+write.csv(triadlist, "facultytriadtask.csv", row.names = F) # make a .csv of instrument to print out and administer
 
 ## 2. Print, collect, and enter data into spreadsheet!
 ## 3. Enter data.
@@ -389,8 +460,10 @@ d <- read.delim("FacultyTriad_Aarhus.txt") # Table 3.8
 d.diff <- triad.test(d) # Table 3.9: Dissimilarity matrix
 d.sim <- as.dist(1 - d.diff) # Similarity matrix
 
-### Figure 3.6: Dendogram of triad test
-par(mar = c(0, 2, 0, 0))
+##############################################
+### Figure 3.8: Dendrogram of triad test
+
+par(mar = c(0, 2, 0, 0), mfrow = c(1, 1))
 plot(hclust(d.sim), main = NULL)
 
 ## Pile sorting
@@ -402,8 +475,10 @@ Animals <- 1 - Animals
 
 animalscale <- cmdscale(Animals)
 
-### Figure 3.8: MDS plot of animal pile sorts
-par(mfrow = c(1, 2), mar = c(3, 3, 1, 1))
+##############################################
+### Figure 3.9: MDS plot of animal pile sorts
+
+par(mfrow = c(1, 2), mar = c(2, 2, 0.2, 1))
 plot(animalscale, type = "n", 
      xlab = NA, 
      ylab = NA,
@@ -414,10 +489,10 @@ ani <- as.dist(Animals)
 plot(hclust(ani), main = NA, sub = NULL, 
      xlab = NULL, ylab = NA, axes = F)
 
-########################################################################
+##############################################
+# If using the data, please be sure to read, refer, and cite the following:
 
-# If using the data, please read, refer, and cite the following:
-
-# Levine, J., Muthukrishna, M., Chan, K. M., & Satterfield, T. (2015). Theories of the deep: combining salience and network analyses to produce mental model visualizations of a coastal British Columbia food web. Ecology and Society, 20(4).
-# Pretelli, I., Mulder, M. B., & McElreath, R. (2022). Rates of ecological knowledge learning in Pemba, Tanzania: Implications for childhood evolution. Evolutionary Human Sciences, 4, e34. 
-# Xu, M., Zhu, J., & Benítez‐Burraco, A. (2023). A comparison of basic color terms in Mandarin and Spanish. Color Research & Application.
+# Colors_Spain.txt: Xu, M., Zhu, J., & Benítez‐Burraco, A. (2023). A comparison of basic color terms in Mandarin and Spanish. Color Research & Application, 48(6), 709-720.
+# LivingThings_Pemba.txt: Pretelli, I., Mulder, M. B., & McElreath, R. (2022). Rates of ecological knowledge learning in Pemba, Tanzania: Implications for childhood evolution. Evolutionary Human Sciences, 4, e34.
+# Tyva Republic_Virtues_2010.txt: Purzycki, B. G., & Bendixen, T. (2020). Examining Values, Virtues, and Tradition in the Republic of Tuva with Free-List and Demographic Data. New Research of Tuva, (4), 6-18.
+# Animals_VancouverIsland.xlsx: Levine, J., Muthukrishna, M., Chan, K. M., & Satterfield, T. (2015). Theories of the deep: combining salience and network analyses to produce mental model visualizations of a coastal British Columbia food web. Ecology and Society, 20(4).

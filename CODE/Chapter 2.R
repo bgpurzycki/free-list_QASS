@@ -2,16 +2,21 @@
 ### Ethnographic Free-List Data
 ### Chapter 2: Content Analysis
 ### Benjamin Grant Purzycki
-### Last Updated: October 13, 2023
+### Last Updated: March 12, 2023
 ##############################################
 
+##############################################
 ### Preliminaries
+
 setwd()
+setwd("C:/Users/au624473/Dropbox/2. In Progress/Articles and Books/Books/Methods with Free-List Data/3. Workflow/Data")
 
 library(AnthroTools)
 library(xtable)
 
-### R Code Box 2.1: Frequency distribution plot (Figure 2.1)
+##############################################
+### R Code Box 2.1: Frequency distribution plot
+
 FL10 <- read.delim("Tyva Republic_Virtues_2010.txt") # Pull up Tyvan Virtue/Morality data
 
 TV.bin <- FreeListTable(FL10, CODE = "GC", Order = "Order", # create presence set
@@ -23,27 +28,54 @@ FREQ <- data.frame(SUM, PROP) # turn vector into data.frame
 newdata <- FREQ[order(-FREQ$SUM),, drop = F] # sort
 
 par(mar = c(8, 2, 1, 0)) # margins for plot
-barplot(newdata$SUM, names.arg = rownames(newdata), las = 2)
-#barplot(newdata$SUM/n, names.arg = rownames(newdata), las = 2,
-#        ylim = c(0, 0.5)) 
+barplot(newdata$SUM, names.arg = rownames(newdata), las = 3)
 
-#############################################################
-### Plots of list length distributions
+par(mar = c(9, 3, 1, 0))
+barplot(newdata$SUM/n, names.arg = rownames(newdata), las = 2, # for proportion of sample
+        ylim = c(0, 0.5)) 
+
+### Other plot types
 
 lengths <- rowSums(TV.bin[,2:52])
 lengthset <- data.frame(lengths = lengths, PARTID = TV.bin$Subject)
 lengthset <- lengthset[order(-lengthset$lengths),, drop = F]
-par(mar = c(4, 2, 1, 0)) # margins for plot
+
+par(mar = c(4, 4, 1, 0)) # margins for plot
 barplot(lengthset$lengths, names.arg = lengthset$PARTID, las = 2,
-        cex.names = .7) # find the most knowledgeable
+        cex.names = .7, xlab = "Participant", ylab = "list length") # find the most knowledgeable
 
-plot(NA, xlim = c(-5, 15), ylim = c(0, .4))
+plot(lengthset$lengths, pch = 16, xlab = NA, ylab = "list length", xaxt = "n")
+plot(lengthset$lengths, type = "l", xlab = NA, ylab = "list length", xaxt = "n")
+
+plot(lengthset$lengths, pch = 16, xlab = NA, ylab = "list length", xaxt = "n")
+lines(lengthset$lengths)
+
+plot(NA, xlim = c(-5, 15), ylim = c(0, .4), xlab = "list length", ylab = "density")
 polygon(density(lengthset$lengths), col = "gray") # shape of distribution
+abline(v = mean(lengthset$lengths), lty = 2)
 
-#abline(v = mean(lengthset$lengths))
-#############################################################
+##############################################
+## Figure 2.1: Frequency distribution plot
 
+par(mar = c(2, 10.5, 0, 1)) # make it vertically oriented
+barplot(rev(newdata$SUM), names.arg = rev(rownames(newdata)), 
+        las = 1, horiz = T, cex.names = 1.3)
+# chances are, this won't fit on your monitor. If on RStudio,
+# in the graphics pane, try Export --> Save as pdf --> Pdf size (A4) --> Portrait
+
+##############################################
+### R Code Box 2.2: Item Salience
+
+FL.G <- CalculateSalience(FL10, Subj = "Subj", # item salience
+                          Order = "Order", 
+                          CODE = "GC",
+                          Salience = "GC.S")
+# You'll get some warnings. Read them! It's OK!
+View(FL.G)
+
+##############################################
 ### Figure 2.2: Correlation between # listed and avg. s_i
+
 # Set up
 FL.G <- CalculateSalience(FL10, Subj = "Subj", # item salience
                           Order = "Order", 
@@ -65,20 +97,20 @@ plot(TV.avg ~ SUM, xlab = "Individuals listing items",
      pch = 16)
 abline(lm(TV.avg ~ SUM))
 
-### R Code Box 2.2: Item Salience
-FL.G <- CalculateSalience(FL10, Subj = "Subj", # item salience
-                          Order = "Order", 
-                          CODE = "GC",
-                          Salience = "GC.S")
-
+##############################################
 ### R Code Box 2.3: Cultural Salience
+
 GFL.S <- SalienceByCode(FL.G, Subj = "Subj", # cultural salience
                         CODE = "GC", Salience = "GC.S",
                         dealWithDoubles = "MAX")
+par(mar = c(0, 0, 0, 0))
 FlowerPlot(GFL.S, "Good") # make a flower plot
 
+##############################################
 ### Figure 2.3: Hard-coding flower plots
-par(mfrow = c(1, 2), mar = c(0, 0, 0, 0), mai = c(0, 0, 0, 0))
+
+# par(mfrow = c(2, 2), mar = c(0, 0, 0, 0), mai = c(0, 0, 0, 0)) # for vertical
+par(mfrow = c(1, 2), mar = c(0, 0, 0, 0), mai = c(0, 0, 0, 0)) # for horizontal
 
 #CODE <- c("worms", "fever", "cold", "inflam.", "stomach", "cough", "pain", "gas")
 #SmithsS <- c(.52, .48, .46, .43, .40, .33, .32, .31)
@@ -201,7 +233,9 @@ text(-10, -rad - 10, labels = "0.11", font = 2) # bottom
 text(-35, -25, labels = "0.10", font = 2) # lower left
 text(-100, 100, "(b)")
 
+##############################################
 ### Figure 2.4 Coffee example
+
 rowlabs <- c("color intensity", "brown color", "sweet flavor", "caramel flavor", "watery")
 collabs <- c("P1", "P2", "P3", "P4", "P5", "P6")
 colint <- c(.22, .11, .17, .15, .1, .12)
@@ -211,7 +245,7 @@ carfla <- c(.03, .03, .03, .03, .12, .02)
 watery <- c(.23, .22, .22, .01, .03, .05)
 d <- data.frame(t(data.frame(colint, brncol, swtfla, carfla, watery, row.names = collabs)))
 
-par(mar = c(5.5, 4, 1, 1))
+par(mar = c(5.5, 4, 1, 1), mfrow = c(1, 1))
 plot(d$P1, ylim = c(0, .6), xaxt = "n",
      xlab = NA, ylab = expression("Smith's "*italic(S)), lwd = 2, type = "b", pch = 16)
 lines(d$P2, lty = 2, lwd = 2, type = "b", pch = 16)
@@ -225,7 +259,9 @@ text(1:5-.3, par("usr")[3] - 0.05, labels = rowlabs,
 legend(4, .6, legend = c("S1", "S2", "S3", "S4", "S5", "S6"), lty = c(1:6), lwd = 2,
        title = "Sample")
 
+##############################################
 ### Figure 2.5: Item and cultural salience across list lengths and sample sizes
+
 si <- function(n, k){
   si <- (n + 1 - k)/n
   return(si)
@@ -257,7 +293,9 @@ lines(SmithsS(50, c(50:100)), lty = 5, lwd = 1.5)
 legend(60, 1, c("= 1", "= 5", "= 10", "= 20", "= 50"), lty = c(1:5),
        title = expression("Sum of "*italic(s[i])), cex = .8, lwd = 1.5)
 
+##############################################
 ## Salience in Sutrop (2001)
+
 #L: # times item in all lists; N: # participants: mp: mean position
 sutrop <- function(L, N, mP){ 
   S = L/(N * mP)
@@ -268,14 +306,88 @@ sutrop(1, 100, 1)
 sutrop(2, 100, 4)
 sutrop(25, 100, 18)
 
+## Sutrop workflow
+data("FruitList")
+d <- FruitList
+d.c <- CleanFreeList(d, Order = "Order", Subj = "Subj",
+                     CODE = "CODE", ejectBadSubj = F, 
+                     deleteDoubleCode = T,
+                     ConsolidateOrder = T, RemoveMissingData = T)
+d.s <- CalculateSalience(d.c, Order = "Order", Subj = "Subj",
+                         CODE = "CODE", Salience = "Salience")
+dsal <- SalienceByCode(d.s, Subj = "Subj",
+                       CODE = "CODE", Salience = "Salience",
+                       dealWithDoubles = "MAX")
+
+L <- table(d.c$CODE) # times items listed
+dmp <- aggregate(d.c$Order, list(d.c$CODE), FUN = mean) # mP
+N <- length(unique(d.c$Subj)) # sample size
+newdat <- data.frame(L, dmp)
+newdat$Group.1 <- NULL
+names(newdat)[names(newdat) == "Var1"] <- "CODE"
+names(newdat)[names(newdat) == "Freq"] <- "L"
+names(newdat)[names(newdat) == "x"] <- "mP"
+
+newdat$Sutrop <- newdat$L/(N * newdat$mP)
+newdat
+
+newtab <- merge(newdat, dsal, by = "CODE") # merge
+newtab <- newtab[order(-newtab$SmithsS),] # sort
+newtab <- newtab[, c(1, 2, 3, 5, 6, 7, 4)] # reorder columns
+newtab[,3:7] <- round(newtab[,3:7], 2) # round
+newtab # clean table!
+
+## Real Example
+FL10 <- read.delim("Tyva Republic_Virtues_2010.txt") # Pull up Tyvan Virtue/Morality data
+FL.G <- CalculateSalience(FL10, Subj = "Subj", # item salience
+                          Order = "Order", 
+                          CODE = "GC",
+                          Salience = "GC.S")
+GFL.S <- SalienceByCode(FL.G, Subj = "Subj", # cultural salience
+                        CODE = "GC", Salience = "GC.S",
+                        dealWithDoubles = "MAX")
+n <- as.data.frame(GFL.S$SumSalience/GFL.S$SmithsS)[1, 1]
+
+GFL.S$L <- GFL.S$SumSalience/GFL.S$MeanSalience # times someone lists something
+GFL.S$B <- (GFL.S$SumSalience + GFL.S$L - 1)/(2 * n - 1) # Robbins, Nolan, Chen
+GFL <- GFL.S[order(-GFL.S$SmithsS),, drop = F] # sort
+colorder <- c("CODE", "L", "MeanSalience", "SumSalience",
+              "SmithsS", "B")
+GFL <- GFL[, colorder]
+
+# now get mean order (k_i in Sutrop's)
+labs <- c("Subj", "Order", "GC")
+subdat <- FL10[labs]
+d.c <- CleanFreeList(subdat, Order = "Order", Subj = "Subj",
+                     CODE = "GC", ejectBadSubj = F, 
+                     deleteDoubleCode = F,
+                     ConsolidateOrder = T, RemoveMissingData = F)
+d.c <- d.c[complete.cases(d.c),]
+length(unique(d.c$Subj)) # check we've got the same n as above
+newdat <- aggregate(d.c$Order, list(d.c$GC), FUN = mean) # mp
+names(newdat)[names(newdat) == "Group.1"] <- "CODE"
+names(newdat)[names(newdat) == "x"] <- "mP"
+
+newtab <- merge(newdat, GFL.S, by = "CODE")
+newtab$Sutrop <- newtab$L/(N * newdat$mP)
+newtab <- newtab[order(-newtab$SmithsS),]
+
+newtab <- newtab[newtab$SmithsS >= 0.09,] # by most salient
+
+newtab <- newtab[, c(1, 6, 2, 3, 4, 5, 7, 8)]
+newtab[, 3:8] <- round(newtab[, 3:8], 2)
+newtab # compare the salience scores!
+
+##############################################
 ## Salience in Robbins, Nolan, & Chen (2017)
+
 data(FruitList) # from AnthroTools
 test <- FruitList
 test <- CalculateSalience(test, Rescale = F)
 SBC <- SalienceByCode(test, dealWithDoubles = "MAX")
 
 ntab <- as.data.frame(SBC$SumSalience/SBC$SmithsS)
-n <- ntab[1,1] # sample size
+n <- ntab[1, 1] # sample size
 
 SBC$L <- SBC$SumSalience/SBC$MeanSalience # times someone lists something
 SBC$B <- (SBC$SumSalience + SBC$L - 1)/(2*n - 1) # Robbins, Nolan, Chen
@@ -295,8 +407,7 @@ FL.G <- CalculateSalience(FL10, Subj = "Subj", # item salience
 GFL.S <- SalienceByCode(FL.G, Subj = "Subj", # cultural salience
                         CODE = "GC", Salience = "GC.S",
                         dealWithDoubles = "MAX")
-ntab <- as.data.frame(GFL.S$SumSalience/GFL.S$SmithsS)
-n <- ntab[1,1] # sample size
+ntab <- as.data.frame(GFL.S$SumSalience/GFL.S$SmithsS)[1, 1] # resulting sample size
 
 GFL.S$L <- GFL.S$SumSalience/GFL.S$MeanSalience # times someone lists something
 GFL.S$B <- (GFL.S$SumSalience + GFL.S$L - 1)/(2*n - 1) # Robbins, Nolan, Chen
@@ -306,6 +417,7 @@ colorder <- c("CODE", "L", "MeanSalience", "SumSalience",
 GFL <- GFL[, colorder]
 
 xtable(GFL) ### Table 2.2 (Full Version) 
+
 par(mar = c(4, 4, 1, 1))
 plot(B ~ SmithsS, data = GFL, pch = 16, xlab = "Smith's S", ylab = "S'")
 mB <- lm(B ~ SmithsS, data = GFL)
@@ -317,6 +429,7 @@ polygon(c(rev(newx), newx),
           preds[ ,2]), col = rgb(0, 0, 0, 0.3), border = NA) 
 abline(mB)
 
+##############################################
 ## Categorical bias from Robbins and Nolan (1997)
 # L: # of referenced category of listed items (A)
 # D: # of referenced category of listed items (B) 
@@ -336,11 +449,13 @@ DCB(1, 2, 3) # participant EX003
 DCB(2, 4, 7) # participant EX004
 
 # Simulate B values for use in simple regression
-n <- 100
-bvalues <- rnorm(n, .1, 0.5)
+n <- 100 # sample size
+bvalues <- rnorm(n, .1, 0.5) # vector of individuals $B$ scores
 hist(bvalues, xlab = "B", main = NA)
-m1 <- lm(bvalues ~ 1)
-confint(m1)
+m1 <- lm(bvalues ~ 1) 
+confint(m1) # 95\% confidence intervals; if these intervals are symmetrical around 0.5, 
+# there is no bias, but the intervals will lean one direction or another 
+# depending on the direction of bias.
 
 # Example
 data(FruitList)
@@ -353,7 +468,43 @@ FLrank <- FreeListTable(FruitList, CODE = "CODE", Order = "Order",
 tFLrank <- t(FLrank) # transpose
 tFLrank <- data.frame(tFLrank[-1,])
 
+##############################################
+### Pearson's r Correlation Coefficient function with 95% CI
+
+corfun <- function(x, y){
+       devx <- x - mean(x)
+       devy <- y - mean(y)
+       devprod <- devx * devy
+       sumdev <- sum(devprod)
+       devxs <- devx^2
+       devys <- devy^2
+       devxssum <- sum(devxs)
+       devyssum <- sum(devys)
+       denom <- sqrt(devxssum) * sqrt(devyssum)
+       r <- sumdev / denom
+       df <- cbind(x, y)
+       df <- df[complete.cases(df),]
+       n <- nrow(df)
+       z <- 0.5 * (log((1 + r) / (1 - r)))
+       stderr <- 1/(sqrt(n - 3))
+       upper <- z + 1.96 * stderr
+       lower <- z - 1.96 * stderr
+       rupper <- (exp(2 * upper) - 1) /
+             (exp(2 * upper) + 1)
+       rlower <- (exp(2 * lower) - 1) /
+             (exp(2 * lower) + 1)
+       return(data.frame(n = n, r = r, z = z, 
+            lower = rlower, upper = rupper))
+  }
+
+y <- rnorm(100, 5, 1)
+x <- y * 0.5 + rnorm(100, 0, 1)
+corfun(y, x)
+cor.test(y, x)
+
+##############################################
 ### R Code Box 2.4: Cronbach's alpha and intervals
+
 alpha.fun <- function(data, interval){
   k <- ncol(data)
   n <- nrow(data)
@@ -390,10 +541,10 @@ dran <- data.frame(random1, random2, random3, random4, random5)
 alpha.fun(dran, 0.95)
 
 # make table for LaTeX
-library(xtable)
 crontab <- data.frame(d, dran)
 xtable(crontab, digits = 0)
 
-###############################################################################################
-# If using the data, please read, refer, and cite the following:
-# Tyva Republic_Virtues_2010.txt: Purzycki, B. G., & Bendixen, T. (2020). Examining Values, Virtues, and Tradition in the Republic of Tuva with Free-List and Demographic Data. Новые исследования Тувы, (4), 6-18.
+##############################################
+# If using the data, please be sure to read, refer, and cite the following:
+
+# Tyva Republic_Virtues_2010.txt: Purzycki, B. G., & Bendixen, T. (2020). Examining Values, Virtues, and Tradition in the Republic of Tuva with Free-List and Demographic Data. New Research of Tuva, (4), 6-18.
