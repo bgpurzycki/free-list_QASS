@@ -701,6 +701,9 @@ mtext("Hook endorsements", side = 2, padj = -3.3, cex = .8)
 text(10, 0.9, "(c)")
 
 ## Moral models
+# Need to download file here and save it to your working directory (contact bgpurzycki@cas.au.dk if link is broken):
+# https://www.dropbox.com/scl/fi/vubav1l7i5wlboxcujtkq/MoralModelsWorkspace.RData?rlkey=65zxeyzsxzshpyl505mqq4vki&dl=0
+
 rm(list = ls())
 set.seed(7)
 library(rethinking)
