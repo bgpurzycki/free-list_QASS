@@ -21,6 +21,8 @@ Berniūnas, R. (2020). [Mongolian yos surtakhuun and WEIRD “morality”.](http
 
 De Munck, V. C., & Dapkunaite, R. (2018). [The modern Lithuanian kinship system: A descriptive analysis of generational differences in reckoning the saliency of kin terms.](https://www.tandfonline.com/doi/abs/10.1080/01629778.2017.1313286) _Journal of Baltic Studies_, 49(1), 63-86.
 
+Koster, J., Bruno, O., & Burns, J. L. (2016). [Wisdom of the elders? Ethnobiological knowledge across the lifespan.](https://www.journals.uchicago.edu/doi/10.1086/684645) _Current Anthropology_, 57(1), 113-121.
+
 Levine, J., Muthukrishna, M., Chan, K. M., & Satterfield, T. (2015). [Theories of the deep: Combining salience and network analyses to produce mental model visualizations of a coastal British Columbia food web.](https://www.jstor.org/stable/26270302) _Ecology and Society_, 20(4).
 
 Placek, C., Mohanty, S., Bhoi, G. K., Joshi, A., & Rollins, L. (2022). [Religion, fetal protection, and fasting during pregnancy in three subcultures.](https://link.springer.com/article/10.1007/s12110-022-09433-z) _Human Nature_, 33(3), 329-348.
@@ -29,9 +31,15 @@ Purzycki, B. G., & Bendixen, T. (2020). [Examining values, virtues, and traditio
 
 Purzycki, B. G., & Kulundary, V. (2018). [Buddhism, identity, and class: Fairness and favoritism in the Tyva Republic.](https://www.tandfonline.com/doi/abs/10.1080/2153599X.2016.1267031) _Religion, Brain & Behavior_, 8(2), 205-226.
 
+Purzycki, B. G., Apicella, C., Atkinson, Q. D., Cohen, E., McNamara, R. A., Willard, A. K., ... & Henrich, J. (2016). [Moralistic gods, supernatural punishment and the expansion of human sociality.]()https://www.nature.com/articles/nature16980 _Nature_, 530(7590), 327-330.
+
 Purzycki, B. G., Lang, M., Henrich, J., & Norenzayan, A. (2022). [The Evolution of Religion and Morality project: Reflections and looking ahead.](https://www.tandfonline.com/doi/abs/10.1080/2153599X.2021.2021546) _Religion, Brain & Behavior_, 12(1-2), 190-211.
 
-Turpin, H. (2022). [_Unholy Catholic Ireland: Religious Hypocrisy, Secular Morality, and Irish Irreligion.](https://www.sup.org/books/title/?id=31843) Stanford: Stanford University Press.
+Purzycki, B. G., Pisor, A. C., Apicella, C., Atkinson, Q., Cohen, E., Henrich, J., ... & Xygalatas, D. (2018). [The cognitive and cultural foundations of moral behavior.](https://www.sciencedirect.com/science/article/pii/S1090513817303239) _Evolution and Human Behavior_, 39(5), 490-501.
+
+Purzycki, B. G., Stagnaro, M. N., & Sasaki, J. (2020). [Breaches of trust change the content and structure of religious appeals.](https://www.researchgate.net/profile/Benjamin-Purzycki/publication/343474005_Breaches_of_Trust_Change_the_Content_and_Structure_of_Religious_Appeals/links/5f2be60d299bf13404a60d31/Breaches-of-Trust-Change-the-Content-and-Structure-of-Religious-Appeals.pdf) _Journal for the Study of Religion, Nature and Culture_, 14(1), 71-94.
+
+Turpin, H. (2022). [Unholy Catholic Ireland: Religious Hypocrisy, Secular Morality, and Irish Irreligion.](https://www.sup.org/books/title/?id=31843) Stanford: Stanford University Press.
 
 Xu, M., Zhu, J., & Benítez‐Burraco, A. (2023). [A comparison of basic color terms in Mandarin and Spanish.](https://onlinelibrary.wiley.com/doi/abs/10.1002/col.22863) _Color Research & Application_, 48(6), 709-720.
 
