@@ -31,7 +31,7 @@ Purzycki, B. G., & Bendixen, T. (2020). [Examining values, virtues, and traditio
 
 Purzycki, B. G., & Kulundary, V. (2018). [Buddhism, identity, and class: Fairness and favoritism in the Tyva Republic.](https://www.tandfonline.com/doi/abs/10.1080/2153599X.2016.1267031) _Religion, Brain & Behavior_, 8(2), 205-226.
 
-Purzycki, B. G., Apicella, C., Atkinson, Q. D., Cohen, E., McNamara, R. A., Willard, A. K., ... & Henrich, J. (2016). [Moralistic gods, supernatural punishment and the expansion of human sociality.]()https://www.nature.com/articles/nature16980 _Nature_, 530(7590), 327-330.
+Purzycki, B. G., Apicella, C., Atkinson, Q. D., Cohen, E., McNamara, R. A., Willard, A. K., ... & Henrich, J. (2016). [Moralistic gods, supernatural punishment and the expansion of human sociality.](https://www.nature.com/articles/nature16980) _Nature_, 530(7590), 327-330.
 
 Purzycki, B. G., Lang, M., Henrich, J., & Norenzayan, A. (2022). [The Evolution of Religion and Morality project: Reflections and looking ahead.](https://www.tandfonline.com/doi/abs/10.1080/2153599X.2021.2021546) _Religion, Brain & Behavior_, 12(1-2), 190-211.
 
