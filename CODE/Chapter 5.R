@@ -2,7 +2,7 @@
 ### Ethnographic Free-List Data
 ### Chapter 5: Models, Prediction, and Uncertainty
 ### Benjamin Grant Purzycki
-### Last Updated: March 26, 2024
+### Last Updated: May 18, 2024
 ################################
 
 ##############################################
@@ -17,6 +17,7 @@ mycol3 <- rgb(0, 0, 0, max = 255, alpha = 100, names = "darkgray")
 library(AnthroTools)
 library(xtable)
 library(rethinking)
+library(LaplacesDemon)
 
 # Installing rethinking (and other packages that require stan) is a little
 # more involved. Go here: https://github.com/rmcelreath/rethinking for
@@ -67,13 +68,18 @@ arrows(10, 29, 10, mean(obs), length = 0) # x0, y0, x1, y1
 ##############################################
 ### Figure 5.2: z-distribution curve
 
-par(mar = c(4, 4, 1, 1))
+par(mar = c(3, 3.5, 1, 1))
 curve(dnorm(x, 0, 1), xlim = c(-4, 4), 
-      main = NULL, xlab = expression(italic(z)-score), ylab = "Probability")
+      main = NULL, xlab = NA, ylab = NA)
 cord.x <- c(-1.96, seq(-1.96, 1.96, 0.01), 1.96) # +/-1.96 on a z-distribution
 cord.y <- c(0, dnorm(seq(-1.96, 1.96, 0.01)), 0) 
 polygon(cord.x, cord.y, col = 'gray') 
-lines(c(0, 0), c(0, dnorm(0, 0, 1)), lty = 3) # the mean!
+mtext(expression(italic(z)-score), side = 1, padj = 4)
+mtext("Probability", side = 2, padj = -4)
+lines(c(0, 0), c(0, dnorm(0, 0, 1)), lty = 5, lwd = 2) # the mean!
+lines(c(-1.09, -1.09), c(0, dnorm(-1.09, 0, 1)), lty = 3, lwd = 2)
+lines(c(-0.06, -0.06), c(0, dnorm(-0.06, 0, 1)), lty = 3, lwd = 2)
+lines(c(1.69, 1.69), c(0, dnorm(1.69, 0, 1)), lty = 3, lwd = 2)
 
 # shaded area is 95% of the curve which is +/- 1.96 standard
 # errors above and below the mean
@@ -325,9 +331,9 @@ curve(dnorm(x, 10, 5), from = -5, to = 20,
 legend(-4.5, 0.38, lty = c(1, 2), legend = c("= 1", "= 5"),
        title = expression(sigma), cex = 1.2, lwd = 1.5)
 mtext(expression(paste("Normal(10, ", sigma, ")")), 1, padj = 2.5)
-curve(dnorm(x, -5, 1), from = -10, to = 0, 
-      ylab = NA, lwd = 1.5, xlab = "")
-mtext("Normal(-5, 1)", 1, padj = 3)
+#curve(dnorm(x, -5, 1), from = -10, to = 0, 
+#      ylab = NA, lwd = 1.5, xlab = "")
+#mtext("Normal(-5, 1)", 1, padj = 3)
 curve(dunif(x, 0, 5), from = -5, to = 10, 
       ylab = NA, lwd = 1.5, xlab = "")
 mtext("Uniform(0, 5)", 1, padj = 3)
@@ -341,6 +347,14 @@ curve(dexp(x, rate = 1),
 legend(3.8, .9, lty = c(1, 2, 3), legend = c("= 0.25", "= 0.5", "= 1"), 
        title = expression(lambda), cex = 1.2, lwd = 1.5)
 mtext(expression(paste("Exponential", (lambda))), 1, padj = 2.2)
+plot(NA, xlim = c(0, 10), ylim = c(0, 1), xlab = NA, ylab = NA)
+curve(dhalfcauchy(x, 1), from = 0, to = 10, add = T, lty = 1, lwd = 1.5)
+curve(dhalfcauchy(x, 5), from = 0, to = 10, add = T, lty = 2, lwd = 1.5)
+curve(dhalfcauchy(x, 10), from = 0, to = 10, add = T, lty = 3, lwd = 1.5)
+legend(4, 0.9, legend = c("= 1", "= 5", "= 10"),
+       lty = c(1, 2, 3), border = NULL, title = expression(alpha),
+       cex = 1.2, lwd = 1.5)
+mtext(expression(paste("HalfCauchy", (alpha))), 1, padj = 2.2)
 
 ##############################################
 ### Figure 5.7. Simulated posteriors
