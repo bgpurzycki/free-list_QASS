@@ -2,7 +2,7 @@
 ### Ethnographic Free-List Data
 ### Chapter 2: Content Analysis
 ### Benjamin Grant Purzycki
-### Last Updated: March 12, 2023
+### Last Updated: May 18, 2023
 ##############################################
 
 ##############################################
@@ -98,7 +98,7 @@ plot(TV.avg ~ SUM, xlab = "Individuals listing items",
 abline(lm(TV.avg ~ SUM))
 
 ##############################################
-### R Code Box 2.3: Cultural Salience
+### R Code Box 2.4: Cultural Salience
 
 GFL.S <- SalienceByCode(FL.G, Subj = "Subj", # cultural salience
                         CODE = "GC", Salience = "GC.S",
@@ -503,7 +503,34 @@ corfun(y, x)
 cor.test(y, x)
 
 ##############################################
-### R Code Box 2.4: Cronbach's alpha and intervals
+### Note 10: F-distribution
+###
+n <- 1000
+f1 <- rf(n, 1, 5)
+f2 <- rf(n, 1, 10)
+f3 <- rf(n, 1, 50)
+f4 <- rf(n, 1, 100)
+f5 <- rf(n, 50, 1)
+f6 <- rf(n, 50, 10)
+f7 <- rf(n, 50, 50)
+f8 <- rf(n, 50, 100)
+f9 <- rf(n, 100, 1)
+f10 <- rf(n, 100, 50)
+
+par(mfrow = c(2, 5), mar = c(4, 4, 1, 1))
+hist(f1, main = NA, probability = T)
+hist(f2, main = NA, probability = T)
+hist(f3, main = NA, probability = T)
+hist(f4, main = NA, probability = T)
+hist(f5, main = NA, probability = T)
+hist(f6, main = NA, probability = T)
+hist(f7, main = NA, probability = T)
+hist(f8, main = NA, probability = T)
+hist(f9, main = NA, probability = T)
+hist(f10, main = NA, probability = T)
+
+##############################################
+### R Code Box 2.5: Cronbach's alpha and intervals
 
 alpha.fun <- function(data, interval){
   k <- ncol(data)
