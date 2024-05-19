@@ -349,9 +349,9 @@ legend(3.8, .9, lty = c(1, 2, 3), legend = c("= 0.25", "= 0.5", "= 1"),
 mtext(expression(paste("Exponential", (lambda))), 1, padj = 2.2)
 plot(NA, xlim = c(0, 10), ylim = c(0, 1), xlab = NA, ylab = NA)
 curve(dhalfcauchy(x, 1), from = 0, to = 10, add = T, lty = 1, lwd = 1.5)
-curve(dhalfcauchy(x, 5), from = 0, to = 10, add = T, lty = 2, lwd = 1.5)
-curve(dhalfcauchy(x, 10), from = 0, to = 10, add = T, lty = 3, lwd = 1.5)
-legend(4, 0.9, legend = c("= 1", "= 5", "= 10"),
+curve(dhalfcauchy(x, 3), from = 0, to = 10, add = T, lty = 2, lwd = 1.5)
+curve(dhalfcauchy(x, 5), from = 0, to = 10, add = T, lty = 3, lwd = 1.5)
+legend(4, 0.9, legend = c("= 1", "= 3", "= 5"),
        lty = c(1, 2, 3), border = NULL, title = expression(alpha),
        cex = 1.2, lwd = 1.5)
 mtext(expression(paste("HalfCauchy", (alpha))), 1, padj = 2.2)
