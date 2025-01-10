@@ -22,7 +22,7 @@ plot(coordinatesk, pch = 16)
 cmdscale(D, 2)
 
 # Cities
-cities <- read.delim("~/Dropbox/1. In Progress/R/R Scripts and Templates/MDS/cities.txt")
+cities <- read.delim("cities.txt")
 rownames(cities) <- cities$X
 cities$X <- NULL
 par(mar = c(4, 4, 1, 1))
