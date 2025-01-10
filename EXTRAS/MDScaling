@@ -1,0 +1,106 @@
+### Multi-dimensional scaling
+### Benjamin Grant Purzycki
+### bgpurzycki[at]cas.au.dk
+
+rm(list = ls())
+
+set.seed(123)
+data <- matrix(rnorm(15), nrow = 5)
+D <- as.matrix(dist(data))
+n <- nrow(D)
+H <- diag(n) - (1/n) * matrix(1, n, n) # centering matrix; ID matrix - 1/n * 1_n%*%1^T_n (vector multiplication)
+B <- -0.5 * H %*% (D^2) %*% H # double-centered matrix
+eig <- eigen(B) # eigen decomposition
+posevalues <- eig$values[eig$values > 0]
+posevectors <- eig$vectors[, eig$values > 0]
+k <- 2 # dimensions
+coordinates <- posevectors %*% diag(sqrt(posevalues))
+coordinatesk <- coordinates[, 1:k]
+par(mar = c(4, 4, 1, 1))
+plot(coordinatesk, pch = 16)
+
+cmdscale(D, 2)
+
+# Cities
+cities <- read.delim("~/Dropbox/1. In Progress/R/R Scripts and Templates/MDS/cities.txt")
+rownames(cities) <- cities$X
+cities$X <- NULL
+par(mar = c(4, 4, 1, 1))
+plot(cmdscale(cities, 2),type = "n", 
+     xlab = "Dimension 1 (East - West)", 
+     ylab = "Dimension 2 (North - South)",
+     main = NA, 
+     xlim = c(-1500, 1700), ylim = c(-800, 1000))
+text(cmdscale(cities, 2), labels = names(cities))
+
+# The long way
+D <- as.matrix(cities)
+n <- nrow(D)
+H <- diag(n) - (1/n) * matrix(1, n, n) # centering matrix; ID matrix - 1/n * 1_n%*%1^T_n (vector multiplication)
+B <- -0.5 * H %*% (D^2) %*% H # double-centered matrix
+eig <- eigen(B) # eigen decomposition
+posevalues <- eig$values[eig$values > 0]
+posevectors <- eig$vectors[, eig$values > 0]
+k <- 2 # dimensions
+coordinates <- posevectors %*% diag(sqrt(posevalues))
+coordinatesk <- coordinates[, 1:k]
+par(mar = c(4, 4, 1, 1))
+plot(coordinatesk, pch = 16)
+
+# notes
+
+n <- 3
+H <- diag(n) - (1/n) * matrix(1, n, n)
+x <- matrix(c(2, 4, 6))
+round(H%*%x, 0)
+x - mean(x)
+
+# Appendix A
+x <- matrix(c(2, 4, 6), nrow = 3)
+x - mean(x)
+n <- nrow(x)
+H <- diag(n) - (1/n) * matrix(1, n, n) # centering matrix; ID matrix - 1/n * 1_n%*%1^T_n (vector multiplication)
+D <- as.matrix(dist(x))
+B <- -0.5 * H %*% (D^2) %*% H # double-centered matrix
+eig <- eigen(B)
+posevalues <- eig$values[eig$values > 0]
+posevectors <- eig$vectors[, eig$values > 0]
+k <- 2 # dimensions
+coordinates <- posevectors %*% diag(sqrt(posevalues))
+coordinatesk <- coordinates[, 1:k]
+par(mar = c(4, 4, 1, 1))
+plot(coordinatesk, pch = 16)
+
+# Appendix B
+A <- matrix(c(4, 3, 2, -1), byrow = T, nrow = 2) 
+eigen(A)
+
+lambda1 <- 5
+lambda2 <- -2
+
+A - lambda1 * diag(nrow(A))
+A - lambda2 * diag(nrow(A))
+
+v1 <- matrix(c(3, 1), nrow = 2)
+v2 <- matrix(c(1, -2), nrow = 2)
+
+vbar1 <- sqrt(sum(v1^2))
+vbar2 <- sqrt(sum(v2^2))
+
+v1n <- 1/vbar1*v1
+v2n <- 1/vbar2*v2
+
+# Spectral decomposition
+A <- matrix(c(13, -4, 2, -4, 11, -2, 2, -2, 8), 3, 3, byrow = T)
+eigA <- eigen(A)
+L <- eigA$values # eigenvalues
+V <- eigA$vectors # eigenvectors
+
+# Factorization of A (A = V * Lamdda * V')
+V %*% diag(L) %*% t(V) 
+
+# Spectral Decomposition (A = Sum of Lambda_i * v_i * v_i')
+A1 <- L[1] * V[, 1] %*% t(V[, 1])
+A2 <- L[2] * V[, 2] %*% t(V[, 2])
+A3 <- L[3] * V[, 3] %*% t(V[, 3])
+A1 + A2 + A3
