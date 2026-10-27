@@ -274,7 +274,7 @@ replicate(500, regsim(100, 0, 10, 0.5))
 text(-25, 25, "(b)")
 
 ##############################################
-### Figure 5.5: Anscombe's Quartet
+### Figure 5.X: Anscombe's Quartet (not included in text for copyright reasons!)
 
 d <- datasets::anscombe
 
@@ -321,7 +321,7 @@ polygon(c(rev(newxs), newxs),
 abline(m4)
 
 ##############################################
-### Figure 5.6. Examples of Priors
+### Figure 5.5. Examples of Priors
 
 par(mfrow = c(2, 2), mar = c(4.5, 2, 1, 1))
 curve(dnorm(x, 10, 1), from = -5, to = 20, 
@@ -357,7 +357,7 @@ legend(4, 0.9, legend = c("= 1", "= 3", "= 5"),
 mtext(expression(paste("HalfCauchy", (alpha))), 1, padj = 2.2)
 
 ##############################################
-### Figure 5.7. Simulated posteriors
+### Figure 5.5. Simulated posteriors
 
 set.seed(777)
 
